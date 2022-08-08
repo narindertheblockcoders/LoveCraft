@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: myFirstFont;
-    src: url(../ringbearer/Ringbearer\ Medium\ 500.ttf);
+    src: url(/ringbearer/Ringbearer\ Medium\ 500.ttf);
   }
 body {
     background-image: url(/home-bg.jpg);
