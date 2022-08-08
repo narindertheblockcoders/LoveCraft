@@ -2132,9 +2132,11 @@ div#slider-nd {
     font-size: 21px;
     line-height: 31px;
 }
+
 .col-md-8.fantasy-right h2 {
-    font-size: 22px;
+    font-size: 19px;
     width: 91%;
+    line-height: 1.5;
 }
 .home-main-sec6 {
     padding: unset;
@@ -2229,6 +2231,10 @@ div#slider-nd {
 
 
 @media (max-width: 1200px){
+    .soon-text h1 {
+        top: 32%;
+        left: 43%;
+    }
 
     #exampleModalLabel2 {
         font-size: 30px !important;
@@ -2441,7 +2447,7 @@ div#slider-nd {
     }
     .text-head::before {
         top: 27%;
-        left: 1%;
+        /* left: 1%; */
     }
 
 
@@ -2604,7 +2610,7 @@ div#slider-nd {
     .home-main-sec4 .poker-left h2 {
         line-height: 35px;
         margin-top: 10px;
-        font-size: 20px;
+        font-size: 18px;
     }
     .home-main-sec4 .poker-left h1 {
         font-size: 60px;
@@ -2620,7 +2626,7 @@ div#slider-nd {
     }
     .soon-text h1 {
         top: 34%;
-        left: 40%;
+        left: 39%;
         font-size: 63px;
     }
     .home-main-sec5 .dragun-main::after {
@@ -2917,7 +2923,10 @@ div#slider-nd {
                                             background: url(/btn-488.png) no-repeat;      height: 33px;}
     } 
 @media (max-width: 768px){
-
+    .text-head:before {
+        top: 27%;
+        left: 1%;
+    }
     section.home-main-sec5:after{display: none;}
     #cls-btn {
         position: absolute !important;
@@ -2936,7 +2945,7 @@ div#slider-nd {
  
     #modal-dialogs {
         max-width: 530px !important;
-        margin-top: 100px !important;
+        margin-top: 30px !important;
     }
 
 
@@ -3177,7 +3186,7 @@ section#footerid .modal-content {
     }
  
     .soon-text h1 {
-        top: 27%;
+        top: 33%;
         left: 21%;
         font-size: 63px;
     }
@@ -3263,7 +3272,7 @@ section#footerid .modal-content {
         margin-left: 0%;
     }
     .soon-text h1 {
-        top: 31%;
+        top: 33%;
         left: 42%;
         font-size: 50px;
     }
@@ -3446,13 +3455,20 @@ section.home-main-sec5:after {
             top: 73% !important;
             left: 16.4% !important;
         }
+        .cthulhu-left h1 {
+            font-size: 42px;
+            font-weight: 600;
+        }
 }
 
 
 
 @media (max-width: 576px){
   
-
+    .cthulhu-left h1 {
+        font-size: 42px;
+        font-weight: 500;
+    }
     ul#box-head3 {
         display: none;
     }
@@ -3496,11 +3512,11 @@ section.home-main-sec5:after {
         position: absolute;
     }
 
-    .text-head::before {
-        top: 28%;
-        left: 8%;
+    .text-head:before {
+        top: 30%;
+        left: 10%;
         background-size: contain;
-        height: 40%;
+        height: 50%;
     }
 
 
@@ -3512,7 +3528,12 @@ section.home-main-sec5:after {
     }
     #modal-dialogs {
         max-width: 390px !important;
-        margin-top: 100px !important;
+        margin-top: 10px !important;
+    }
+    .footer-h1-text {
+        font-size: 22px;
+        padding-right: unset!important;
+        text-align: center;
     }
     .coin-sec .close-btn {
         margin-top: -100px !important;
@@ -4630,8 +4651,8 @@ section.home-main-sec5:after {
             margin-left: 50px;
         }
   
-        .text-head::before {
-            top: 37%;
+        .text-head:before {
+            top: 40%;
             left: 27%;
             background-size: contain;
             height: 65%;
