@@ -1262,8 +1262,9 @@ flex-direction: column;}
             align-items: center;
         }
         .col-md-8.fantasy-right h2 {
-            font-size: 28px;
+            font-size: 26px;
             text-transform: uppercase;
+            line-height: 1.5;
         }
     .fantasy-right h1{font-size: 94px;
     color: #b1262b;
@@ -1330,6 +1331,12 @@ flex-direction: column;}
     margin-top: -90px !important;
 }
 
+.cthulhu-left h2 {
+    color: #fff;
+    font-size: 26px;
+    text-transform: uppercase;
+    line-height: 1.5;
+}
 
 @media only screen and (orientation:landscape) {
     #turn { display:block; }
@@ -1545,6 +1552,7 @@ flex-direction: column;}
       color: white;
       font-size: 25px;
 }
+
 .cthulhu-right .left-shapes {
     float: left;
     width: 25%;
