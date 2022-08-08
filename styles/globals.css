@@ -7,7 +7,7 @@
 body {
     background-image: url(/home-bg.jpg);
     background-repeat: no-repeat;
-    font-family: 'Ringbearer' !important;
+    /* font-family: 'Ringbearer Medium' !important; */
     font-family: 'myFirstFont' !important;
     background-size: cover;
     overflow: hidden;
@@ -903,7 +903,7 @@ margin-inline: 15px;
         width: 92%;
         font-size: 29px;
         text-transform: uppercase;
-        font-family: Ringbearer !important;
+        
     }
 
     .footer-h1-text {
