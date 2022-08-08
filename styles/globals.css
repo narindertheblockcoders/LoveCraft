@@ -7,7 +7,7 @@
 body {
     background-image: url(/home-bg.jpg);
     background-repeat: no-repeat;
-    /* font-family: 'Ringbearer Medium' !important; */
+    font-family: 'Ringbearer' !important;
     font-family: 'myFirstFont' !important;
     background-size: cover;
     overflow: hidden;
@@ -903,6 +903,7 @@ margin-inline: 15px;
         width: 92%;
         font-size: 29px;
         text-transform: uppercase;
+        font-family: Ringbearer !important;
     }
 
     .footer-h1-text {
@@ -4197,13 +4198,13 @@ section.home-main-sec5:after {
                                             }
                                             .home-main-sec .head-ul .main-left:before {
                                                 content: "";
-                                                width: 100%;
+                                                width: 138%;
                                                 height: 38vh;
                                                 position: absolute;
                                                 background: url(/home-girl2.png);
                                                 background-repeat: no-repeat;
                                                 left: -60%;
-                                                top: 0%;
+                                                top: 0;
                                                 z-index: -1;
                                             }
                                             .main-left .bimg {
@@ -4356,6 +4357,7 @@ section.home-main-sec5:after {
             }
 
             @media (max-width: 450px){
+                
                 .home-main-sec2 .box-head {
                     margin-bottom: 17px;
                     margin-left: 50px;
@@ -4391,8 +4393,7 @@ section.home-main-sec5:after {
                 section.home-main-sec{overflow: hidden !important;}
                 .home-main-sec .head-ul .main-left:before {
                     height: 50vh;
-                    left: -92%;
-                    
+                    left: -117%;
                 }
                 /* body{
                     min-height: 58px;
