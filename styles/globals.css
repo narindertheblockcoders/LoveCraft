@@ -521,7 +521,7 @@ header .top-nav .two-shape {
         font-size: 68px;
         font-weight: 600;
         top: 30%;
-        left: 45%;
+        left: 44%;
     }
     .dragun-text{
         float: left;
@@ -1270,7 +1270,7 @@ flex-direction: column;}
         -webkit-text-stroke-color: black;
             -webkit-text-stroke-width: 2px;}
             .fantasy-left img {
-                width: 100%;
+                width: 95%;
             }
             .col-md-8.fantasy-right::after {
                 content: "";
@@ -2920,7 +2920,7 @@ div#slider-nd {
                                     .header .header-main  .eight-shape {
                                         background: url(/btn-487.png) no-repeat;    width: 110px;     height: 33px;}
                                         .header .header-main .nine-shape {
-                                            background: url(/btn-488.png) no-repeat;      height: 33px;}
+                                            background: url(/btn-488.png) no-repeat;   width: 110px;   height: 33px;}
     } 
 @media (max-width: 768px){
     .text-head:before {
