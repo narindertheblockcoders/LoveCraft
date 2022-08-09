@@ -18,7 +18,7 @@ const Arkhampoker = () => {
                         10 hands! </h2>
             </div>
             <div className="col-md-6 poker-right">
-                <img src="/poker.png" alt=""/>
+                <img src="/poker.png" id='arkham-img' alt=""/>
                 {/* <ul className="mid-main">
                     <li><img className="mid-left"  src="/akrm-mid-1.png" alt=""/></li>
                     <li><img className="mid-right" src="/akrm-mid-2.png" alt=""/></li>

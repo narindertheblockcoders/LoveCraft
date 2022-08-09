@@ -555,8 +555,8 @@ header .top-nav .two-shape {
         width: 100%;
     }
     .col-md-12.text-dragun p {
-        width: 67%;
-        text-transform: uppercase;
+        width: 58%;
+        /* text-transform: uppercase; */
         text-align: center;
         /* margin-left: -70px; */
     }
@@ -708,7 +708,7 @@ color: #b1262b;
 .cthulhu-left h2{
 color: white;
 font-size: 28px;
-text-transform: uppercase;
+/* text-transform: uppercase; */
 
 }
 .home-main-sec7 .cthulhu-ul {
@@ -744,10 +744,10 @@ margin-inline: 15px;
 .cthulhu-right .left-shapes p {
     transform: rotate(337deg);
     position: absolute;
-    top: 38%;
-    left: 20px;
+    top: 37%;
+    left: 48px;
     color: black;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 .col-md-8.cthulhu-left:after {
     content: "";
@@ -902,7 +902,7 @@ margin-inline: 15px;
     .coin-sec .coin-leftright .coim-para {
         width: 92%;
         font-size: 29px;
-        text-transform: uppercase;
+        /* text-transform: uppercase; */
         
     }
 
@@ -916,7 +916,7 @@ margin-inline: 15px;
         /* padding-left: 10% !important; */
         text-decoration: underline;
         cursor: pointer;
-        text-transform: uppercase;
+        /* text-transform: uppercase; */
         margin-top: 2rem;
     }   
 
@@ -940,7 +940,7 @@ margin-inline: 15px;
         align-items: center;
         /* background-attachment: fixed; */
         flex-direction: column;
-        text-transform: uppercase;
+        /* text-transform: uppercase; */
        
         border-bottom: unset!important;
     }
@@ -1080,7 +1080,7 @@ margin-inline: 15px;
             background-position: center;
             width: 110%;
             height: 100vh;
-            text-transform: uppercase;
+            /* text-transform: uppercase; */
         }
 
 .home-main-sec2{
@@ -1216,9 +1216,9 @@ flex-direction: column;}
     color: white;
     text-align: center;
     line-height: 43px;
-    margin-top: 10px;
-    font-size: 30px;
-    text-transform: uppercase;
+    margin-top: 20px;
+    font-size: 31px;
+    /* text-transform: uppercase; */
 }
 
 .home-main-sec4 .poker-right {
@@ -1262,8 +1262,8 @@ flex-direction: column;}
             align-items: center;
         }
         .col-md-8.fantasy-right h2 {
-            font-size: 26px;
-            text-transform: uppercase;
+            font-size: 28px;
+            /* text-transform: uppercase; */
             line-height: 1.5;
         }
     .fantasy-right h1{font-size: 94px;
@@ -1334,9 +1334,37 @@ flex-direction: column;}
 .cthulhu-left h2 {
     color: #fff;
     font-size: 26px;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     line-height: 1.5;
 }
+
+/* /////////////////end design//////////////// */
+#arkham-img {width: 81% !important;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media only screen and (orientation:landscape) {
     #turn { display:block; }
@@ -1737,6 +1765,7 @@ div#slider-nd {
     .coin-sec .coin-leftright {
         padding-right: 4%;
         padding-left: unset;
+        padding-top: 0px;
     }
     img.arrowright {
         position: fixed;
@@ -1919,9 +1948,9 @@ div#slider-nd {
             width: 77%;
         }
         .cthulhu-right .left-shapes p {
-            top: 45%;
-            left: 51px;
-            font-size: 22px;
+            top: 43%;
+            left: 42px;
+            font-size: 30px;
         }
         .col-md-8.cthulhu-left:after {
             content: "";
@@ -2069,7 +2098,7 @@ div#slider-nd {
         margin-left: -13%;
     }
     .home-main-sec4 .poker-left h2 {
-        line-height: 37px;
+        line-height: 1.5;
         margin-top: 8px;
         font-size: 22px;
     }
@@ -2191,7 +2220,7 @@ div#slider-nd {
             flex-direction: row;
             margin-top: 0px;}
             .coin-sec .coin-leftright .coim-para {
-                font-size: 18px;
+                font-size: 20px;
                 
             }
             .footer-h1-text {
@@ -2312,7 +2341,7 @@ div#slider-nd {
 
     .footer-h1-text {
         width: 100%;
-        font-size: 28px;
+        font-size: 30px;
         /* padding-right: 14% !important; */
     }
     #arrow-set {
@@ -2525,7 +2554,7 @@ div#slider-nd {
         margin-left: 45px;
     }
     .footer-h1-text {
-        font-size: 28px;
+        font-size: 30px;
         /* padding-right: 16%; */
     }
     .col-md-8.cthulhu-left:after{
@@ -2537,7 +2566,7 @@ div#slider-nd {
     }
     .cthulhu-left h2 {
         color: white;
-        font-size: 16px;
+        font-size: 17px;
     }
     .home-main-sec10::after {
       
@@ -2580,7 +2609,7 @@ div#slider-nd {
     }
     .coin-sec .coin-leftright .coim-para {
         width: 100%;
-        font-size: 18px;
+        font-size: 20px;
         padding-left: 0px;
     }
     section#footerid .footer-h1{
@@ -2616,7 +2645,7 @@ div#slider-nd {
         width: 39%;
     }   
     .home-main-sec4 .poker-left h2 {
-        line-height: 35px;
+        line-height: 1.5;
         margin-top: 10px;
         font-size: 18px;
     }
@@ -2703,6 +2732,10 @@ div#slider-nd {
         top: 67%;
         left: 61%;
     }
+    #arkham-img {
+        width: 100% !important;
+    }
+    
 }
 
 @media (max-width: 992px){
@@ -2762,9 +2795,9 @@ div#slider-nd {
         -webkit-text-stroke-width: 1px;
     }
     .soon-text h1 {
-        top: 33%;
-        left: 39%;
-        font-size: 59px;
+        top: 34%;
+        left: 43%;
+        font-size: 50px;
     }
     .dragun-text .text-dragun p {
         font-size: 15px;
@@ -2831,11 +2864,11 @@ div#slider-nd {
         padding-top: 6px;
     }
     .coin-sec .coin-leftright .coim-para { 
-        font-size: 18px;
+        font-size: 22px;
 
     }
     .footer-h1-text {
-        font-size: 26px;
+        font-size: 28px;
         /* padding-right: 11%; */
     }
     .carousel {
@@ -3203,7 +3236,7 @@ section#footerid .modal-content {
     }   */
     
     .footer-h1-text {
-        font-size: 24px;
+        font-size: 26px;
         padding-right: unset !important;
         text-align: center;
     }
@@ -3248,6 +3281,7 @@ section#footerid .modal-content {
         text-align: center;
         padding-right: unset !important;
         font-size: 24px;
+        padding-left: 50%
     } 
     .home-main-sec2 .value-right {
         float: left;
@@ -3269,6 +3303,7 @@ section#footerid .modal-content {
     }
     .text-center1{
         padding: unset;
+        padding-left: 50%;
     }
     .home-main-sec5 .dragun-main::after {
         width: 42%;
@@ -3327,6 +3362,9 @@ section.home-main-sec5:after {
 .home-main-sec4 .poker-right img {
     width: 30%;
     margin-left: 60px;
+}
+#arkham-img {
+    width: 30% !important;
 }
 
 .col-md-6.poker-left::before {
@@ -3403,11 +3441,14 @@ section.home-main-sec5:after {
         width: 77%;
         margin-left: 0px;
     }
+    #arkham-img {
+        width: 100% !important;
+    }
 
     .cthulhu-left h2 {
         color: white;
-        font-size: 13px;
-        line-height: 22px;
+        font-size: 15px;
+        line-height: 1.5;
     }
     .right-shape {
         right: -1%;
@@ -3472,7 +3513,18 @@ section.home-main-sec5:after {
 
 
 @media (max-width: 576px){
+    .text-editor {
+        text-align: center;
+        padding-right: unset !important;
+        font-size: 24px;
+        padding-left: 0%;
+    }
   
+    .text-center1 {
+        padding: unset;
+        padding-left: 0%;
+    }
+    
     .cthulhu-left h1 {
         font-size: 42px;
         font-weight: 500;
@@ -3539,7 +3591,7 @@ section.home-main-sec5:after {
         margin-top: 10px !important;
     }
     .footer-h1-text {
-        font-size: 22px;
+        font-size: 24px;
         padding-right: unset!important;
         text-align: center;
     }
@@ -3577,7 +3629,7 @@ section.home-main-sec5:after {
 }
 
 .coin-sec .coin-leftright .coim-para {
-    font-size: 15px;
+    font-size: 17px;
 }
 
 .home-main-sec4 .poker-right {
@@ -3668,8 +3720,8 @@ img.close-btn1 {
 }
 .cthulhu-left h2 {
     color: white;
-    font-size: 13px;
-    line-height: 17px;
+    font-size: 15px;
+    line-height: 1.5;
 }
 .navbar-nav .top-nav .nav-item {
     margin-left: 0px;
@@ -3853,7 +3905,7 @@ section.home-main-sec5:after {
     margin-top: 0px;
 }
 .col-md-8.fantasy-right h2 {
-    font-size: 11px;
+    font-size: 14px;
     width: 100%;
     line-height: 18px;
 }
@@ -4131,8 +4183,8 @@ section.home-main-sec5:after {
                         }
                         .cthulhu-left h2 {
                             color: white;
-                            font-size: 11px;
-                            line-height: 16px;
+                            font-size: 13px;
+                            line-height: 1.5;
                         }
                         .home-main-sec7 .cthulhu-box img {
                             width: 57%;
@@ -4184,7 +4236,7 @@ section.home-main-sec5:after {
                             width: 30%;
                         }
                         .col-md-8.fantasy-right h2 {
-                            font-size: 11px;
+                            font-size: 13px;
                             width: 98%;
                             line-height: 18px;
                         }
@@ -4254,7 +4306,7 @@ section.home-main-sec5:after {
                                                 z-index: -1;
                                             }
                                             .coin-sec .coin-leftright .coim-para {
-                                                font-size: 11px;
+                                                font-size: 13px;
                                             }
                                             .coin-sec .coin-leftright {
                                                 padding-left: unset;
@@ -4487,7 +4539,7 @@ section.home-main-sec5:after {
                     margin-left: 61px;
                 }
                 .soon-text h1 {
-                    top: 32%;
+                    top: 35%;
                     left: 49%;
                 }      
                 .carousel-inner {
@@ -4542,6 +4594,9 @@ section.home-main-sec5:after {
             width: 150%;
             margin-left: 100px;
             margin-top: 15px;
+        }
+        #arkham-img {
+            width: 150% !important;
         }
         
         .col-md-6.poker-left::before {
@@ -4602,7 +4657,7 @@ section.home-main-sec5:after {
         padding-top: 0px;
         height: 61vh !important;}
         .home-main-sec2 .text-head h1 {
-            font-size: 16px;
+            font-size: 18px;
             margin-top: 25px !important;
         }
         .text-headimg {
