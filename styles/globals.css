@@ -4183,7 +4183,7 @@ section.home-main-sec5:after {
                         }
                         .cthulhu-left h2 {
                             color: white;
-                            font-size: 13px;
+                            font-size: 12px;
                             line-height: 1.5;
                         }
                         .home-main-sec7 .cthulhu-box img {
@@ -4539,7 +4539,7 @@ section.home-main-sec5:after {
                     margin-left: 61px;
                 }
                 .soon-text h1 {
-                    top: 35%;
+                    top: 33%;
                     left: 49%;
                 }      
                 .carousel-inner {
@@ -4760,7 +4760,7 @@ section.home-main-sec5:after {
         width: 72%;
     }
     .cthulhu-left h1 {
-        font-size: 48px;
+        font-size: 35px;
     }
     .modal-backdrop.show {
         opacity: unset !important;
