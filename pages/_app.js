@@ -30,7 +30,6 @@ function MyApp({ Component, pageProps }) {
   <Navbar/>
     <Component {...pageProps}  />
     <Footer/>
-    <Script src="js/bootstrap.bundle.min.js"></Script>
 
   </>
 }
