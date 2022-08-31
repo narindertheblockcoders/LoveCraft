@@ -144,19 +144,18 @@ const Coin = () => {
         company - lovecraft labs- and offer crypto fans a new
         digital asset tied to a series of upcoming games.
         created on the hive  blockchain, initial availability
-        will be through<span style={{textDecoration: "underline"}}> hive engine</span> and<span style={{textDecoration: "underline"}}>  tribaldex</span> with
+        will be through<a target="_blank" href='https://hive-engine.com/' style={{color:"white", textDecoration: "underline", paddingRight:"5px"}}> hive engine</a> and<a target="_blank" href='https://tribaldex.com/' style={{color:"white", textDecoration: "underline", paddingLeft:"5px", paddingRight:"5px"}}>  tribaldex</a> with
         future access acess offered via other
         markets and exchanges.</p>
     
         <p class="coim-para mt-4">more information about the company and this exciting,
-            new token can be found in our <span style={{textDecoration: "underline"}}>business plan</span> and
-            <span style={{textDecoration: "underline"}}>whitepaper</span>.</p>
+            new token can be found in our <a target="_blank" href='' data-bs-toggle="modal" data-bs-target="#staticBackdrop" style={{color:"white", textDecoration: "underline", paddingLeft:"5px", paddingRight:"5px"}}> business plan</a> and
+            <a target="_blank" href='/whitepaper.pdf' style={{color:"white", textDecoration: "underline", paddingLeft:"7px"}}>whitepaper</a>.</p>
         
             <h1 class="footer-h1-text" data-bs-toggle="modal" data-bs-target="#exampleModalLabel1">pre-release bonus token offering</h1>
     
             </div>
         
-
 
             {/* <!-- Modal --> */}
             <div class="modal fade" id="exampleModalLabel1" tabindex="-1" aria-labelledby="exampleModalLabel1" aria-hidden="true">
@@ -183,7 +182,8 @@ const Coin = () => {
                         <div class="popup-footer">
           
                           <ul class="popup-ul">
-                            <li class="text-footer"> email:<span style={{textDecoration: "underline"}}> presale@lovecraftlabs.com</span>
+                            <li class="text-footer"> email:<span style={{textDecoration: "underline"}}> presale@ 
+                            <a target="_blank" href='http://lovecraftlabs.com/' style={{color:"#212529", textDecoration: "underline", paddingLeft:"7px", paddingRight:"5px"}}> lovecraftlabs.com </a> </span>
                               or contact us through <span style={{textDecoration: "underline"}}>discord</span>.</li>
                             <li class="coin-popup"> <img src="/popup-coin.png" alt=""/></li>
                           </ul>

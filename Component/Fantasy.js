@@ -19,12 +19,13 @@ const Fantasy = () => {
                             of nfts in the form of weapons, armor, spells and
                             allies. </h2>
                             <h2>more about real fantasy can be found in our
-                                 <span style={{textDecoration: "underline", paddingLeft:"5px"}}>business plan</span> and at<span style={{textDecoration: "underline"}}> www.realfantasy.com.</span></h2>
+                                 <a href='' data-bs-toggle="modal" data-bs-target="#staticBackdrop" style={{textDecoration: "underline", color:"white", paddingRight:"5px",  paddingLeft:"8px",}}>business plan </a>
+                                  and at<a href="https://www.realfantasy.com/" target='_blank' style={{textDecoration: "underline", color:"white",paddingLeft: "5px"}}> realfantasy.com.</a></h2>
                 
 
                 </div>
                 <div className="col-md-4 fantasy-left">
-                    <img src="/fantasy-right-img.png" alt=""/>
+                    <img src="/fansty.jpg" alt=""/>
                
                 </div>
             </div>

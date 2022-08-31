@@ -238,6 +238,7 @@ header .top-nav .two-shape {
         height: 77px;
     }
     .footer ul .shape-three{
+        cursor: pointer !important;
         background: url(/nav-btn3.png) no-repeat;
         width: 234px;
         height: 77px;
@@ -270,10 +271,8 @@ header .top-nav .two-shape {
     
     .home-main-sec .head-ul .main-right{
         list-style: none;
-        width: 50%;
+        width: 40%;
         position: relative;;
-      
-       
     }
     .home-main-sec .head-text {
         display: flex;
@@ -292,14 +291,15 @@ header .top-nav .two-shape {
     }
     
     .left-shape {
+        cursor: pointer !important;
         float: left;
         width: 109%;
         position: absolute;
         height: 200px;
         z-index: 1;
         background: url(/rotate-text.png) no-repeat;
-        left: -42%;
-        top: 45%;
+        left: -30%;
+        top: 43%;
     }
     .footer ul {
         display: flex;
@@ -328,11 +328,11 @@ header .top-nav .two-shape {
     }
     .right-shape {
         float: left;
-        width: 95%;
+        width: 100%;
         position: absolute;
         height: 200px;
         background: url(/rotate-text1.png) no-repeat;
-        right: 8%;
+        right: -2%;
         top: 30%;
     }
     .right-shape .right-text {
@@ -475,7 +475,7 @@ header .top-nav .two-shape {
         padding: 0;
         padding: 40px 0px;
         margin-bottom: 0;
-        padding-bottom: 20px;
+        padding-bottom: 40px;
     }
 #same-here {height:98%;}
         .home-main-sec5 .dragun-main img {
@@ -1262,7 +1262,7 @@ flex-direction: column;}
             align-items: center;
         }
         .col-md-8.fantasy-right h2 {
-            font-size: 28px;
+            font-size: 30px;
             /* text-transform: uppercase; */
             line-height: 1.5;
         }
@@ -1271,7 +1271,9 @@ flex-direction: column;}
         -webkit-text-stroke-color: black;
             -webkit-text-stroke-width: 2px;}
             .fantasy-left img {
-                width: 95%;
+                width: 105%;
+                float: left;
+                margin-left: 50px;
             }
             .col-md-8.fantasy-right::after {
                 content: "";
@@ -1339,12 +1341,16 @@ flex-direction: column;}
 }
 
 /* /////////////////end design//////////////// */
-#arkham-img {width: 81% !important;}
+#arkham-img {width: 100% !important; margin-right: -150px;}
+#arkham-container {display: flex !important;}
 
 
+/* .simg {float: left; width: 100% !important;} */
 
-
-
+    .cthulhu-right {    margin-left: -150px;
+        /* width: 35%; */
+        margin-right: 30px;
+    }
 
 
 
@@ -1386,7 +1392,18 @@ flex-direction: column;}
 
 
 @media (max-width: 1536px){
-
+    .fantasy-left img {
+        margin-left: unset;
+    }
+    .cthulhu-right {    margin-left: unset !important;
+        /* width: 35%; */
+        margin-right: unset !important;
+    }
+    .home-main-sec .head-ul .main-right{
+        list-style: none;
+        width: 50%;
+        position: relative;;
+    }
     .col-md-6.poker-left::before {
         height: 72vh;
         width: 30%;
@@ -1988,6 +2005,7 @@ div#slider-nd {
 } 
 
 @media (max-width: 1280px){
+    .coming-image{float: left; width: 50% !important;}
 
     #modal-dialogs {
         max-width: 728px !important;
@@ -2449,6 +2467,8 @@ div#slider-nd {
             }
 }
 @media (max-width: 1024px){
+    #arkham-img {width: 100% !important; margin-right: -0px;}
+
     .col-md-12.text-dragun p {
         width: 78%;
         font-size: 15px;}
@@ -2964,6 +2984,14 @@ div#slider-nd {
                                             background: url(/btn-488.png) no-repeat;   width: 110px;   height: 33px;}
     } 
 @media (max-width: 768px){
+    #arkham-container {
+        display: flex !important;
+        flex-direction: column-reverse;
+    }
+    .coming-image {
+        float: left;
+        width: 55% !important;
+    }
     .text-head:before {
         top: 27%;
         left: 1%;
@@ -3170,7 +3198,7 @@ section#footerid .modal-content {
     }
     .coin-sec .coin-leftright {
         width: 100%;
-        padding-left: unset;
+        padding-left: unset768;
         padding: 30px;
     }
     .home-main-sec .head-ul .main-left {
@@ -3185,7 +3213,7 @@ section#footerid .modal-content {
     }
     .modal-header .poppu-para {
         font-size: 17px;
-        text-align: center;
+        text-align: cen768ter;
     }
  
     .close-btn1 {
@@ -3347,10 +3375,12 @@ section.home-main-sec5:after {
     font-size: 37px !important;
 }
 
-.home-main-sec4 .poker-left {
-   
-    width: 80% !important;
-}
+
+    .home-main-sec4 .poker-left {
+        width: 80% !important;
+        margin-top: 20px;
+    }
+
 .home-main-sec4 .poker-right {
     width: 100%;
     margin-left: 0px;
@@ -3442,7 +3472,7 @@ section.home-main-sec5:after {
         margin-left: 0px;
     }
     #arkham-img {
-        width: 100% !important;
+        width: 40% !important;
     }
 
     .cthulhu-left h2 {
@@ -3513,6 +3543,10 @@ section.home-main-sec5:after {
 
 
 @media (max-width: 576px){
+    #arkham-img {
+        width: 70% !important;
+    }
+    .coming-image{width: 70% !important;}
     .text-editor {
         text-align: center;
         padding-right: unset !important;
@@ -3641,6 +3675,7 @@ section.home-main-sec5:after {
 }
 .home-main-sec4 .poker-left {
     width: 75% !important;
+    margin-top: 30px;
 }
 img.close-btn1 {
     width: 3%;
@@ -3756,7 +3791,7 @@ h1.head-text {
 }
 li.coin-popup img {
     padding-inline: 13px;
-    width: 190%;
+    width: 175%;
 }
 section#footerid .modal-content {
     margin-left: 0px;
@@ -3854,8 +3889,8 @@ section#footerid .modal-content {
 }
 .soon-text h1 {
     top: 37%;
-    left: 42%;
-    font-size: 38px;
+    left: 41%;
+    font-size: 40px;
     -webkit-text-stroke-width: 1px;
 }
 section.home-main-sec5:after {
@@ -3936,6 +3971,11 @@ section.home-main-sec5:after {
 
 
 @media (max-width: 480px){
+    #arkham-img {
+        width: 100% !important;
+    }
+    .coming-image{width: 40% !important;}
+    #arkham-container{flex-direction: unset !important; }
     .home-main-sec7{height: 72vh !important;}
     .home-main-sec7 .cthulhu-left{justify-content: unset !important;}
     .home-main-sec2 {
@@ -4142,6 +4182,12 @@ section.home-main-sec5:after {
                                 top: 32%;
                                 left: 45%;
                                 font-size: 27px;
+                                -webkit-text-stroke-width: 1px;
+                            }
+                            .soon-text h1 {
+                                top: 35%;
+                                left: 47%;
+                                font-size: 32px;
                                 -webkit-text-stroke-width: 1px;
                             }
                             .dragun-text .text-dragun p {
@@ -4435,6 +4481,13 @@ section.home-main-sec5:after {
                                                     position: absolute !important;
                                                     width: 100% !important;
                                                 }
+                                                li.dragun-upper {
+                                                    margin-top: 15px;
+                                                }
+                                                .home-main-sec5 .dragun-main {
+                                                    padding-top: 20px;
+                                                    padding-bottom: 20px;
+                                                }
             }
 
             @media (max-width: 450px){
@@ -4507,7 +4560,7 @@ section.home-main-sec5:after {
                 margin-top: -102px !important;
             }
                .coin-sec .close-btn {
-                    margin-top: -110px !important;
+                    margin-top: -80px !important;
                     left: 64% !important;
                     width: 3%;
                 }
@@ -4538,10 +4591,10 @@ section.home-main-sec5:after {
                     padding: 9px 18px;
                     margin-left: 61px;
                 }
-                .soon-text h1 {
+                /* .soon-text h1 {
                     top: 33%;
                     left: 49%;
-                }      
+                }       */
                 .carousel-inner {
                     box-shadow: 5px 10px 100px 10px #fff !important;
                     position: fixed !important;

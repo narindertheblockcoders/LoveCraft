@@ -34,17 +34,17 @@ const RealCthulhu = () => {
                                 <li className="cthulhu-box"> <img src="/value-box-4.png" alt=""/></li>
                             </ul>
                             <h2>more about real fantasy can be found in our
-                                business plan and company whitepaperl</h2>
+                            <a href='' data-bs-toggle="modal" data-bs-target="#staticBackdrop" style={{color:"white", margin:"0 8px"}}> business plan </a> and company <a href=' /whitepaper.pdf' target="_blank" style={{color:"white"}}>  whitepaper </a></h2>
                
                 </div>   
             </div>
         </div>
       {/* <!-- Modal --> */}
       <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
-              <div class="modal-dialog" id='dialog-head'>
+              <div class="modal-dialog" id='dialog-head' style={{marginTop:"0px !important"}}>
                 <div class="modal-content" id="modal-content1">
-                  <div class="modal-header" id="modal-header1" >
-                    <h5 class="modal-title" id="exampleModalLabel2">REAL CTHULHUL – THE STORY</h5>
+                  <div class="modal-header " id="modal-header1" style={{backgroundAttachment:"unset !important", marginTop:"0px !important"}}>
+                    <h5 class="modal-title" id="exampleModalLabel2" style={{marginTop:"50px"}}>REAL CTHULHUL – THE STORY</h5>
                     <button type="button" class="btn" data-bs-dismiss="modal" aria-label="#"> <img class="close-btn" id='cls-btn' src="/popup-btn.png" alt=""/></button>
         
                     <p class="popup-para">A fanatical, global cabal has unleashed an unspeakable new weapon here on U.S. soil. A new breed of enemy is being unleashed within our borders, and the Department of Homeland Security is trying to manage the threat – and keep the horrifying truth from the American people. </p>

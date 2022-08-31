@@ -5,12 +5,12 @@ const Arkhampoker = () => {
     <div>
         
     <section className="home-main-sec4">
-        <div className="container">
+        <div className="container" id='arkham-container'>
             <div className="col-md-6 poker-left">
                 <h1>Coming Soon!</h1>
                 <h2>earn lovecraft coins! Win gold
                     for our upcoming game releases!</h2>
-                    <h2 style={{textDecoration: "underline"}}>maybe even score a rare artifact nft</h2>
+                    <h2>maybe even score a rare artifact nft!</h2>
                     <h2>each entry consists of 10 draw
                         poker hands. earn points for
                         each final hand. rewards 
