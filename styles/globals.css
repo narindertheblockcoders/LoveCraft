@@ -477,6 +477,17 @@ header .top-nav .two-shape {
         margin-bottom: 0;
         padding-bottom: 40px;
     }
+    .dragun-main::before {
+        height: 89vh;
+        width: 30%;
+        background-image: url(/hot.png);
+        content: "";
+        left: -10%;
+        bottom: -8%;
+        /* top: 5%; */
+        position: absolute;
+    }
+
 #same-here {height:98%;}
         .home-main-sec5 .dragun-main img {
             margin-right: 57px;
@@ -1023,7 +1034,7 @@ margin-inline: 15px;
         background-color: unset !important;
         margin-left: -47% !important;
         overflow-y: scroll !important;
-        height: 94vh !important;
+        height: 96vh !important;
     }
     .popup-para-h{
         text-align: left;
@@ -1405,6 +1416,17 @@ flex-direction: column;}
         position: relative;;
     }
     .col-md-6.poker-left::before {
+        height: 72vh;
+        width: 30%;
+        background-image: url(/hot.png);
+        content: "";
+        background-size: cover;
+        left: -10%;
+        bottom: -0%;
+        /* top: 5%; */
+        position: absolute;
+    }
+    .dragun-main::before {
         height: 72vh;
         width: 30%;
         background-image: url(/hot.png);
@@ -2349,6 +2371,17 @@ div#slider-nd {
         /* top: 5%; */
         position: absolute;
     }
+    .dragun-main::before {
+        height: 72vh;
+        width: 30%;
+        background-image: url(/hot.png);
+        content: "";
+        background-size: cover;
+        left: -10%;
+        bottom: -4%;
+        /* top: 5%; */
+        position: absolute;
+    }
 
 
     .text-head::before {
@@ -2498,6 +2531,17 @@ div#slider-nd {
         content: "";
         background-size: cover;
         left: -19%;
+        bottom: -0%;
+        /* top: 5%; */
+        position: absolute;
+    }
+    .dragun-main::before {
+        height: 72vh;
+        width: 46%;
+        background-image: url(/hot.png);
+        content: "";
+        background-size: cover;
+        left: -22%;
         bottom: -0%;
         /* top: 5%; */
         position: absolute;
@@ -2776,6 +2820,17 @@ div#slider-nd {
         /* top: 5%; */
         position: absolute;
     }
+    .dragun-main::before {
+        height: 72vh;
+        width: 46%;
+        background-image: url(/hot.png);
+        content: "";
+        background-size: cover;
+        left: -22%;
+        bottom: -0%;
+        /* top: 5%; */
+        position: absolute;
+    }
 
 
 /* 
@@ -2983,11 +3038,63 @@ div#slider-nd {
                                         .header .header-main .nine-shape {
                                             background: url(/btn-488.png) no-repeat;   width: 110px;   height: 33px;}
     } 
+
+
+    @media (max-width: 991px){
+
+.col-md-6.poker-left::before {
+    height: 72vh;
+    width: 68%;
+    background-image: url(/hot.png);
+    content: "";
+    background-size: cover;
+    left: -35%;
+    bottom: -0%;
+    /* top: 5%; */
+    position: absolute;
+}
+.dragun-main::before {
+    height: 76vh;
+    width: 47%;
+    background-image: url(/hot.png);
+    content: "";
+    background-size: cover;
+    left: -23%;
+    bottom: -3%;
+    /* top: 5%; */
+    position: absolute;
+}
+.home-main-sec4 .poker-left {
+    margin-left: 100px;
+    width: 100%;
+}
+.home-main-sec4 .poker-right {
+    width: 75%;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    margin-top: 15px;
+}
+.home-main-sec4 .poker-left{width: 100%; margin-left: 100px;}
+#arkham-container {
+    display: flex !important;
+    flex-direction: column-reverse
+}
+#arkham-img {
+    width: 100% !important;
+    margin-left: 200px;
+}
+    }
+
+
 @media (max-width: 768px){
     #arkham-container {
         display: flex !important;
         flex-direction: column-reverse;
     }
+
+   
+    
+    #arkham-img{margin-left: unset !important;}
     .coming-image {
         float: left;
         width: 55% !important;
@@ -3087,6 +3194,7 @@ div#slider-nd {
 .container, .container-sm {
     max-width: 768px;
 }
+
 section#footerid .modal-content {
     margin-left: -85px;
 }
@@ -3388,6 +3496,7 @@ section.home-main-sec5:after {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: unset !important;
 }
 .home-main-sec4 .poker-right img {
     width: 30%;
@@ -3396,17 +3505,28 @@ section.home-main-sec5:after {
 #arkham-img {
     width: 30% !important;
 }
-
 .col-md-6.poker-left::before {
     height: 72vh;
-    width: 46%;
+    width: 55%;
     background-image: url(/hot.png);
     content: "";
     background-size: cover;
-    left: -16%;
+    left: -34%;
     bottom: -6%;
     /* top: 5%; */
     position: absolute;
+}
+.dragun-main::before {
+    height: 72vh;
+    width: 55%;
+    background-image: url(/hot.png);
+    content: "";
+    background-size: cover;
+    left: -34%;
+    bottom: -6%;
+    /* top: 5%; */
+    position: absolute;
+    display:none !important;
 }
 
 .left-main .left1{
@@ -3472,7 +3592,7 @@ section.home-main-sec5:after {
         margin-left: 0px;
     }
     #arkham-img {
-        width: 40% !important;
+        width: 70% !important;
     }
 
     .cthulhu-left h2 {
@@ -3600,12 +3720,23 @@ section.home-main-sec5:after {
         background-image: url(/hot.png);
         content: "";
         background-size: cover;
-        left: -38%;
+        left: -42%;
         bottom: -0%;
         /* top: 5%; */
         position: absolute;
     }
 
+    .dragun-main::before {
+        height: 72vh;
+        width: 86%;
+        background-image: url(/hot.png);
+        content: "";
+        background-size: cover;
+        left: -42%;
+        bottom: -0%;
+        /* top: 5%; */
+        position: absolute;
+    }
     .text-head:before {
         top: 30%;
         left: 10%;
@@ -3675,7 +3806,7 @@ section.home-main-sec5:after {
 }
 .home-main-sec4 .poker-left {
     width: 75% !important;
-    margin-top: 30px;
+    margin-top: 15px;
 }
 img.close-btn1 {
     width: 3%;
@@ -3936,7 +4067,7 @@ section.home-main-sec5:after {
     line-height: 26px;
 }
 .home-main-sec4 .poker-right {
-    width: 60% !important;
+    width: 75% !important;
     margin-top: 0px;
 }
 .col-md-8.fantasy-right h2 {
@@ -3981,6 +4112,17 @@ section.home-main-sec5:after {
     .home-main-sec2 {
         height: 95%;}
     .col-md-6.poker-left::before {
+        height: 43vh;
+        width: 31%;
+        background-image: url(/hot.png);
+        content: "";
+        background-size: cover;
+        left: 0%;
+        bottom: -8%;
+        /* top: 5%; */
+        position: absolute;
+    }
+    .dragun-main::before {
         height: 43vh;
         width: 31%;
         background-image: url(/hot.png);
@@ -4160,7 +4302,7 @@ section.home-main-sec5:after {
                     
                         .home-main-sec4 .poker-right {
                             width: 20% !important;
-                            margin-left: 0px !important;
+                            margin-left: 50px !important;
                         }
                         .footer .footer-h1 img {
                             margin-bottom: 0px;
@@ -4663,6 +4805,17 @@ section.home-main-sec5:after {
             /* top: 5%; */
             position: absolute;
         }
+        .dragun-main::before {
+            height: 43vh;
+            width: 31%;
+            background-image: url(/hot.png);
+            content: "";
+            background-size: cover;
+            left: -10%;
+            bottom: -5%;
+            /* top: 5%; */
+            position: absolute;
+        }
         .home-main-sec4 .poker-left h2 {
             line-height: 20px;
             margin-top: 10px;
@@ -4757,6 +4910,16 @@ section.home-main-sec5:after {
             /* top: 5%; */
             position: absolute;
         }
+        .dragun-main::before {
+            height: 31vh;
+            width: 31%;
+            content: "";
+            background-size: cover;
+            left: -8%;
+            bottom: 0%;
+            /* top: 5%; */
+            position: absolute;
+        }
         .home-main-sec4 .poker-right img {
             width: 160%;
             margin-left: 100px;
@@ -4801,7 +4964,10 @@ section.home-main-sec5:after {
         }
 
 
-
+        .home-main-sec4 .poker-right {
+            width: 20% !important;
+            margin-left:0px !important;
+        }
     
     }
 
