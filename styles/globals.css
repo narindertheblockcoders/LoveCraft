@@ -7,7 +7,7 @@
 
 body {
     background-image: url(/home-bg.jpg);
-    /* background-repeat: no-repeat; */
+    background-repeat: no-repeat;
     /* font-family: 'Ringbearer Medium' !important; */
     font-family: 'myFirstFont' !important;
     background-size: cover;
@@ -6482,7 +6482,7 @@ ul.left-main {
     /* ...../////I phone res////////.......... */
 
     body {    width: 100%;
-        height: 100%;
+        height: 100vh;
         background-size: cover !important;
     }
         
@@ -6588,6 +6588,10 @@ ul.left-main {
 }
 
 @media (max-width: 370px) {
+    body {    width: 100%;
+        height: 100%;
+    
+    }
     .text-headimg {
         left: 28%;
         margin-top: 20px;
