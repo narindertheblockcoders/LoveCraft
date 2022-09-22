@@ -6,22 +6,15 @@ const Footer = () => {
     <div>
         
 
-
-
-      
-
-
-
     <div className="footer">
       <div className="container-fluid">  
         <ul>
           <a href="/"><li className="shape-one"></li></a>
           <a href="/coin"><li className="shape-two"></li></a>
           <li className="shape-three" data-bs-toggle="modal" data-bs-target="#staticBackdrop"> <img src="" alt=""/>
+           
+           
             {/* <!-- Modal --> */}
-                
-               
-    
           <div className="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
             <div className="modal-dialog">
               
@@ -137,8 +130,10 @@ const Footer = () => {
         </li>
 
         
-      <a href="/whitepaper.pdf" target="_blank" className="shape-four"><img src="#" alt=""/></a>
-        <a href="/vault">   <li className="shape-five"><img src="" alt=""/></li></a>
+      <a href="/whitepaper.pdf" target="_blank" className="shape-four">
+        <img src="#" alt=""/></a>
+        <a href="/vault">  
+         <li className="shape-five"><img src="" alt=""/></li></a>
         
         </ul>
      

@@ -7,8 +7,8 @@ const DungeonRun = () => {
         <div className="container-fluid">
             <ul className="dragun-main">
                 <li className="dragun-upper" id='res-set'> <img src="/dungeon-left.jpg" alt=""/></li>
-                <li className="dragun-upper">
-                    <img src="/dungeon-right.jpg" alt=""/>
+                <li className="dragun-upper" id='dungeon-setting'>
+                    <img src="/dungeon-right.jpg" id='dungeon-imaage' alt=""/>
                 </li>
             </ul>
             <div className="col-md-12 text-dragun">

@@ -319,7 +319,7 @@ const Coin = () => {
               <p class="coim-para">
                 the lovecraft coin is a new cryptocurrency hitting the global
                 market in 2022. this revolutionary token will drive our game
-                company - lovecraft labs- and offer crypto fans a new digital
+                company - lovecraft labs - and offer crypto fans a new digital
                 asset tied to a series of upcoming games. created on the hive
                 blockchain, initial availability will be through
                 <a
@@ -348,7 +348,7 @@ const Coin = () => {
                   {" "}
                   tribaldex
                 </a>{" "}
-                with future access acess offered via other markets and
+                with future access  offered via other markets and
                 exchanges.
               </p>
 
@@ -456,14 +456,14 @@ const Coin = () => {
                               presale@lovecraftlabs.com{" "}
                             </a>{" "}
                           </span>
-                          or contact us through{" "}
+                          or contact us {" "}
                           <span
                             style={{
                               textDecoration: "none",
                               borderBottom: "2px solid black",
                             }}
                           >
-                            discord
+                          through  discord
                           </span>
                           .
                         </li>

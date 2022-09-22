@@ -36,11 +36,13 @@ const FrontPage = () => {
                </ul>
     
         </div>
-           <div className="footer-text" style={{float:"left", width:"100%", padding:"0px !important"}}>
+          
+           <div className="footer-text" id='footer-txt'>
             {/* <div className="footer-h1">  */}
             <img className='coming-image' src="/coming.png" alt=""/>
             {/* </div> */}
-          </div>   </div>
+          </div>   
+          </div>
 
 
     </section>

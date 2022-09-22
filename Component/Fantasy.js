@@ -5,8 +5,8 @@ const Fantasy = () => {
     <div>
         
     <section className="home-main-sec6">
-        <div className="container">
-            <div className="row">
+        <div className="container" id='fantasy-container'>
+            <div className="row" id='fantasy-row'>
                 <div className="col-md-8 fantasy-right">
                     <h1>Coming Soon!</h1>
                     <h2>the beta version of our mobile game is being revamped
