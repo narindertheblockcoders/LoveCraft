@@ -5620,13 +5620,6 @@ ul.left-main {
         margin-top: 0px;
     }
 
-    /* .footer {
-                                margin-top: -26px;
-                            } */
-    /* .text-headimg {
-                                left: 16%;
-                                width: 68%;
-                            } */
     .home-main-sec2 .text-headimg h1 {
         padding: 9px 18px;
         margin-left: 46px;
@@ -6114,7 +6107,7 @@ ul.left-main {
         padding-left: 45px !important;
         /* background-size: unset !important; */
     /* } */
-    */ #cls-btn {
+     #cls-btn {
         position: absolute !important;
         left: 50% !important;
         margin-top: -102px !important;
@@ -6171,7 +6164,7 @@ ul.left-main {
         /* padding-left: 0px !important; */
     /* height: auto;
     } */
-    */ .coin-sec .modal-content {
+     .coin-sec .modal-content {
         margin-left: -0%;
         overflow-y: scroll !important;
     }
