@@ -2,8 +2,7 @@ import React from 'react'
 
 const Fantasy = () => {
   return (
-    <div>
-        
+    <div className='body-type'>
     <section className="home-main-sec6">
         <div className="container" id='fantasy-container'>
             <div className="row" id='fantasy-row'>

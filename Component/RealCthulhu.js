@@ -2,7 +2,7 @@ import React from 'react'
 
 const RealCthulhu = () => {
   return (
-    <div>
+    <div className='body-type'>
             <section className="home-main-sec7">
         <div className="container">
             <div className="row">

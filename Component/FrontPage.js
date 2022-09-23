@@ -14,7 +14,7 @@ const FrontPage = () => {
 
 
   return (
-    <div>
+    <div className='body-type'>
            <section className="home-main-sec">
         <div className="container">
             <h1 className="head-text"><img src="/lovecraft-text.png" alt=""/></h1>

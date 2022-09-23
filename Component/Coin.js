@@ -2,7 +2,7 @@ import React from "react";
 
 const Coin = () => {
   return (
-    <div>
+    <div className='body-type'>
       <header>
         <section class="header">
           <div class="container">

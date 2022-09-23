@@ -2,7 +2,7 @@ import React from 'react'
 
 const Arkhampoker = () => {
   return (
-    <div>
+    <div className='body-type'>
         
     <section className="home-main-sec4">
         <div className="container" id='arkham-container'>

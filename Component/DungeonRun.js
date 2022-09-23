@@ -2,7 +2,7 @@ import React from 'react'
 
 const DungeonRun = () => {
   return (
-    <div>
+    <div className='body-type'>
          <section className="home-main-sec5" id='same-here'>
         <div className="container-fluid">
             <ul className="dragun-main">

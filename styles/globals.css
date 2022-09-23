@@ -5,7 +5,7 @@
     src: url(/ringbearer/Ringbearer\ Medium\ 500.ttf);
 }
 
-body {
+.body-type {
     background-image: url(/home-bg.jpg);
     background-repeat: no-repeat;
     /* font-family: 'Ringbearer Medium' !important; */
@@ -1756,12 +1756,6 @@ ul.left-main {
         top: -47%;
     }
 
-    /* body {
-
-        background-color: #000000;
-        background-position: center;
-
-    } */
 
     .home-main-sec .head-ul .main-right::after {
         right: -22%;
@@ -5967,9 +5961,7 @@ ul.left-main {
         padding-bottom: 20px;
     }
 
-    /* body {
-        height: unset !important;
-    } */
+
 
 }
 
@@ -6003,10 +5995,6 @@ ul.left-main {
         margin-left: 50px;
     }
 
-    /* body {
-        height: 100vh !important;
-        width: 100% !important;
-    } */
 
     .home-main-sec7 {
         padding-top: 0px;
@@ -6038,10 +6026,6 @@ ul.left-main {
         left: -106%;
     }
 
-    /* body{
-                    min-height: 58px;
-                    height: 58px;
-                } */
     section.home-main-sec5:after {
         display: none;
     }
@@ -6185,14 +6169,7 @@ ul.left-main {
 
 @media (max-width: 480px) {
 
-    body {
-        /* height: 100vh;
-         */
-         height: 50vh !important;
-width: unset;
-        background-size: cover !important;
-        
-    }
+
     #coin-sec {
         height: 60vh;
         /* position: fixed; */
@@ -6311,6 +6288,7 @@ width: unset;
 }
 
 @media (max-width: 375px) {
+    .body-type{height:100vw; }
     .coin-sec .coin-leftright {
         padding-left: unset;
         padding: 10px;
@@ -6424,7 +6402,6 @@ width: unset;
 
     /* ...../////I phone res////////.......... */
 
-        
     .main-left .bimg {
         height: 80%;
         margin-top: 24px;
@@ -6487,7 +6464,7 @@ width: unset;
         padding-bottom: 0%;
         /* display: none; */
     }
-
+    /* .header .header-main{margin-top: 20px !important;} */
     #footer-txt {
         float: left !important;
         width: 100% !important;
@@ -6496,11 +6473,7 @@ width: unset;
         height: 30px !important;
         align-items: center !important;
     }
-    /* body {
-        padding: unset;
-        max-width: 400px !important;
-        width: 80% !important;
-    } */
+
     /* .col-md-4.fantasy-left {
         width: 25%;
     }
@@ -6524,10 +6497,7 @@ width: unset;
 }
 
 @media (max-width: 370px) {
-    body {    width: 100%;
-        height: 100%;
-    
-    }
+
 
     .soon-text h1 {
         top: 30%;
@@ -6540,6 +6510,7 @@ width: unset;
     
     #footer-txt {
         padding-top: 0px !important;
+        margin-top: -15px;
     }
     #cht-left {
         margin-top: 30px;
@@ -6610,3 +6581,38 @@ width: unset;
         left: 78%;
     }
 }
+
+
+/* @media  (min-width: 480px)  {
+
+    .home-main-sec .head-ul .main-left {
+        list-style: none;
+        width: 20%;
+        display: flex;
+        justify-content: flex-end;
+        position: relative;
+    }
+    .main-left .bimg {
+        height: 100%;
+        margin-top: 24px;
+        width: 100%;
+    }
+    .home-main-sec .head-ul .main-right {
+        list-style: none;
+        width: 20%;
+        display: flex;
+        justify-content: flex-end;
+        position: relative;
+    }
+    .main-right .simg {
+        height: 50%;
+        margin-top: 24px;
+        width: 100%;
+        top: 80% !;
+    }
+    .left-shape {
+        top: 5%;
+        height: 50px;
+        width: 50%;
+    }
+} */
