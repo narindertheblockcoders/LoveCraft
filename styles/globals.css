@@ -1249,16 +1249,7 @@ div#ss-2 {
 
 }
 
-.home-main-sec2 .text-head {
-    float: left;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 100px;
 
-}
 
 .home-main-sec2 .box-head {
     display: flex;
@@ -1319,14 +1310,27 @@ ul.left-main {
 .text-headimg {
     float: left;
     width: 100%;
-    background-image: url(/value-photo.png);
-    background-repeat: no-repeat;
+    /* background-image: url(/value-photo.png);
+    background-repeat: no-repeat; */
     display: flex;
-    position: absolute;
-    left: 41.5%;
-    height: 100px;
-    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    /* position: absolute;
+    left: 41.5%; */
+    /* height: 100px; */
+    /* margin-bottom: 20px; */
 }
+.home-main-sec2 .text-head {
+    float: left;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+
+}
+
 
 .home-main-sec2 .text-headimg h1 {
     padding: 7px 64px;
@@ -1788,10 +1792,7 @@ ul.left-main {
         max-width: 1000px;
     } */
 
-    .text-headimg {
-        float: left;
-        left: 38%;
-    }
+  
 
     .coin-sec .coin-leftright .coim-para {
         /* width: 89%; */
@@ -1853,10 +1854,6 @@ ul.left-main {
         z-index: 1;
     }
 
-    .home-main-sec2 .text-headimg h1 {
-        padding: 7px 27px;
-        margin-left: 39px;
-    }
 
     img.arrow3 {
         position: absolute;
@@ -2247,10 +2244,6 @@ ul.left-main {
         margin: 0;
     }
 
-    .text-headimg {
-        left: 40%;
-        height: 81px;
-    }
 
     .text-editor {
         text-align: right !important;
@@ -2619,10 +2612,6 @@ ul.left-main {
         font-size: 24px;
     }
 
-    .text-headimg {
-        left: 36%;
-        height: 81px;
-    }
 
     .home-main-sec5 .dragun-main::after {
         width: 31%;
@@ -3288,11 +3277,7 @@ ul.left-main {
         padding-left: 0px;
     }
 
-    .home-main-sec2 .text-headimg h1 {
-        padding: 9px 18px;
-        margin-left: 20px;
-    }
-
+    
     .coin-sec .coin-leftright .coim-para {
         width: 100%;
         font-size: 17px;
@@ -3330,11 +3315,7 @@ ul.left-main {
         left: 7%;
     }
 
-    .text-headimg {
-        left: 35%;
-        height: 81px;
-        width: 39%;
-    }
+
 
     .home-main-sec4 .poker-left h2 {
         line-height: 1.5;
@@ -4355,12 +4336,7 @@ ul.left-main {
         font-size: 70px;
     }
 
-    .text-headimg {
-        left: 35%;
-        height: 81px;
-        width: 52%;
-    }
-
+ 
     .text-editor {
         text-align: center;
         padding-right: unset !important;
@@ -4385,9 +4361,6 @@ ul.left-main {
         font-size: 81px;
     }
 
-    .text-headimg {
-        left: 29%;
-    }
 
     .text-center1 {
         padding: unset;
@@ -4777,11 +4750,6 @@ ul.left-main {
     }
 
 
-    .text-headimg {
-        left: 35%;
-        height: 81px;
-        width: 57%;
-    }
 
     .home-main-sec4 .poker-right img {
         width: 100%;
@@ -4845,9 +4813,7 @@ ul.left-main {
         width: 4%;
     }
 
-    .text-headimg {
-        left: 22%;
-    }
+ 
 
     #arrow-set {
         position: fixed !important;
@@ -4868,11 +4834,7 @@ ul.left-main {
         width: 65%;
     }
 
-    .home-main-sec2 .text-headimg h1 {
-        padding: 9px 18px;
-        margin-left: 71px;
-    }
-
+  
     .coin-sec .coin-leftright .coim-para {
         font-size: 17px;
     }
@@ -5192,10 +5154,6 @@ ul.left-main {
         display: none;
     }
 
-    /* .text-headimg {
-    left: 21%;
-    width: 64%;
-} */
     .home-main-sec4 .poker-right {
         margin-left: 100px !important;
     }
@@ -5319,6 +5277,7 @@ ul.left-main {
 
 @media (max-width: 480px) {
 
+    .valt-img{width: 30%;}
     #cht-left {
         margin-top: 0px;
     }
@@ -5400,9 +5359,6 @@ ul.left-main {
         margin-top: 0px !important;
     }
 
-    .text-headimg {
-        left: 26.5%;
-    }
 
     #body-value {
         height: 100vw !important;
@@ -5629,10 +5585,6 @@ ul.left-main {
         margin-top: 0px;
     }
 
-    .home-main-sec2 .text-headimg h1 {
-        padding: 9px 18px;
-        margin-left: 46px;
-    }
 
     .soon-text h1 {
         top: 32%;
@@ -6064,9 +6016,6 @@ ul.left-main {
         width: 100%;
     }
 
-    .text-headimg {
-        left: 25.5%;
-    }
 
     /* #modal-dialogs {
         max-width: 574px !important;
@@ -6141,12 +6090,6 @@ ul.left-main {
         /* position: fixed; */
     }
 
-    .home-main-sec2 .text-headimg h1 {
-        padding: 9px 18px;
-        margin-left: 61px;
-    }
-
-    
 
     #arrow-right {
         position: fixed;
@@ -6242,6 +6185,14 @@ ul.left-main {
 
 @media (max-width: 480px) {
 
+    body {
+        /* height: 100vh;
+         */
+         height: 50vh !important;
+width: unset;
+        background-size: cover !important;
+        
+    }
     #coin-sec {
         height: 60vh;
         /* position: fixed; */
@@ -6303,9 +6254,6 @@ ul.left-main {
         font-size: 14px;
     }
 
-    .text-headimg {
-        left: 25.5%;
-    }
 
     .text-head::before {
         top: 45%;
@@ -6352,10 +6300,7 @@ ul.left-main {
         margin-top: 25px !important;
     }
 
-    .text-headimg {
-        /* left: 24.5%; */
-        margin-top: 25px;
-    }
+ 
 }
 
 @media (max-width: 400px) {
@@ -6390,17 +6335,15 @@ ul.left-main {
 
     .home-main-sec2 .text-head h1 {
         font-size: 16px;
-        margin-top: 20px !important;
+        margin-top: 10px !important;
     }
-
-    .text-headimg {
-        left: 27.8%;
-        margin-top: 20px;
-    }
+.valt-img{margin-top: 20px;}
+   
 
     .home-main-sec5 .dragun-main {
         padding-top: 10px;
-        padding-bottom: 10px;
+        padding-bottom: 2
+        0px;
     }
     .cthulhu-left h2 {
         color: white;
@@ -6416,7 +6359,7 @@ ul.left-main {
             margin-left: 50px;
         } */
     .home-main-sec2 .text-head {
-        margin-top: 85px;
+        margin-top: 0px;
     }
 
     .col-md-6.poker-left::before {
@@ -6481,10 +6424,6 @@ ul.left-main {
 
     /* ...../////I phone res////////.......... */
 
-    body {    width: 100%;
-        height: 100vh;
-        background-size: cover !important;
-    }
         
     .main-left .bimg {
         height: 80%;
@@ -6516,10 +6455,7 @@ ul.left-main {
         top: 31%;
         width: 91%;
     }
-    .text-headimg {
-        left: 24.5%;
-        margin-top: 20px;
-    }
+
     #cht-left {
         margin-top: 50px;
     }
@@ -6592,10 +6528,7 @@ ul.left-main {
         height: 100%;
     
     }
-    .text-headimg {
-        left: 28%;
-        margin-top: 20px;
-    }
+
     .soon-text h1 {
         top: 30%;
         left: 50%;

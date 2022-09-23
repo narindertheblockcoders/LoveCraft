@@ -7,6 +7,7 @@ const Vault = () => {
         <div className="container">
           <div className="text-headimg">
             {/* <h1> REAL CTHULHU</h1> */}
+            <img className='valt-img' src='/value-photo.png'/>
             </div>
 
             <div className="text-head">
