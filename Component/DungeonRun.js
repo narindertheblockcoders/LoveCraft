@@ -24,7 +24,7 @@ const DungeonRun = () => {
     </section>
     <section className="soon-text">
         <div className="container">
-            <h1>Coming Soon!</h1>
+            <h1 className='coming-txt'>Coming Soon!</h1>
         </div>
 
     </section>

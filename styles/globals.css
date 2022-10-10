@@ -20,6 +20,7 @@
     padding: 0;
     float: left;
 }
+body{   font-family: 'myFirstFont' !important;}
 
 #cls-btn {
     position: absolute !important;
@@ -539,6 +540,8 @@ header .top-nav .two-shape {
 
 .home-main-sec5 .dragun-main img {
     margin-right: 57px;
+    opacity:80% ;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 
 .home-main-sec5 .dragun-main h1 {
@@ -569,22 +572,22 @@ li.dragun-upper {
     z-index: -1;
 }
 
-.soon-text h1 {
+/* .soon-text h1 {
     position: absolute;
     color: #b1262b;
-    -webkit-text-stroke-color: black;
+ -webkit-text-stroke-color: black;
     -webkit-text-stroke-width: 2px;
     font-size: 80px;
-}
+} */
 
-.soon-text h1 {
+ .coming-txt {
     position: absolute;
     color: #b1262b;
-    -webkit-text-stroke-color: black;
-    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color:  black;
+    -webkit-text-stroke-width: 0.7px !important;
     font-size: 68px;
-    text-shadow: 1px 1px 5px #FFf;
-    font-weight: 600;
+    text-shadow: 1px 1px 4px #FFf !important;
+    font-weight: bolder !important;
     top: 30%;
     left: 44%;
 }
@@ -728,6 +731,7 @@ div#slider-nd {
     margin-top: -72px !important;
 }
 
+.modal {overflow: hidden !important;}
 .modal-content {
     width: 1000px !important;
     background-color: unset !important;
@@ -782,11 +786,14 @@ div#slider-nd {
 }
 
 .cthulhu-left h1 {
-    font-size: 94px;
+    font-size: 70px;
     color: #b1262b;
     -webkit-text-stroke-color: black;
-    -webkit-text-stroke-width: 2px;
-    font-weight: bold;
+    -webkit-text-stroke-width: 1px;
+    font-weight: bolder;
+    text-shadow: 1px 1px 4px #FFf !important;
+    margin-bottom: 1rem;
+
 }
 
 
@@ -840,13 +847,14 @@ div#slider-nd {
 
 .col-md-8.cthulhu-left:after {
     content: "";
-    width: 100%;
-    height: 100vh;
+    width: 17%;
+    height: 84vh;
     position: absolute;
     background: url(/cthulhu-after.png);
     background-repeat: no-repeat;
     left: 83%;
     top: 15%;
+
 }
 
 
@@ -1142,7 +1150,7 @@ img.arrow4 {
 
 #modal-header1 {
     padding: 78px !important;
-    background-attachment: fixed !important;
+    /* background-attachment: fixed !important; */
     background-size: cover;
     /* height: 100vh; */
     /* height: 100vh !important; */
@@ -1154,7 +1162,7 @@ img.arrow4 {
     background-color: unset !important;
     margin-left: -47% !important;
     overflow-y: scroll !important;
-    height: 96vh !important;
+    height: 100vh !important;
 }
 
 .popup-para-h {
@@ -1215,7 +1223,7 @@ div#ss-2 {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    width: 110%;
+    width: 100%;
     height: 100vh;
     /* text-transform: uppercase; */
 }
@@ -1230,6 +1238,7 @@ div#ss-2 {
 
 .home-main-sec2 .value-right {
     float: left;
+    margin-left: 50px !important;
 
 
 }
@@ -1534,7 +1543,7 @@ ul.left-main {
 /* #dungeon-imaage{box-shadow: 3px 3px #ffffff;} */
 
 
-
+.discord-text{color: #212529 !important;}
 
 
 
@@ -1575,13 +1584,24 @@ ul.left-main {
 
 
 @media (max-width: 1566px) {
+
+
+    .home-main-sec2 .value-right {
+        float: left;
+        margin-left: 55px !important;
+    }
+
+
     .col-md-6.poker-left::before {
         left: -21%;
+    }
+    .home-main-sec2 .text-head{
+        margin-top: 8px !important;
     }
 
     .text-head::before {
         left: 25%;
-        top: 32%;
+        top: 25%;
     }
 
     #body-value {
@@ -1968,7 +1988,7 @@ ul.left-main {
         -webkit-text-stroke-width: 1px;
         left: 47%;
         font-size: 47px;
-        font-weight: bold;
+        font-weight: bolder;
     }
 
 
@@ -2751,11 +2771,16 @@ ul.left-main {
         justify-content: flex-end
     }
 
-
+    .valt-img{width: 20% !important;}
 }
 
 
 @media (max-width: 1200px) {
+    .home-main-sec2 .value-right {
+        float: left;
+        margin-left: 30px !important;
+    }
+
     .cthulhu-right {
         margin-left: 0px;}
     .cthulhu-right .left-shapes {
@@ -2885,7 +2910,7 @@ ul.left-main {
 
 
     .text-head::before {
-        top: 27%;
+        top: 24%;
         left: 10%;
     }
 
@@ -3052,6 +3077,10 @@ ul.left-main {
 
 @media (max-width: 1024px) {
 
+  
+    #footer-txt{
+        height: 50px !important;
+    }
     .cthulhu-right img {
         width: 100%;
         margin-left: 0px;
@@ -3117,7 +3146,7 @@ ul.left-main {
     }
 
     .text-head::before {
-        top: 27%;
+        top: 23%;
         /* left: 1%; */
     }
 
@@ -3424,6 +3453,15 @@ ul.left-main {
         top: 30%;
         left: 7% !important;
     }
+    .home-main-sec2 .value-right {
+        float: left;
+        margin-left: 20px !important;
+    }
+
+
+.valt-img {
+    width: 30% !important;
+}
     .carousel-inner {
         box-shadow: 5px 10px 100px 10px #fff !important;
         position: fixed !important;
@@ -3781,12 +3819,31 @@ ul.left-main {
 
 
 @media (max-width: 991px) {
+    .carousel-inner {
+        top: 9.3% !important;}
     .col-md-8.fantasy-right h2 {
         font-size: 16px;
         width: 100%;
         line-height: 22px;
     }
-
+    .close-btn1 {
+        top: 9.3%;
+        left: 92%;
+        width: 5%;
+        z-index: 1;
+    }
+    #arrow-right {
+        position: fixed;
+        width: 7%;
+        top: 79% !important;
+        left: 78.5% !important;
+    }
+    #arrow-set {
+        position: fixed;
+        top: 79% !important;
+        width: 7%;
+        left: 13% !important;
+    }
     .fantasy-left img {
         width: 100%;
         padding-bottom: 9px;
@@ -3877,6 +3934,10 @@ ul.left-main {
 
 
 @media (max-width: 890px) {
+    .home-main-sec2 .value-right {
+        float: left;
+        margin-left: 00px !important;
+    }
 
     .cthulhu-right .left-shapes {
         top: 30%;
@@ -4376,6 +4437,7 @@ ul.left-main {
         top: 33%;
         left: 42%;
         font-size: 50px;
+        font-weight: bolder;
     }
 
     .col-md-12.text-dragun p {
@@ -4610,6 +4672,7 @@ ul.left-main {
         position: fixed !important;
         top: 73% !important;
         left: 16.4% !important;
+        width: 6%;
     }
 
     .cthulhu-left h1 {
@@ -4619,7 +4682,7 @@ ul.left-main {
 }
 
 @media (max-width: 767px) {
-
+    .home-main-sec2 .text-head{margin-top: 8px !important}
 
     #fantasy-container {
         max-width: 700px;
@@ -4654,6 +4717,18 @@ ul.left-main {
 
 
 @media (max-width: 670px) {
+    #arrow-right {
+        position: fixed;
+        top: 63% !important;
+        left: 75% !important;
+        width: 6% !important;
+    }
+    #arrow-set {
+        position: fixed !important;
+        top: 63% !important;
+        left: 16.4% !important;
+        width: 6%;
+    }
     .text-footer {
         font-size: 21px;
         text-align: center;
@@ -5269,8 +5344,25 @@ ul.left-main {
     }
 }
 
-@media (max-width: 480px) {
 
+@media (max-width: 480px) {
+    .home-main-sec2 .value-right {
+        float: left;
+        margin-left: 30px !important;
+    }
+    #coin-sec {
+        height: 60vh;
+        /* position: fixed; */
+    }
+    .modal-backdrop.show {
+        display: none;
+    }
+    .coin-sec {
+        float: left;
+        width: 100%;
+        display: flex;
+        height: 50vh;
+    }
     .valt-img{width: 30%;}
     #cht-left {
         margin-top: 0px;
@@ -5286,13 +5378,16 @@ ul.left-main {
         display: flex;
         height: 70vh;
     }
+    .body-type {
+        height: 77vh !important;
+    }
 
     #footer-txt {
         float: left !important;
         width: 100% !important;
         padding: 0px !important;
-        padding-top: 100px !important;
-        height: 100px !important;
+        padding-top: 0px !important;
+        height: 50px !important;
         align-items: center !important;
     }
 
@@ -5729,9 +5824,13 @@ ul.left-main {
     }
 
     .right-shape {
-        right: -8%;
+        right: -18%;
         top: 31%;
         width: 91%;
+    }
+    .left-shape {
+        left: 25%;
+        top: 31%;
     }
 
     .footer-text {
@@ -5779,8 +5878,8 @@ ul.left-main {
         position: absolute;
         background: url(/home-girl2.png);
         background-repeat: no-repeat;
-        left: -100% !important;
-        top: 25% !important;
+        left: -18% !important;
+        top: 30% !important;
         z-index: -1 !important;
     }
 
@@ -5799,8 +5898,8 @@ ul.left-main {
         background: url(/cartoon2.png);
         background-repeat: no-repeat;
         position: absolute;
-        left: 100%;
-        top: 55%;
+        left:54%;
+        top: 48%;
         z-index: -1;
     }
 
@@ -5840,10 +5939,10 @@ ul.left-main {
     .carousel-inner {
         box-shadow: 5px 10px 100px 10px #fff !important;
         position: fixed !important;
-        top: 17% !important;
-        width: 61% !important;
-        left: 21% !important;
-    }
+        top: 9% !important;
+        width: 78% !important;
+        left: 11% !important;
+      }
 
     .footer-text .footer-h1 img {
         height: 26px;
@@ -5923,22 +6022,21 @@ ul.left-main {
     #arrow-right {
         position: fixed;
         top: 77% !important;
-        left: 73% !important;
+        left: 80% !important;
         width: 5% !important;
-    }
+      }
 
-    #arrow-set {
+      #arrow-set {
         position: fixed !important;
         top: 77% !important;
-        left: 24% !important;
+        left: 15.5% !important;
         width: 5%;
     }
     img.close-btn1 {
         width: 4%;
-        top: 17%;
-        left: 82%;
-    }
-
+        top: 9%;
+        left: 89%;
+      }
     .text-head::before {
         top: 42%;
         left: 25%;
@@ -5965,7 +6063,14 @@ ul.left-main {
 
 }
 
+
+
+
 @media (max-width: 450px) {
+    .home-main-sec2 .value-right {
+        float: left;
+        margin-left: 10px !important;
+    }
     /* .home-main-sec .head-ul .main-left:before{top:-18% !important;} */
     /* .home-main-sec {
         height: 62vh !important;
@@ -5975,12 +6080,17 @@ ul.left-main {
         padding: 10px;
         margin-top: 70px;
     }
+    .home-main-sec .head-ul .main-right {
+        list-style: none;
+        width: 45% !important   ;
+        position: relative;
+    }
 
     #footer-txt {
         float: left !important;
         width: 100% !important;
         padding: 0px !important;
-        padding-top: 50px !important;
+        padding-top: 0px !important;
         height: 50px !important;
         align-items: center !important;
     }
@@ -6023,7 +6133,8 @@ ul.left-main {
 
     .home-main-sec .head-ul .main-left:before {
         height: 50vh;
-        left: -106%;
+        left: -35% !important;
+        top: 18% !important;
     }
 
     section.home-main-sec5:after {
@@ -6036,13 +6147,12 @@ ul.left-main {
         top: 79%;
         width: 5%;
     }
-
     #arrow-set {
         position: fixed !important;
-        top: 85% !important;
-        left: 10.4% !important;
+        top: 83% !important;
+        left: 16% !important;
         width: 5% !important;
-    }
+      }
 
     /* #modal-header1 {
         width: 49% !important;
@@ -6063,10 +6173,12 @@ ul.left-main {
     } */
 
     .home-main-sec .head-ul .main-right::before {
-        width: 100%;
-        left: 120%;
-        height: 50vh;
-        top: 30px;
+    
+        top: 38%;
+    }
+
+    .body-type {
+        height: 70vh !important;
     }
 
     #coin-sec {
@@ -6077,10 +6189,10 @@ ul.left-main {
 
     #arrow-right {
         position: fixed;
-        top: 85% !important;
-        left: 84% !important;
+        top: 82% !important;
+        left: 80% !important;
         width: 5% !important;
-    }
+      }
 
 
 
@@ -6153,31 +6265,11 @@ ul.left-main {
 
 }
 
-@media (max-width: 480px) {
-
-    .modal-backdrop.show {
-        display: none;
-    }
-
-    .coin-sec {
-        float: left;
-        width: 100%;
-        display: flex;
-        height: 50vh;
-    }
-}
-
-@media (max-width: 480px) {
-
-
-    #coin-sec {
-        height: 60vh;
-        /* position: fixed; */
-    }
-}
 
 
 @media (max-width: 414px) {
+    .home-main-sec2 .text-head{margin-top: 0px !important;}
+
     #cht-left {
         margin-top: 0px;
     }
@@ -6233,7 +6325,7 @@ ul.left-main {
 
 
     .text-head::before {
-        top: 45%;
+        top: 38%;
         left: 25%;
         background-size: contain;
         height: 58%;
@@ -6242,7 +6334,7 @@ ul.left-main {
     #arrow-right {
         position: fixed;
         top: 78% !important;
-        left: 71% !important;
+        left: 73% !important;
         width: 5% !important;
     }
     
@@ -6256,15 +6348,19 @@ ul.left-main {
     #arrow-set {
         position: fixed !important;
         top: 78% !important;
-        left: 23% !important;
+        left: 17% !important;
         width: 5% !important;
     }
 
-    .carousel-inner{top: 11% !important; left: 19% !important;}
+    .carousel-inner {
+        top: 11% !important;
+        left: 13% !important;
+        width: 70% !important;
+    }
     img.close-btn1 {
         width: 4%;
         top: 11%;
-        left: 80%;
+        left: 83%;
     }
     
     .home-main-sec7 {
@@ -6276,11 +6372,31 @@ ul.left-main {
         font-size: 18px;
         margin-top: 25px !important;
     }
-
+    .body-type{height: 66vh !important;}
+    
+    .home-main-sec .head-ul .main-right::before {
+        top: 33%;
+        left: 66% !important;
+    }
+    .home-main-sec .head-ul .main-left:before {
+        height: 50vh;
+        left: -39% !important;
+        top: 13% !important;
+    }
  
 }
 
 @media (max-width: 400px) {
+    .body-type{height: 60vh !important;}
+    .home-main-sec .head-ul .main-right::before {
+        top: 13%;
+        left: 66% !important;
+    }
+    .home-main-sec .head-ul .main-left:before {
+        height: 50vh;
+        left: -60% !important;
+        top: 8% !important;
+    }
     #coin-sec {
         height: 54vh;
         /* position: fixed; */
@@ -6403,10 +6519,17 @@ ul.left-main {
     /* ...../////I phone res////////.......... */
 
     .main-left .bimg {
-        height: 80%;
+        height: 90%;
         margin-top: 24px;
         width: 100%;
     }
+    .right-shape {
+        right: -10%;
+        top: 31%;
+        width: 91%;
+    }
+    
+    
     .home-main-sec .head-ul .main-left {
         list-style: none;
         width: 30%;
@@ -6415,8 +6538,13 @@ ul.left-main {
         position: relative;
     }
     .main-right .simg {
-        height: 80%;
+        height: 74%;
         margin-top: 24px;
+        width: 50%;
+    }
+    .left-shape {
+        left: 20%;
+        top: 39%;
     }
     .home-main-sec .head-ul .main-right {
         list-style: none;
@@ -6437,17 +6565,17 @@ ul.left-main {
         margin-top: 50px;
     }
     .carousel-inner {
-        top: 12.5% !important;
-        left: 18% !important;
+        top: 8.5% !important;
+        /* left: 18% !important; */
     }
     img.close-btn1 {
         width: 4%;
-        top: 12.5%;
-        left: 79%;
-    }
-    #arrow-set {
+        top: 8.5%;
+      }
+      
+      #arrow-set {
         top: 77% !important;
-        left: 22% !important;
+        left: 18% !important;
     }
     #arrow-right {
         top: 77% !important;
@@ -6497,8 +6625,19 @@ ul.left-main {
 }
 
 @media (max-width: 370px) {
+    #arrow-set {
+        top: 80% !important;
+        left: 20% !important;
+    }
+    #arrow-right {
+        top: 80% !important;
+        left: 75% !important;
+    }
 
-
+    .carousel-inner {
+        top: 6% !important;
+        left: 15% !important;
+    }
     .soon-text h1 {
         top: 30%;
         left: 50%;
@@ -6525,13 +6664,8 @@ ul.left-main {
     img.close-btn1 {
         width: 4%;
         top: 6%;
-        left: 80%;
+        left: 85%;
     }
-    .carousel-inner {
-        top: 6% !important;
-        left: 19% !important;
-    }
-
     .coin-sec .coin-leftright {
         padding-left: unset;
         padding: 10px;
@@ -6569,16 +6703,20 @@ ul.left-main {
 
 @media (max-width: 350px) {
 
-
+    .body-type {
+        height: 55vh !important;
+    }
+    
+    
     .carousel-inner {
-        top: 2.5% !important;
-        left: 19.2% !important;
-        width: 59% !important;
+        top: 4% !important;
+        /* left: 19.2% !important; */
+        /* width: 59% !important; */
     }
 
     img.close-btn1 {
-        top: 1.5%;
-        left: 78%;
+        top: 4%;
+        left: 85%;
     }
 }
 

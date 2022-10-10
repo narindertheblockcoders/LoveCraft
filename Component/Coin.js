@@ -32,7 +32,7 @@ const Coin = () => {
                       style={{ marginTop: "0px !important" }}
                       id="modal-header1"
                     >
-                      <h5 class="modal-title" id="exampleModalLabel2">
+                      <h5 class="modal-title" id="exampleModalLabel2" style={{marginTop:"50px"}}>
                         REAL CTHULHUL – THE STORY
                       </h5>
                       <button
@@ -442,7 +442,7 @@ const Coin = () => {
                           <span style={{ textDecoration: "none" }}>
                             <a
                               target="_blank"
-                              href="http://lovecraftlabs.com/"
+                              href="mailto: presale@lovecraftlabs.com"
                               style={{
                                 color: "#212529",
                                 textDecoration: "none",
@@ -456,15 +456,19 @@ const Coin = () => {
                               presale@lovecraftlabs.com{" "}
                             </a>{" "}
                           </span>
-                          or contact us {" "}
-                          <span
+                          or contact us through {" "}
+                          <a
+                          href="http://lovecraftlabs.com/"
+                          className="discord-text"
+                          target="_blank"
                             style={{
                               textDecoration: "none",
                               borderBottom: "2px solid black",
+                              cursor:"pointer"
                             }}
                           >
-                          through  discord
-                          </span>
+                          discord
+                          </a>
                           .
                         </li>
                         <li class="coin-popup">
