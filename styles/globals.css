@@ -6387,15 +6387,17 @@ ul.left-main {
 }
 
 @media (max-width: 400px) {
-    .body-type{height: 60vh !important;}
+    .body-type {
+        height: 64vh !important;
+    }
     .home-main-sec .head-ul .main-right::before {
-        top: 13%;
+        /* top: 30%; */
         left: 66% !important;
     }
     .home-main-sec .head-ul .main-left:before {
         height: 50vh;
         left: -60% !important;
-        top: 8% !important;
+        /* top: 8% !important; */
     }
     #coin-sec {
         height: 54vh;
@@ -6404,6 +6406,10 @@ ul.left-main {
 }
 
 @media (max-width: 375px) {
+    .body-type {
+        height: 60vh !important;
+    }
+    
     .body-type{height:100vw; }
     .coin-sec .coin-leftright {
         padding-left: unset;
@@ -6556,7 +6562,7 @@ ul.left-main {
         background-size: contain;
     }
     .right-shape {
-        right: -19%;
+        right: -8%;
         top: 31%;
         width: 91%;
     }
