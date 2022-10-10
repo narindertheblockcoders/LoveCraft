@@ -1511,7 +1511,7 @@ ul.left-main {
 
 /* /////////////////end design//////////////// */
 #arkham-img {
-    width: 100% !important;
+    width: 60% !important;
     margin-right: -150px;
 }
 
@@ -1612,7 +1612,7 @@ ul.left-main {
         float: left !important;
         width: 100% !important;
         padding: 0px !important;
-        padding-top: 100px !important;
+        padding-top: 0px !important;
         height: 100px !important;
         align-items: center !important;
 
@@ -1664,7 +1664,7 @@ ul.left-main {
     .carousel-inner {
         box-shadow: 5px 10px 100px 10px #fff !important;
         position: fixed !important;
-        top: 14% !important;
+        top: 0% !important;
         width: 55% !important;
         left: 23.5% !important;
     }
@@ -1713,6 +1713,7 @@ ul.left-main {
         width: 45%;
         left: 18%;
     }
+
 
     section#footer2 {
         margin-top: -48px;
@@ -1834,7 +1835,7 @@ ul.left-main {
     .close-btn1 {
         position: fixed;
         top: 14%;
-        left: 78.5%;
+        left: 81%;
         z-index: 1;
     }
 
@@ -2073,7 +2074,17 @@ ul.left-main {
         top: 74% !important;
         left: 27% !important;
     }
-
+    .close-btn1 {
+        left: 81%;
+        z-index: 1;
+        top: 0%;
+    }
+    .cthulhu-left h2 {
+        color: white;
+        font-size: 17px;
+    }
+    
+    
 }
 
 
@@ -2174,7 +2185,7 @@ ul.left-main {
 
     .coin-sec .coin-leftright .coim-para {
         /* width: 76%; */
-        font-size: 24px;
+        font-size: 23px;
     }
 
     img.arrowleft {
@@ -2190,7 +2201,7 @@ ul.left-main {
     }
 
     .carousel-inner {
-        top: 17% !important;
+        /* top: 17% !important; */
         width: 60% !important;
         left: 21% !important;
     }
@@ -2208,7 +2219,7 @@ ul.left-main {
     }
 
     .coin-sec .coin-img {
-        top: 19px;
+        top: -5px;
         left: 24%;
         width: 85%;
     }
@@ -2222,10 +2233,16 @@ ul.left-main {
     }
 
     .close-btn1 {
-        left: 97.5%;
+        left: 81%;
         z-index: 1;
-        top: 2.5%;
+        top: 0%;
     }
+    .cthulhu-left h2 {
+        color: white;
+        font-size: 17px;
+    }
+    
+    
 
     .owl-carousel .owl-stage-outer {
         height: 51vh !important;
@@ -2261,8 +2278,9 @@ ul.left-main {
 
     .text-editor {
         text-align: right !important;
-        padding-right: 60px;
+        padding-right: 170px;
     }
+    
 
     .home-main-sec2 .container {
         max-width: 1258px;
@@ -2270,8 +2288,10 @@ ul.left-main {
 
     .text-center1 {
         text-align: right !important;
-        padding-right: 145px;
+        padding-right: 215px;
     }
+    
+    
 
     .home-main-sec4 {
         padding: 42px 0px;
@@ -2342,7 +2362,7 @@ ul.left-main {
     } */
 
     .fantasy-left img {
-        width: 100%;
+        width: 75%;
     }
 
     .home-main-sec7 .container {
@@ -2368,7 +2388,7 @@ ul.left-main {
     }
 
     .cthulhu-right img {
-        width: 100%;
+        width: 80%;
         margin-left: -50px;
     }
 
@@ -2382,7 +2402,7 @@ ul.left-main {
 
     .cthulhu-left h2 {
         color: white;
-        font-size: 20px;
+        font-size: 17px;
     }
 
     .home-main-sec7 {
@@ -2415,17 +2435,23 @@ ul.left-main {
 
     .text-head::before {
         left: 25%;
-        top: 30%;
+        top: 20%;
     }
 
     #footer-txt {
         float: left !important;
         width: 100% !important;
         padding: 0px !important;
-        padding-top: 50px !important;
+        padding-top: 0px !important;
         height: 100px !important;
         align-items: center !important;
     }
+    .col-md-12.text-dragun p {
+        width: 75%;
+        font-size: 20px;
+    }
+    
+    
 
     .coming-image {
         float: left;
@@ -2460,19 +2486,20 @@ ul.left-main {
     .carousel-inner {
         box-shadow: 5px 10px 100px 10px #fff !important;
         position: fixed !important;
-        top: 12% !important;
+        top: 6% !important;
         width: 58% !important;
         left: 22% !important;
     }
 
     .close-btn1 {
         position: fixed;
-        top: 12%;
+        top: 6%;
         left: 80%;
         z-index: 1;
     }
 
-
+ 
+    
     .home-main-sec .head-ul .main-right::after {
         right: -15%;
         top: -47%;
@@ -2622,10 +2649,14 @@ ul.left-main {
 
     .text-editor {
         text-align: right !important;
-        padding-right: 60px;
+        padding-right: 150px;
         font-size: 24px;
     }
-
+    .text-center1 {
+        text-align: right !important;
+        padding-right: 215px;
+        font-size: 24px;
+    }
 
     .home-main-sec5 .dragun-main::after {
         width: 31%;
@@ -2683,8 +2714,8 @@ ul.left-main {
     }
 
     .fantasy-left img {
-        width: 92%;
-        padding-bottom: 0px;
+        width: 80%;
+        padding-bottom: 10px;
     }
 
     .main-left img {
@@ -2770,8 +2801,27 @@ ul.left-main {
     #dungeon-setting {
         justify-content: flex-end
     }
+    .home-main-sec2 .box-head {
+        margin: 0;
+        margin-bottom: 0.5rem !important;
+    }
+    
+    
+    .valt-img {
+        width: 20% !important;
+        margin-top: 40px;
+    }
+    .right-shape {
+        right: 0%;
+        top: 14%;
+        width: 307px;
+    }
 
-    .valt-img{width: 20% !important;}
+    .left-shape {
+        left: -43%;
+        top: 15%;
+    }
+    
 }
 
 
@@ -2780,7 +2830,14 @@ ul.left-main {
         float: left;
         margin-left: 30px !important;
     }
-
+    .fantasy-left img {
+        width: 100%;
+        padding-bottom: 10px;
+    }
+    .valt-img {
+        width: 20% !important;
+        margin-top: 20px;
+    }
     .cthulhu-right {
         margin-left: 0px;}
     .cthulhu-right .left-shapes {
@@ -3064,7 +3121,7 @@ ul.left-main {
 
     .left-shape {
         left: -42%;
-        top: 36%;
+        top: 23%;
     }
 
     /* .coin-sec .coin-leftright .coim-para {
