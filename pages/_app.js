@@ -8,11 +8,13 @@ import Head from 'next/head';
  import Script from 'next/script'
 import BussinessModal from '../Component/ui/Modals/BussinessModal'
 import Link from 'next/link'
-
+import { useEffect } from 'react'
 
 function MyApp({ Component, pageProps }) {
+
   
   return<>
+  
   <Head>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
     
@@ -22,6 +24,7 @@ function MyApp({ Component, pageProps }) {
         />
  
   </Head>
+
     <BussinessModal/>
   <Script
   src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
@@ -30,7 +33,7 @@ function MyApp({ Component, pageProps }) {
   <Navbar/>
     <Component {...pageProps}  />
     <Footer/>
-
+   
   </>
 }
 

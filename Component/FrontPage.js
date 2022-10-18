@@ -22,7 +22,7 @@ const FrontPage = () => {
            
                <ul className="head-ul mb-0" >
                    <li className="main-left">
-               <div class="left-shape" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+               <div className="left-shape" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                 
                </div>
                
