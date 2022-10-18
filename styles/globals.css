@@ -1650,17 +1650,19 @@ ul.left-main {
         z-index: -1;
         width: 38%;
     }
-    
-    
+
+
     .fantasy-right h1 {
         font-size: 64px;
         -webkit-text-stroke-width: 0.4px;
     }
+
     .close-btn1 {
         left: 79.5%;
         z-index: 1;
         top: 0%;
     }
+
     .col-md-6.poker-left::before {
         height: 72vh;
         width: 30%;
@@ -1672,6 +1674,7 @@ ul.left-main {
         /* top: 5%; */
         position: absolute;
     }
+
     .close-btn1 {
         position: absolute;
         top: 7%;
@@ -1687,11 +1690,13 @@ ul.left-main {
         width: 63% !important;
         left: 18.8% !important;
     }
+
     #arrow-set {
         position: fixed;
         top: 80% !important;
         left: 22.5% !important;
     }
+
     #arrow-right {
         position: fixed;
         top: 80%;
@@ -1708,6 +1713,7 @@ ul.left-main {
     .cthulhu-right .left-shapes {
         left: 12%;
     }
+
     #modal-content1 {
         margin-top: 115px !important;
     }
@@ -3351,21 +3357,25 @@ screen and (max-height: 800px) {
         width: 63% !important;
         left: 18.8% !important;
     }
+
     #arrow-set {
         position: fixed;
         top: 80% !important;
         left: 22.5% !important;
     }
+
     #arrow-right {
         position: fixed;
         top: 80%;
         z-index: 999;
         left: 73% !important;
     }
+
     #modal-content1 {
         margin-top: 30px !important;
         padding: 10px !important;
     }
+
     #cls-btn {
         position: absolute !important;
         left: 149.5% !important;
@@ -3374,6 +3384,7 @@ screen and (max-height: 800px) {
         z-index: 999;
         width: 7%;
     }
+
     .modal-header {
         height: 85%;
     }
@@ -7098,15 +7109,21 @@ screen and (max-height: 800px) {
         padding-top: 0px !important;
         padding-left: 0;
     }
+
     .modal-header .modal-title {
         font-size: 22px;
         margin-bottom: 0.5rem !important;
     }
-    .popup-ul{padding-left: 0px !important;}
+
+    .popup-ul {
+        padding-left: 0px !important;
+    }
+
     li.coin-popup img {
         padding-inline: 13px;
         width: 120%;
     }
+
     #cls-btn {
         position: absolute !important;
         left: 98.5% !important;
@@ -7479,14 +7496,14 @@ screen and (max-height: 800px) {
 
 
     .carousel-inner {
-        top: 4% !important;
-        /* left: 19.2% !important; */
-        /* width: 59% !important; */
+        top: 12% !important;
+        left: 20% !important;
+        width: 59% !important;
     }
 
     img.close-btn1 {
-        top: 4%;
-        left: 85%;
+        top: 12%;
+        left: 79%;
     }
 }
 
