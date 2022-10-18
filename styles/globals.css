@@ -7109,7 +7109,7 @@ screen and (max-height: 800px) {
 }
 
 @media (max-width: 375px) {
-    .body-type{height: 64vh !important;}
+    .body-type{height: 60vh !important;}
     .popup-footer {
         padding-top: 0px !important;
         padding-left: 0;
@@ -7481,9 +7481,9 @@ screen and (max-height: 800px) {
         margin-top: 1rem;
     }
 
-    /* .body-type {
-        height: 60vh !important;
-    } */
+    .body-type {
+        height: 65vh !important;
+    }
 
 }
 
