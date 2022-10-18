@@ -7482,7 +7482,10 @@ screen and (max-height: 800px) {
     }
 
     .body-type {
-        height: 56vh !important;
+        height: 55vh !important;
+    }
+    .home-main-sec .head-ul .main-right:before {
+        left: 70%!important;
     }
 
 }
