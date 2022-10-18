@@ -7392,6 +7392,12 @@ screen and (max-height: 800px) {
         left: 23% !important;
         width: 56% !important;
     }
+    img.close-btn1 {
+        width: 4%;
+        top: 11%;
+        left: 77.8%;
+    }
+
 
     #arrow-set {
         top: 80% !important;
@@ -7407,11 +7413,6 @@ screen and (max-height: 800px) {
     #arrow-right {
         top: 80% !important;
         left: 70% !important;
-    }
-
-    .carousel-inner {
-        top: 6% !important;
-        left: 21.8% !important;
     }
 
 
@@ -7439,11 +7440,6 @@ screen and (max-height: 800px) {
         height: 45vh !important;
     }
 
-    img.close-btn1 {
-        width: 4%;
-        top: 6%;
-        left: 77.8%;
-    }
 
     .coin-sec .coin-leftright {
         padding-left: unset;
