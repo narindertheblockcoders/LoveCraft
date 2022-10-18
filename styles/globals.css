@@ -1419,6 +1419,8 @@ ul.left-main {
     color: #b1262b;
     -webkit-text-stroke-color: black;
     -webkit-text-stroke-width: 1px;
+    text-shadow: 1px 1px 4px #fff !important;
+
 }
 
 .home-main-sec4 .poker-left h2 {
@@ -2502,7 +2504,9 @@ screen and (max-height: 768px) {
         font-size: 75px;
         color: #b1262b;
         -webkit-text-stroke-color: black;
-        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-width: 0.4px;
+        text-shadow: 1px 1px 4px #fff !important;
+
     }
 
     /* .home-main-sec6 .container {
@@ -7084,7 +7088,7 @@ screen and (max-height: 800px) {
 @media (max-width: 400px) {
 
     .body-type {
-        height: 60vh !important;
+        height: 64vh !important;
     }
 
     .home-main-sec .head-ul .main-right::before {
