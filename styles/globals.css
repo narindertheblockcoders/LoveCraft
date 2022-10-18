@@ -7088,7 +7088,7 @@ screen and (max-height: 800px) {
 @media (max-width: 400px) {
 
     .body-type {
-        height: 68vh !important;
+        height: 64vh !important;
     }
 
     .home-main-sec .head-ul .main-right::before {
@@ -7109,7 +7109,7 @@ screen and (max-height: 800px) {
 }
 
 @media (max-width: 375px) {
-    .body-type{height: 62vh !important;}
+    .body-type{height: 64vh !important;}
     .popup-footer {
         padding-top: 0px !important;
         padding-left: 0;
@@ -7148,9 +7148,6 @@ screen and (max-height: 800px) {
         text-align: center;
     }
 
-    .body-type {
-        height: 60vh !important;
-    }
 
 
     .coin-sec .coin-leftright {
@@ -7484,9 +7481,9 @@ screen and (max-height: 800px) {
         margin-top: 1rem;
     }
 
-    .body-type {
-        height: 58.5vh !important;
-    }
+    /* .body-type {
+        height: 60vh !important;
+    } */
 
 }
 
