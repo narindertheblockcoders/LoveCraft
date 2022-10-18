@@ -7088,7 +7088,7 @@ screen and (max-height: 800px) {
 @media (max-width: 400px) {
 
     .body-type {
-        height: 64vh !important;
+        height: 68vh !important;
     }
 
     .home-main-sec .head-ul .main-right::before {
@@ -7109,7 +7109,7 @@ screen and (max-height: 800px) {
 }
 
 @media (max-width: 375px) {
-    .body-type{height: 64vh !important;}
+    .body-type{height: 62vh !important;}
     .popup-footer {
         padding-top: 0px !important;
         padding-left: 0;
