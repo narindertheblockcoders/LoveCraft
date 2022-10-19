@@ -7560,7 +7560,7 @@ screen and (max-height: 800px) {
 
 @media (max-width: 370px) {
     #cht-left {
-        margin-top: 50px;
+        margin-top: 74px;
     }
     .main-right .simg {
         height: 80%;
@@ -7609,14 +7609,20 @@ screen and (max-height: 800px) {
         /* top: 8% !important; */
     }
     .carousel-inner {
-        top: 11% !important;
+        top: 12% !important;
         left: 22% !important;
         width: 56% !important;
     }
     img.close-btn1 {
         width: 4%;
-        top: 11%;
+        top: 12%;
         left: 78%;
+    }
+    .home-main-sec4 .poker-left {
+        width: 50%!important;
+        margin-left: 20px;
+        margin-top: 0px !important  ;
+        font-size: 13px !important;
     }
 
 
@@ -7711,6 +7717,10 @@ screen and (max-height: 800px) {
     .home-main-sec .head-ul .main-right:before {
         left: 62%!important;
         top: 1% !important;
+    }
+    .coin-sec .coin-leftright {
+        padding: 10px;
+        margin-top: 80px;
     }
 
 }
