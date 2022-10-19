@@ -7610,13 +7610,13 @@ screen and (max-height: 800px) {
     }
     .carousel-inner {
         top: 11% !important;
-        left: 23% !important;
+        left: 22% !important;
         width: 56% !important;
     }
     img.close-btn1 {
         width: 4%;
-        top: 7%;
-        left: 77.5%;
+        top: 11%;
+        left: 78%;
     }
 
 
@@ -7652,7 +7652,7 @@ screen and (max-height: 800px) {
     }
 
     #cht-left {
-        margin-top: 20px;
+        margin-top: 50px;
     }
     .valt-img {
         margin-top: 5px;
@@ -7706,16 +7706,11 @@ screen and (max-height: 800px) {
     }
 
     .body-type {
-        height: 52.5vh !important;
+        height: 54vh !important;
     }
     .home-main-sec .head-ul .main-right:before {
         left: 62%!important;
         top: 1% !important;
-    }
-    .carousel-inner {
-        top: 7% !important;
-        left: 21.5% !important;
-        width: 56% !important;
     }
 
 }
