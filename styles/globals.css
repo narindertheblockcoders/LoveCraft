@@ -7387,6 +7387,24 @@ screen and (max-height: 800px) {
 }
 
 @media (max-width: 370px) {
+    .main-right .simg {
+        height: 80%;
+        margin-top: 24px;
+        width: 50%;
+    }
+    .home-main-sec .head-ul .main-left {
+        list-style: none;
+        width: 30%;
+        display: flex;
+        justify-content: flex-end;
+        position: relative;
+        margin-left: 50px;
+    }
+    .home-main-sec .head-ul .main-left:before {
+        height: 50vh;
+        left: -70% !important;
+        /* top: 8% !important; */
+    }
     .carousel-inner {
         top: 11% !important;
         left: 23% !important;
@@ -7394,8 +7412,8 @@ screen and (max-height: 800px) {
     }
     img.close-btn1 {
         width: 4%;
-        top: 11%;
-        left: 77.8%;
+        top: 7%;
+        left: 77.5%;
     }
 
 
@@ -7431,9 +7449,16 @@ screen and (max-height: 800px) {
     }
 
     #cht-left {
-        margin-top: 30px;
+        margin-top: 20px;
     }
-
+    .valt-img {
+        margin-top: 5px;
+    }
+    .home-main-sec2 .value-right {
+        float: left;
+        margin-left: 0px !important;
+    }
+    .text-headimg{height: 75px !important;}
 
     .home-main-sec7 {
         padding-top: 0px;
@@ -7444,7 +7469,7 @@ screen and (max-height: 800px) {
     .coin-sec .coin-leftright {
         padding-left: unset;
         padding: 10px;
-        margin-top: 30px;
+        margin-top: 0px;
     }
 
     .coin-sec .coin-leftright .coim-para {
@@ -7481,7 +7506,13 @@ screen and (max-height: 800px) {
         height: 55vh !important;
     }
     .home-main-sec .head-ul .main-right:before {
-        left: 70%!important;
+        left: 62%!important;
+        top: 1% !important;
+    }
+    .carousel-inner {
+        top: 7% !important;
+        left: 21.5% !important;
+        width: 56% !important;
     }
 
 }
