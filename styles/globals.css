@@ -7118,6 +7118,14 @@ screen and (max-height: 800px) {
 }
 
 @media (max-width: 400px) {
+    .soon-text h1 {
+        top: 30%;
+        left: 49%;
+        font-size: 28px;
+        -webkit-text-stroke-width: 1px;
+        font-weight: bold;
+    }
+    
     #arrow-set {
         position: fixed !important;
         top: 78% !important;
@@ -7162,8 +7170,8 @@ screen and (max-height: 800px) {
     }
 
     .home-main-sec .head-ul .main-right::before {
-        top: 11%;
-        left: 66% !important;
+        top: 14%;
+        left: 53% !important;
     }
 
     .home-main-sec .head-ul .main-left:before {
@@ -7698,7 +7706,7 @@ screen and (max-height: 800px) {
     }
 
     .body-type {
-        height: 47vh !important;
+        height: 52.5vh !important;
     }
     .home-main-sec .head-ul .main-right:before {
         left: 62%!important;
