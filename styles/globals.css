@@ -7132,8 +7132,13 @@ screen and (max-height: 800px) {
     }
     img.close-btn1 {
         width: 4%;
-        top: 8%;
+        top: 13%;
         left: 80%;
+    }
+    .carousel-inner {
+        top: 13% !important;
+        left: 20% !important;
+        width: 60% !important;
     }
     #cls-btn {
         position: absolute !important;
@@ -7153,7 +7158,7 @@ screen and (max-height: 800px) {
     }
 
     .body-type {
-        height: 53vh !important;
+        height: 59vh !important;
     }
 
     .home-main-sec .head-ul .main-right::before {
