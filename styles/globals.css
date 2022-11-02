@@ -4,6 +4,11 @@
     font-family: myFirstFont;
     src: url(/ringbearer/Ringbearer\ Medium\ 500.ttf);
 }
+@font-face {
+    font-family: mySecondFont;
+    src: url(/public/EB_Garamond/EBGaramond-VariableFont_wght.ttf);
+}
+
 
 
 
@@ -586,10 +591,10 @@ li.dragun-upper {
 .coming-txt {
     position: absolute;
     color: #b1262b;
-    -webkit-text-stroke-color: black;
-    -webkit-text-stroke-width: 0.7px !important;
+    /* -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 0.7px !important; */
     font-size: 68px;
-    text-shadow: 1px 1px 4px #FFf !important;
+    text-shadow: 1px 1px 3px #FFf !important;
     font-weight: bolder !important;
     top: 30%;
     left: 44%;
@@ -810,13 +815,14 @@ div#slider-nd {
 }
 
 .cthulhu-left h1 {
-    font-size: 70px;
+    font-size: 94px;
     color: #b1262b;
-    -webkit-text-stroke-color: black;
-    -webkit-text-stroke-width: 2px;
+    /* -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 2px; */
     font-weight: bolder;
-    text-shadow: 1px 1px 4px #FFf !important;
+    text-shadow: 1px 1px 3px #FFf !important;
     margin-bottom: 1rem;
+    /* font-family:  'mySecondFont' !important; */
 
 }
 
@@ -1359,8 +1365,8 @@ ul.left-main {
     color: #b1262b;
     text-shadow: 8px 0px 17px #ffffff;
     width: 76%;
-    -webkit-text-stroke-color: black;
-    -webkit-text-stroke-width: 3px;
+    /* -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 3px; */
     left: 14%;
 }
 
@@ -1419,12 +1425,10 @@ ul.left-main {
     font-size: 94px;
 
     color: #b1262b;
-    -webkit-text-stroke-color: black;
-    -webkit-text-stroke-width: 2px;
-    font-weight: 600;
-    text-shadow: 1px 1px 3px #fff !important;
+    /* -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 2px; */
     font-weight: bolder !important;
-    text-shadow: 1px 1px 4px #fff !important;
+    text-shadow: 1px 1px 3px #fff !important;
 
 }
 
@@ -1487,8 +1491,8 @@ ul.left-main {
 .fantasy-right h1 {
     font-size: 94px;
     color: #b1262b;
-    -webkit-text-stroke-color: black;
-    -webkit-text-stroke-width: 2px;
+    /* -webkit-text-stroke-color: black; */
+    /* -webkit-text-stroke-width: 2px; */
     font-weight: 600;
     text-shadow: 1px 1px 3px #fff !important;
     font-weight: bolder !important;
@@ -1647,8 +1651,8 @@ ul.left-main {
         font-size: 64px;
         font-weight: bolder !important;
         color: #b1262b;
-        -webkit-text-stroke-color: black;
-        -webkit-text-stroke-width: 0.4px;
+        /* -webkit-text-stroke-color: black;
+        -webkit-text-stroke-width: 0.4px; */
     }
 
     .col-md-8.fantasy-right::after {
@@ -1661,7 +1665,7 @@ ul.left-main {
 
     .fantasy-right h1 {
         font-size: 64px;
-        -webkit-text-stroke-width: 0.4px;
+        /* -webkit-text-stroke-width: 0.4px; */
     }
 
     .close-btn1 {
@@ -2088,7 +2092,7 @@ ul.left-main {
 
     .fantasy-right h1 {
         font-size: 64px;
-        -webkit-text-stroke-width: 1px;
+        /* -webkit-text-stroke-width: 1px; */
     }
 
     .col-md-8.fantasy-right h2 {
@@ -2102,8 +2106,8 @@ ul.left-main {
 
     .cthulhu-left h1 {
         font-size: 63px;
-        -webkit-text-stroke-color: black;
-        -webkit-text-stroke-width: 0.2px;
+        /* -webkit-text-stroke-color: black;
+        -webkit-text-stroke-width: 0.2px; */
         font-weight: bolder !important;
     }
 
@@ -2506,11 +2510,11 @@ screen and (max-height: 768px) {
     }
 
     .fantasy-right h1 {
-        font-size: 75px;
+        font-size: 60px;
         color: #b1262b;
-        -webkit-text-stroke-color: black;
-        -webkit-text-stroke-width: 0.4px;
-        text-shadow: 1px 1px 4px #fff !important;
+        /* -webkit-text-stroke-color: black;
+        -webkit-text-stroke-width: 0.4px; */
+        text-shadow: 1px 1px 3px #fff !important;
 
     }
 
@@ -4010,7 +4014,7 @@ screen and (max-height: 800px) {
 
     .fantasy-right h1 {
         font-size: 55px;
-        -webkit-text-stroke-width: 1px;
+        /* -webkit-text-stroke-width: 1px; */
     }
 
     .soon-text h1 {
@@ -5852,7 +5856,7 @@ screen and (max-height: 800px) {
 
     .fantasy-right h1 {
         font-size: 32px;
-        -webkit-text-stroke-width: 1px;
+        /* -webkit-text-stroke-width: 1px; */
     }
 
     .home-main-sec .container::after {
@@ -6384,7 +6388,7 @@ screen and (max-height: 800px) {
 
     .fantasy-right h1 {
         font-size: 37px;
-        -webkit-text-stroke-width: 1px;
+        /* -webkit-text-stroke-width: 1px; */
     }
 
     .cthulhu-right img {
