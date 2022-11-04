@@ -149,6 +149,8 @@ const Coin = () => {
                     color: "white",
                     textDecoration: "underline",
                     paddingRight: "5px",
+                    letterSpacing: "0.4px !important"
+
                   }}
                 >
                   {" "}

@@ -2,8 +2,5 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/dungeonrun": "pages/dungeonrun.js",
-  "/arkhampoker": "pages/arkhampoker.js",
-  "/fantasy": "pages/fantasy.js",
   "/realchathulu": "pages/realchathulu.js"
 }

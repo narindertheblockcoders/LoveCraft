@@ -30,20 +30,15 @@
       "static/chunks/main.js",
       "static/chunks/pages/arkhampoker.js"
     ],
-    "/dungeonrun": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/dungeonrun.js"
-    ],
-    "/fantasy": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/fantasy.js"
-    ],
     "/realchathulu": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/realchathulu.js"
+    ],
+    "/vault": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/vault.js"
     ]
   },
   "ampFirstPages": []

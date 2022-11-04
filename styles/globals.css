@@ -24,6 +24,7 @@
     background-color: #000000;
     margin: 0;
     width: 100%;
+    
     padding: 0;
     float: left;
 
@@ -31,6 +32,8 @@
 
 body {
     font-family: 'myFirstFont' !important;
+    letter-spacing: 0.4px !important;
+
 }
 
 
@@ -1057,6 +1060,7 @@ img.arrow4 {
 .coin-sec .coin-leftright .coim-para {
     width: 92%;
     font-size: 29px;
+    letter-spacing: 0.4px !important;
     /* text-transform: uppercase; */
 
 }
@@ -1156,6 +1160,8 @@ img.arrow4 {
     margin-bottom: 0;
     line-height: 1.5;
     font-size: 44px;
+    letter-spacing: 0.4px !important;
+
     color: black;
     text-decoration: underline;
 }
@@ -1163,6 +1169,8 @@ img.arrow4 {
 .modal-header .poppu-para {
     font-size: 29px;
     text-align: center;
+    letter-spacing: 0.4px !important;
+
 }
 
 .popup-footer {
@@ -3101,7 +3109,7 @@ screen and (max-height: 900px) {
 @media screen and (max-width: 1280px),
 screen and (max-height: 1024px) {
     #modal-content1 {
-        margin-top: 150px !important;
+        margin-top: 100px !important;
     }
 
     .modal-header {
