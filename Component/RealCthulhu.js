@@ -70,9 +70,9 @@ const RealCthulhu = () => {
                           horrifying things had become.
                           </p>
                           <h1>The Tale</h1>
-                          <p className="popup-para">The T                            Special Agent Kurt Shore isn’t even supposed to be in the office. Michael Prescott, his partner,
+                          <p className="popup-para"> Special Agent Kurt Shore isn’t even supposed to be in the office. Michael Prescott, his partner,
                        was killed last week and Kurt was given some time off – time off he hadn’t asked for or particularly
-                       want. The last thing he needs to do is sit home and relive the disastrous operation that left four
+                       wanted. The last thing he needs to do is sit home and relive the disastrous operation that left four
                        fellow agents slaughtered. The moment his mind strays, it goes back to that day, so he works at 
                        keeping himself busy going through the files he and his team have amassed over the past ten 
                        months. The reality is – he isn’t going to find anything new, but it keeps his wandering mind relatively occupied. At this point, he and his fellow agents – at least the ones that are still alive – pretty much have to wait until the next event. That’s what they called them in Quantum Division – “events”.
@@ -116,14 +116,14 @@ const RealCthulhu = () => {
                          
                           <p className="popup-para-h"><b>4 months ago:</b></p>
                         
-                          <p className="popup-para">Official Report: After weeks of diligent field work, QD agents converged on three terrorists in the process of activating a portal. One of the terrorists detonated a high yield explosive killing all three terrorists and four agents.
+                          <p className="popup-para"><b>Official Report:</b> After weeks of diligent field work, QD agents converged on three terrorists in the process of activating a portal. One of the terrorists detonated a high yield explosive killing all three terrorists and four agents.
                           </p>
                         
-                          <p className="popup-para">Cover Story: This story was relayed with most of the details intact, though the objective of the terrorists was changed to smuggling explosives into the country to use on American targets</p>
+                          <p className="popup-para"><b> Cover Story: </b> This story was relayed with most of the details intact, though the objective of the terrorists was changed to smuggling explosives into the country to use on American targets</p>
                          
                           <p className="popup-para-h" ><b>2 months ago:</b></p>
                           <p className="popup-para"><b>Official Report:</b>A quick moving, tentacled life form invaded a campground, killing 22 campers and 2 park personal. A number of civilians escaped having witnessed the horrifying creature. The point of origin of the creature was never discovered.</p>
-                          <p className="popup-para">Cover Story: A terrorist cell was blamed with the survivor stories being dismissed as hallucinations resulting from a nerve agent the fanatics released in the area to first incapacitate their victims.</p>
+                          <p className="popup-para"><b> Cover Story:</b> A terrorist cell was blamed with the survivor stories being dismissed as hallucinations resulting from a nerve agent the fanatics released in the area to first incapacitate their victims.</p>
                           <p className="popup-para-h"><b>1 week ago:</b></p>
                           <p className="popup-para"><b>Official Report: </b>A raid on a suspected terrorist apartment was met with hostilities. Four enemy combatants returned fire on the agents and were killed. Four of the QD team were killed, including Mike, Kurt’s partner. Portal equipment was recovered. </p>
                           <p className="popup-para"><b>Cover Story:</b>This story was relayed with most of the details intact, though the alien artifacts were omitted.</p>
