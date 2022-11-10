@@ -138,7 +138,7 @@ const Coin = () => {
             <div className="col-md-8 coin-leftright">
               <p className="coim-para">
                 the lovecraft coin is a new cryptocurrency hitting the global
-                market in 2022. this revolutionary token will drive our game
+                market in 2023. this revolutionary token will drive our game
                 company - lovecraft labs - and offer crypto fans a new digital
                 asset tied to a series of upcoming games. created on the hive
                 blockchain, initial availability will be through

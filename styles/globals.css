@@ -598,8 +598,8 @@ li.dragun-upper {
     -webkit-text-stroke-width: 0.7px !important; */
     font-size: 68px;
     text-shadow: 1px 1px 3px #FFf !important;
-    font-weight: bolder !important;
-    top: 30%;
+    font-weight: 600 !important;
+    top: 25%;
     left: 44%;
 }
 
@@ -818,11 +818,11 @@ div#slider-nd {
 }
 
 .cthulhu-left h1 {
-    font-size: 94px;
+    font-size: 84px;
     color: #b1262b;
     /* -webkit-text-stroke-color: black;
     -webkit-text-stroke-width: 2px; */
-    font-weight: bolder;
+    font-weight: 500;
     text-shadow: 1px 1px 3px #FFf !important;
     margin-bottom: 1rem;
     /* font-family:  'mySecondFont' !important; */
@@ -1435,7 +1435,7 @@ ul.left-main {
     color: #b1262b;
     /* -webkit-text-stroke-color: black;
     -webkit-text-stroke-width: 2px; */
-    font-weight: bolder !important;
+    font-weight: 500 !important;
     text-shadow: 1px 1px 3px #fff !important;
 
 }
@@ -1501,9 +1501,8 @@ ul.left-main {
     color: #b1262b;
     /* -webkit-text-stroke-color: black; */
     /* -webkit-text-stroke-width: 2px; */
-    font-weight: 600;
     text-shadow: 1px 1px 3px #fff !important;
-    font-weight: bolder !important;
+    font-weight: 500 !important;
 
 }
 
@@ -1657,7 +1656,6 @@ ul.left-main {
 
     .home-main-sec4 .poker-left h1 {
         font-size: 64px;
-        font-weight: bolder !important;
         color: #b1262b;
         /* -webkit-text-stroke-color: black;
         -webkit-text-stroke-width: 0.4px; */
@@ -1968,11 +1966,9 @@ ul.left-main {
         max-width: 1000px;
     } */
 
-
-
     .coin-sec .coin-leftright .coim-para {
         /* width: 89%; */
-        font-size: 20px;
+        font-size: 24px;
         padding-left: 0px;
     }
 
@@ -2116,7 +2112,7 @@ ul.left-main {
         font-size: 63px;
         /* -webkit-text-stroke-color: black;
         -webkit-text-stroke-width: 0.2px; */
-        font-weight: bolder !important;
+        font-weight: 500 !important;
     }
 
     .cthulhu-right img {
@@ -2359,7 +2355,7 @@ screen and (max-height: 768px) {
 
     .coin-sec .coin-leftright .coim-para {
         /* width: 76%; */
-        font-size: 23px;
+        font-size: 24px;
     }
 
     img.arrowleft {
@@ -3029,12 +3025,12 @@ screen and (max-height: 900px) {
     }
 
     .coin-sec .coin-leftright .coim-para {
-        font-size: 17px;
+        font-size: 24px;
 
     }
 
     .footer-h1-text {
-        font-size: 28px;
+        font-size: 32px;
         /* padding-right: 24%; */
     }
 
@@ -3053,10 +3049,12 @@ screen and (max-height: 900px) {
     }
 
     .coin-sec .coin-img {
-        left: 15%;
-        width: 83%;
+        left: 0%;
+        width: 100%;
         top: 7px;
     }
+    
+    
 
 
     .col-md-8.cthulhu-left:after {
@@ -4167,7 +4165,7 @@ screen and (max-height: 800px) {
 
     .home-main-sec4 .poker-left h1 {
         font-size: 45px;
-        font-weight: bold;
+        font-weight: 500;
     }
 
     .home-main-sec4 .poker-left h2 {
@@ -5206,7 +5204,7 @@ screen and (max-height: 800px) {
     .home-main-sec4 .poker-left h1 {
         font-size: 42px;
         -webkit-text-stroke-width: 1px;
-        font-weight: bold;
+        font-weight: 500;
     }
 
     .carousel-inner {
@@ -5226,7 +5224,6 @@ screen and (max-height: 800px) {
 
     .cthulhu-left h1 {
         font-size: 42px;
-        font-weight: 600;
     }
 }
 
@@ -5405,7 +5402,6 @@ screen and (max-height: 800px) {
 
     .cthulhu-left h1 {
         font-size: 42px;
-        font-weight: bold;
     }
 
     ul#box-head3 {
@@ -7722,7 +7718,8 @@ screen and (max-height: 800px) {
     }
 
     .body-type {
-        height: 54vh !important;
+        height: 47vh !important;
+        width: 100%;
     }
     .home-main-sec .head-ul .main-right:before {
         left: 62%!important;
