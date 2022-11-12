@@ -1655,9 +1655,31 @@ li#res-set {
 
 
 @media (max-width: 1950px) {
+
+    .home-main-sec .container::after {top: 22%;
+        width: 35% !important   ;
+    }
+    .home-main-sec .container::before{top: 22% !important;}
+    #footer-txt {
+        float: left !important;
+        width: 100% !important;
+        padding: 0px !important;
+        padding-top: 150px !important;
+        height: 0px !important;
+        align-items: center !important;
+    }
+    .coin-sec .coin-leftright .coim-para {
+        width: 92%;
+        font-size: 38px;
+        letter-spacing: 0.4px !important;
+        /* text-transform: uppercase; */
+    }
+    
     .modal-header{height: 47% ;}
     .dragun-main::before {
-        left: -13% !important;
+        left: -17% !important;
+        background-repeat: no-repeat;
+        top: 29% !important;
     }
     #modal-content1 {
         margin-top: 114px !important;
@@ -1674,10 +1696,19 @@ li#res-set {
     }
 
     .col-md-8.fantasy-right::after {
-        top: 12%;
-        left: -9%;
+        top: 20%;
+        left: 0%;
         z-index: -1;
         width: 38%;
+    }
+    .cthulhu-left h2 {
+        color: #fff;
+        font-size: 30px;
+        /* text-transform: uppercase; */
+        line-height: 1.5;
+    }
+    .cthulhu-right .left-shapes {
+        left: 14%;
     }
 
 
@@ -1698,7 +1729,7 @@ li#res-set {
         background-image: url(/hot.png);
         content: "";
         background-size: cover;
-        left: -15%;
+        left: -10%;
         bottom: -0%;
         /* top: 5%; */
         position: absolute;
@@ -1707,7 +1738,7 @@ li#res-set {
     .close-btn1 {
         position: absolute;
         top: 7%;
-        left: 101%;
+        left: 111%;
         z-index: 1;
     }
 
@@ -1732,6 +1763,19 @@ li#res-set {
         z-index: 999;
         left: 75% !important;
     }
+    #arkham-img {
+        width: 100% !important;
+        margin-right: -150px;
+    }
+    .home-main-sec4 .poker-left h2 {
+        font-size: 35px;
+    }
+    .home-main-sec4 .poker-left h1 {
+        font-size: 70px;
+        color: #b1262b;
+    }
+    .coming-txt{top: 31% !important;}
+    section.home-main-sec5:after{top: 19% !important;}
 }
 
 
@@ -1741,7 +1785,7 @@ li#res-set {
 @media (max-width: 1566px) {
 
 li#res-set {
-    margin-left: 0px;
+    margin-left: 50px;
 }
 
     .cthulhu-right .left-shapes {
@@ -2714,7 +2758,12 @@ screen and (max-height: 900px) {
         /* height: 100px; */
         margin-bottom: 0px;
     }
-
+    .dragun-main::before {
+        left: -22% !important;
+        background-repeat: no-repeat;
+        top: 29% !important;
+        width: 38%;
+    }
     .cthulhu-right {
         margin-left: -123px;
         margin-right: 0px;
@@ -2725,13 +2774,27 @@ screen and (max-height: 900px) {
 
 
     #arkham-img {
-        width: 80% !important;
-        margin-right: -150px;
+        width: 100% !important;
+        margin-right: -85px;
     }
 
     .text-head::before {
         left: 25%;
         top: 20%;
+    }
+    .home-main-sec4 .poker-left h1 {
+        font-size: 64px;
+    }
+    .col-md-6.poker-left::before {
+        height: 72vh;
+        width: 40%;
+        background-image: url(/hot.png);
+        content: "";
+        background-size: cover;
+        left: -20%;
+        bottom: -0%;
+        /* top: 5%; */
+        position: absolute;
     }
 
     #footer-txt {
@@ -2744,8 +2807,8 @@ screen and (max-height: 900px) {
     }
 
     .col-md-12.text-dragun p {
-        width: 75%;
-        font-size: 20px;
+        width: 80%;
+        font-size: 24px;
     }
 
 
@@ -2887,7 +2950,7 @@ screen and (max-height: 900px) {
     .home-main-sec4 .poker-left h2 {
         line-height: 1.5;
         margin-top: 8px;
-        font-size: 22px;
+        font-size: 28px;
     }
 
     .owl-carousel .owl-item img {
@@ -2958,9 +3021,9 @@ screen and (max-height: 900px) {
     }
 
     .soon-text h1 {
-        top: 30%;
+        top: 33% !important;
         font-size: 55px;
-        left: 47.5%;
+        left: 46.5%;
     }
 
     .dragun-text .text-dragun p {
@@ -2968,8 +3031,8 @@ screen and (max-height: 900px) {
     }
 
     .home-main-sec5 .dragun-main img {
-        width: 85%;
-        margin-left: -2%;
+        width: 100%;
+        margin-left: -40%;
     }
 
     .home-main-sec5 .dragun-main h1 {
@@ -3042,7 +3105,7 @@ screen and (max-height: 900px) {
     }
 
     .coin-sec .coin-leftright .coim-para {
-        font-size: 24px;
+        font-size: 27px;
 
     }
 
@@ -3098,7 +3161,7 @@ screen and (max-height: 900px) {
 
     .valt-img {
         width: 20% !important;
-        margin-top: 40px;
+        margin-top: 0px;
     }
 
     .right-shape {

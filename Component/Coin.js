@@ -10,12 +10,7 @@ const Coin = () => {
               <a href="arkhampoker" className="btn six-shape" type="#"></a>
               <a href="dungeonrun" className="btn seven-shape" type="#"></a>
               <a href="fantasy" className="btn eight-shape" type="#"></a>
-              <a
-                href="#"
-                className="btn nine-shape"
-                data-bs-toggle="modal"
-                data-bs-target="#exampleModal2"
-              ></a>
+              <a href="#" className="btn nine-shape" data-bs-toggle="modal" data-bs-target="#exampleModal2"  ></a>
 
         {/* <!-- Modal --> */}
       <div className="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">

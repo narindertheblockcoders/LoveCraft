@@ -5,7 +5,7 @@ const RealCthulhu = () => {
     <div className='body-type'>
             <section className="home-main-sec7">
         <div className="container">
-            <div className="row">
+            <div className="row" id="coin-page-row">
                 <div className="col-md-4 cthulhu-right">
                     <img src="/cthulhu-grafics.png" alt=""/>
                     <div className="left-shapes">
