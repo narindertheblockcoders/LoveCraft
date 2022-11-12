@@ -2948,7 +2948,7 @@ screen and (max-height: 900px) {
 
     .col-md-8.fantasy-right::after {
         top: 12%;
-        left: -10%;
+        left: -13%;
         z-index: -1;
         width: 38%;
     }
@@ -3050,9 +3050,9 @@ screen and (max-height: 900px) {
     }
 
     .soon-text h1 {
-        top: 33% !important;
+        top: 27% !important;
         font-size: 55px;
-        left: 46.5%;
+        left: 48.5%;
     }
 
     .dragun-text .text-dragun p {
@@ -3060,7 +3060,7 @@ screen and (max-height: 900px) {
     }
 
     .home-main-sec5 .dragun-main img {
-        width: 100%;
+        width: 90%;
         margin-left: -40%;
     }
 
@@ -3099,7 +3099,7 @@ screen and (max-height: 900px) {
     }
 
     .fantasy-left img {
-        width: 80%;
+        width: 100%;
         padding-bottom: 10px;
     }
 
@@ -3152,10 +3152,9 @@ screen and (max-height: 900px) {
     }
 
     .col-md-8.fantasy-right h2 {
-        font-size: 19px;
-        width: 91%;
+        font-size: 23px;
+        width: 85%;
     }
-
     .coin-sec .coin-img {
         /* left: 0%; */
         width: 100%;
@@ -3459,7 +3458,7 @@ screen and (max-height: 800px) {
         left: 149.5% !important;
         margin-top: 0px !important;
         top: 12% !important;
-        z-index: 999;
+        z-index: 9999;
         width: 7%;
     }
 
@@ -3515,7 +3514,7 @@ screen and (max-height: 800px) {
         left: 149.5% !important;
         margin-top: 0px !important;
         top: 13% !important;
-        z-index: 999;
+        z-index: 9999;
         width: 7%;
     }
 
@@ -3636,7 +3635,7 @@ screen and (max-height: 800px) {
         left: 139.5% !important;
         margin-top: 0px !important;
         top: 8% !important;
-        z-index: 999;
+        z-index: 9999;
         width: 7%;
     }
 
@@ -5399,7 +5398,7 @@ screen and (max-height: 800px) {
         left: 109.5% !important;
         margin-top: 0px !important;
         top: 3% !important;
-        z-index: 999;
+        z-index: 9999;
         width: 7%;
     }
     #modal-content1 {
@@ -5462,7 +5461,6 @@ screen and (max-height: 800px) {
         left: 95.5% !important;
         margin-top: 0px !important;
         top: 16% !important;
-        z-index: 999;
         width: 7%;
     }
 
@@ -6006,7 +6004,6 @@ screen and (max-height: 800px) {
         left: 88.5% !important;
         margin-top: 0px !important;
         top: 18% !important;
-        z-index: 999;
         width: 7%;
     }
 
@@ -6110,7 +6107,6 @@ screen and (max-height: 800px) {
         left: 98.5% !important;
         margin-top: 0px !important;
         top: 16% !important;
-        z-index: 999;
         width: 7%;
     }
 
@@ -7096,7 +7092,6 @@ screen and (max-height: 800px) {
         left: 98.5% !important;
         margin-top: 0px !important;
         top: 11% !important;
-        z-index: 999;
         width: 7%;
     }
 
@@ -7270,7 +7265,6 @@ screen and (max-height: 800px) {
         left: 98.5% !important;
         margin-top: 0px !important;
         top: 7% !important;
-        z-index: 999;
         width: 7%;
     }
     #modal-content1 {
@@ -7376,7 +7370,6 @@ screen and (max-height: 800px) {
         left: 96.5% !important;
         margin-top: 0px !important;
         top: 10% !important;
-        z-index: 999;
         width: 5%;
     }
     
@@ -7699,7 +7692,6 @@ screen and (max-height: 800px) {
         left: 96.5% !important;
         margin-top: 0px !important;
         top: 6% !important;
-        z-index: 999;
         width: 5%;
     }
     #modal-content1 {

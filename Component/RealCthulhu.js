@@ -42,7 +42,7 @@ const RealCthulhu = () => {
       {/* <!-- Modal --> */}
       <div className="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
               <div className="modal-dialog" id='dialog-head' style={{marginTop:"0px !important"}}>
-                    <button type="button" className="btn" data-bs-dismiss="modal" aria-label="#"> 
+                    <button type="button" className="btn" data-bs-dismiss="modal" aria-label="Close"> 
                     <img className="close-btn" id='cls-btn' src="/popup-btn.png" alt=""/></button>
                 <div className="modal-content" id="modal-content1">
                   <div className="modal-header " id="modal-header" style={{backgroundAttachment:"unset !important", marginTop:"0px !important"}}>
