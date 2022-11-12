@@ -3105,7 +3105,7 @@ screen and (max-height: 900px) {
     }
 
     .coin-sec .coin-leftright .coim-para {
-        font-size: 27px;
+        font-size: 24px;
 
     }
 
@@ -3488,8 +3488,9 @@ screen and (max-height: 800px) {
     }
 
     .modal-header {
-        height: 85%;
+        height: 68%;
     }
+    
 }
 
 
