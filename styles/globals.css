@@ -1654,8 +1654,43 @@ li#res-set {
 
 
 
-@media (max-width: 1950px) {
 
+@media (max-width: 1944px) {
+    .carousel-inner {
+        box-shadow: 5px 10px 100px 10px #fff !important;
+        position: fixed !important;
+        top: 9% !important;
+        width: 57% !important;
+        left: 22% !important;
+      }
+      #arrow-set {
+        position: fixed;
+        top: 80% !important;
+        left: 26.5% !important;
+      }
+      #arrow-right {
+        position: fixed;
+        top: 80%;
+        z-index: 999;
+        left: 70.5% !important;
+      }
+      .close-btn1 {
+        position: absolute;
+        top: 7%;
+        left: 105.5%;
+        z-index: 1;
+      }
+      .coin-sec .coin-leftright .coim-para {
+        width: 92%;
+        font-size: 28px;
+        line-height: 52px !important;
+        letter-spacing: 0.4px !important;
+        text-transform: uppercase;
+      }
+}
+
+@media (max-width: 1900px) {
+    .text-head::before {top:38% ;}
     .home-main-sec .container::after {top: 22%;
         width: 35% !important   ;
     }
@@ -1670,14 +1705,14 @@ li#res-set {
     }
     .coin-sec .coin-leftright .coim-para {
         width: 92%;
-        font-size: 38px;
+        font-size: 35px;
         letter-spacing: 0.4px !important;
         /* text-transform: uppercase; */
     }
     
     .modal-header{height: 47% ;}
     .dragun-main::before {
-        left: -17% !important;
+        left: -11% !important;
         background-repeat: no-repeat;
         top: 29% !important;
     }
@@ -1778,10 +1813,6 @@ li#res-set {
     section.home-main-sec5:after{top: 19% !important;}
 }
 
-
-
-
-
 @media (max-width: 1566px) {
 
 li#res-set {
@@ -1879,7 +1910,7 @@ li#res-set {
 
     .col-md-12.text-dragun p {
         width: 62%;
-        font-size: 20px;
+        font-size: 22px;
     }
 
     .carousel-inner {
@@ -2009,13 +2040,11 @@ li#res-set {
         top: 20%;
         width: 352px;
     }
-
     .right-shape {
-        right: -30%;
+        right: -10%;
         top: 20%;
         width: 307px;
     }
-
     .coin-sec .coin-img {
         /* left: 23%; */
         width: 100%;
@@ -2142,7 +2171,7 @@ li#res-set {
 
     .col-md-8.fantasy-right::after {
         top: 12%;
-        left: -9%;
+        left: -13%;
         z-index: -1;
         width: 38%;
     }
@@ -2152,8 +2181,7 @@ li#res-set {
     }
 
     .home-main-sec5 .dragun-main img {
-        width: 71%;
-
+        width: 85%;
     }
 
     .fantasy-right h1 {
@@ -2542,7 +2570,7 @@ screen and (max-height: 768px) {
 
         line-height: 43px;
         margin-top: 10px;
-        font-size: 27px;
+        font-size: 24px;
     }
 
     .home-main-sec5 .dragun-main::after {
@@ -2567,7 +2595,7 @@ screen and (max-height: 768px) {
 
     .soon-text h1 {
         top: 30%;
-        left: 46.5%;
+        left: 48%;
     }
     .col-md-8.fantasy-right h2 {
         font-size: 24px;
@@ -2596,7 +2624,7 @@ screen and (max-height: 768px) {
     } */
 
     .fantasy-left img {
-        width: 75%;
+        width: 100%;
     }
 
     .home-main-sec7 .container {
@@ -2622,7 +2650,7 @@ screen and (max-height: 768px) {
     }
 
     .cthulhu-right img {
-        width: 80%;
+        width: 100%;
         margin-left: -50px;
     }
 
@@ -2631,12 +2659,13 @@ screen and (max-height: 768px) {
         width: 25%;
         height: 206px;
         font-size: 36px;
-        left: 15.5%;
+        left: 13.5%;
     }
+    
 
     .cthulhu-left h2 {
         color: white;
-        font-size: 17px;
+        font-size: 18px;
     }
 
     .home-main-sec7 {
@@ -2801,7 +2830,7 @@ screen and (max-height: 900px) {
         float: left !important;
         width: 100% !important;
         padding: 0px !important;
-        padding-top: 0px !important;
+        padding-top: 100px !important;
         height: 100px !important;
         align-items: center !important;
     }
@@ -3103,10 +3132,9 @@ screen and (max-height: 900px) {
         flex-direction: row;
         margin-top: 0px;
     }
-
     .coin-sec .coin-leftright .coim-para {
-        font-size: 24px;
-
+        font-size: 22px;
+        line-height: 35px !important;
     }
 
     .footer-h1-text {
@@ -3223,6 +3251,10 @@ screen and (max-height: 800px) {
 }
 
 @media (max-width: 1200px) {
+    .coin-sec .coin-leftright .coim-para {
+        font-size: 22px;
+        line-height: unset !important;
+    }
     .home-main-sec2 .value-right {
         float: left;
         margin-left: 30px !important;
@@ -3419,14 +3451,14 @@ screen and (max-height: 800px) {
 @media screen and (max-width: 1280px),
 screen and (max-height: 800px) {
     #modal-content1 {
-        margin-top: 75px !important;
+        margin-top: 65px !important;
     }
 
     #cls-btn {
         position: absolute !important;
         left: 149.5% !important;
         margin-top: 0px !important;
-        top: 13% !important;
+        top: 12% !important;
         z-index: 999;
         width: 7%;
     }
@@ -3474,7 +3506,7 @@ screen and (max-height: 800px) {
     }
 
     #modal-content1 {
-        margin-top: 30px !important;
+        margin-top: 75px !important;
         padding: 10px !important;
     }
 
@@ -3482,7 +3514,7 @@ screen and (max-height: 800px) {
         position: absolute !important;
         left: 149.5% !important;
         margin-top: 0px !important;
-        top: 8% !important;
+        top: 13% !important;
         z-index: 999;
         width: 7%;
     }
