@@ -7645,7 +7645,7 @@ screen and (max-height: 800px) {
 
     .body-type {
         /* height: 58.5vh !important; */
-        height: 47vh !important;
+        height: 55vh !important;
         width: 100%;
     }
     .home-main-sec .head-ul .main-right:before {
@@ -7670,7 +7670,7 @@ screen and (max-height: 800px) {
         margin-top: -31px;
     }
     .body-type {
-        height: 44vh !important;
+        height: 51vh !important;
     }
 
 
