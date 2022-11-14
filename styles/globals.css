@@ -7586,7 +7586,7 @@ screen and (max-height: 800px) {
 
     #footer-txt {
         padding-top: 0px !important;
-        margin-top: -15px;
+        margin-top: -25px;
     }
 
     #cht-left {
@@ -7665,9 +7665,12 @@ screen and (max-height: 800px) {
 }
 
 @media (max-width: 350px) {
-
+    #footer-txt {
+        padding-top: 0px !important;
+        margin-top: -31px;
+    }
     .body-type {
-        height: 56vh !important;
+        height: 44vh !important;
     }
 
 
