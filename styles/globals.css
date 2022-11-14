@@ -7586,7 +7586,7 @@ screen and (max-height: 800px) {
 
     #footer-txt {
         padding-top: 0px !important;
-        margin-top: -25px;
+        margin-top: 0px;
     }
 
     #cht-left {
@@ -7623,11 +7623,10 @@ screen and (max-height: 800px) {
         left: 18%;
         width: 72%;
     }
-
     .cthulhu-left h1 {
         font-size: 35px;
+        margin-top: 20px;
     }
-
     .modal-backdrop.show {
         opacity: unset !important;
         height: 0vh;
@@ -7659,7 +7658,7 @@ screen and (max-height: 800px) {
     .coin-sec .coin-leftright {
         padding-left: unset;
         padding: 10px;
-        margin-top: 0px !important;
+        margin-top: 65px !important;
     }
 
 }
