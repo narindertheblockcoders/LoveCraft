@@ -82,11 +82,12 @@ header .top-nav .first-shape {
 .home-main-sec .container::before {
     content: "";
     position: absolute;
-    width: 100%;
-    height: 100vh;
+    width: 629px;
+    height: 843px;
     background: url(/cartoon.png);
     background-repeat: no-repeat;
-    top: 17%;
+    /* top: 17%; */
+    bottom: 0 !important;
     z-index: -5;
     left: 68%;
 }
@@ -324,11 +325,12 @@ header .top-nav .two-shape {
 .home-main-sec .container::after {
     content: "";
     position: absolute;
-    width: 100%;
-    height: 100vh;
+    width: 629px;
+    height: 843px;
     background: url(/home-girl.png);
     background-repeat: no-repeat;
-    top: 18%;
+    top: unset;
+    bottom: 0 !important;
     z-index: -5;
     left: 0%;
 }
@@ -536,15 +538,17 @@ header .top-nav .two-shape {
 }
 
 .dragun-main::before {
-    height: 89vh;
-    width: 30%;
+    height: 824px;
+    width: 619px;
     background-image: url(/hot.png);
+    background-repeat: no-repeat;
     content: "";
     left: -10%;
     bottom: -8%;
     /* top: 5%; */
     position: absolute;
 }
+
 
 #same-here {
     height: 98%;
@@ -619,15 +623,17 @@ li.dragun-upper {
 
 section.home-main-sec5:after {
     content: "";
-    width: 100%;
-    height: 100vh;
+    width: 475px;
+    height: 830px;
     background: url(/dungeon-girl.png);
     background-repeat: no-repeat;
     left: 78%;
     position: absolute;
-    top: 15%;
+    /* top: 15%; */
     z-index: -1;
+    bottom: -8%;
 }
+
 
 .col-md-12.text-dragun {
     color: white;
@@ -1433,6 +1439,17 @@ ul.left-main {
     flex-direction: column;
 }
 
+.col-md-6.poker-left::before{
+    height: 824px;
+    width: 619px;
+    background-image: url(/hot.png);
+    background-repeat: no-repeat;
+    content: "";
+    left: -10%;
+    bottom: -8%;
+    /* top: 5%; */
+    position: absolute;
+}
 .home-main-sec4 .poker-left h1 {
     font-size: 94px;
 
@@ -1558,16 +1575,6 @@ ul.left-main {
     transform: rotate(1deg);
 }
 
-.col-md-6.poker-left::before {
-    height: 89vh;
-    width: 30%;
-    background-image: url(/hot.png);
-    content: "";
-    left: -10%;
-    bottom: -8%;
-    /* top: 5%; */
-    position: absolute;
-}
 
 .cls-btn {
     position: absolute !important;
@@ -1660,6 +1667,7 @@ li#res-set {
         width: 100% !important;
         margin-right: -150px;
     }
+
     .cthulhu-right .left-shapes{left: 14%;}
     .cthulhu-left h2 {
         color: #fff;
@@ -1701,32 +1709,45 @@ li#res-set {
 }
 
 @media (max-width: 1900px) {
-    .text-head::before {top:38% ;}
-    .home-main-sec .container::after {top: 22%;
-        width: 35% !important   ;
+    .dragun-main::before {
+        left: -26%;
+        height: 670px;
     }
-    .home-main-sec .container::before{top: 22% !important;}
+    .col-md-6.poker-left::before{
+        left: -18%;
+        height: 670px;
+    }
+    section.home-main-sec5:after {
+        left: 79%;
+        height: 670px;
+    }
+    .text-head::before {top:38% ;}
+    .home-main-sec .container::after {
+        /* top: 22%; */
+        width: 35% !important   ;
+        height: 670px ;
+    }
+    .home-main-sec .container::before{
+        height: 670px;
+    }
+    /* .home-main-sec .container::before{top: 22% !important;} */
     #footer-txt {
         float: left !important;
         width: 100% !important;
         padding: 0px !important;
-        padding-top: 150px !important;
+        padding-top: 65px !important;
         height: 0px !important;
         align-items: center !important;
     }
     .coin-sec .coin-leftright .coim-para {
         width: 92%;
-        font-size: 35px;
+        font-size: 32px;
         letter-spacing: 0.4px !important;
         /* text-transform: uppercase; */
     }
     
     .modal-header{height: 47% ;}
-    .dragun-main::before {
-        left: -11% !important;
-        background-repeat: no-repeat;
-        top: 29% !important;
-    }
+
     #modal-content1 {
         margin-top: 114px !important;
     }
@@ -1769,18 +1790,6 @@ li#res-set {
         top: 0%;
     }
 
-    .col-md-6.poker-left::before {
-        height: 72vh;
-        width: 30%;
-        background-image: url(/hot.png);
-        content: "";
-        background-size: cover;
-        left: -13%;
-        bottom: -0%;
-        /* top: 5%; */
-        position: absolute;
-    }
-
     .close-btn1 {
         position: absolute;
         top: 7%;
@@ -1821,11 +1830,17 @@ li#res-set {
         color: #b1262b;
     }
     .coming-txt{top: 31% !important;}
-    section.home-main-sec5:after{top: 19% !important;}
 }
 
 @media (max-width: 1566px) {
-
+    .dragun-main::before {
+        left: -21%;
+        height: 670px;
+    }
+    .col-md-6.poker-left::before{
+        left: -21%;
+        height: 670px;
+    }
 li#res-set {
     margin-left: 50px;
 }
@@ -2366,12 +2381,7 @@ screen and (max-height: 768px) {
 
 
 @media (max-width: 1536px) {
-    section.home-main-sec5:after {
-        left: 79%;
-        top: 30%;
-        position: absolute;
-        width: 28%;
-    }
+
 
     .soon-text h1 {
         top: 29.5%;
@@ -2397,29 +2407,7 @@ screen and (max-height: 768px) {
         ;
     }
 
-    .col-md-6.poker-left::before {
-        height: 72vh;
-        width: 30%;
-        background-image: url(/hot.png);
-        content: "";
-        background-size: cover;
-        left: -13%;
-        bottom: -0%;
-        /* top: 5%; */
-        position: absolute;
-    }
 
-    .dragun-main::before {
-        height: 72vh;
-        width: 30%;
-        background-image: url(/hot.png);
-        content: "";
-        background-size: cover;
-        left: -13%;
-        bottom: -3%;
-        /* top: 5%; */
-        position: absolute;
-    }
 
     #body-value {
         width: 100% !important;
@@ -2789,7 +2777,15 @@ screen and (max-height: 900px) {
 }
 
 @media (max-width: 1280px) {
+    .col-md-6.poker-left::before {
+        left: -25%;
+        height: 670px;
+    }
     .home-main-sec7 .cthulhu-left{margin-left: 50px;}
+    .dragun-main::before {
+        left: -26%;
+        height: 670px;
+    }
 
     .text-headimg {
         float: left;
@@ -2800,13 +2796,7 @@ screen and (max-height: 900px) {
         /* height: 100px; */
         margin-bottom: 0px;
     }
-    .dragun-main::before {
-        left: -18% !important;
-        background-repeat: no-repeat;
-        top: 22% !important;
-        width: 38%;
-        height: 79vh;
-    }
+
     .cthulhu-right {
         margin-left: -123px;
         margin-right: 0px;
@@ -2828,7 +2818,7 @@ screen and (max-height: 900px) {
     .home-main-sec4 .poker-left h1 {
         font-size: 64px;
     }
-    .col-md-6.poker-left::before {
+    /* .col-md-6.poker-left::before {
         height: 72vh;
         width: 40%;
         background-image: url(/hot.png);
@@ -2836,10 +2826,22 @@ screen and (max-height: 900px) {
         background-size: cover;
         left: -20%;
         bottom: -0%;
-        /* top: 5%; */
+        /* top: 5%; 
         position: absolute;
-    }
+    } */
 
+    .home-main-sec .container::after {
+        /* top: 22%; */
+        width: 53% !important;
+        left: -8%;
+    }
+    /* .home-main-sec .container::after {
+        top: 5%;
+        width: 629px !important;
+        left: 0%;
+        height: 843px;
+    } */
+    
     #footer-txt {
         float: left !important;
         width: 100% !important;
@@ -2848,11 +2850,11 @@ screen and (max-height: 900px) {
         height: 100px !important;
         align-items: center !important;
     }
-
     .col-md-12.text-dragun p {
-        width: 80%;
-        font-size: 24px;
+        width: 75%;
+        /* font-size: 24px; */
     }
+    
 
 
 
@@ -3262,6 +3264,16 @@ screen and (max-height: 800px) {
     }
 }
 
+/* @media screen and (max-width: 1280px),
+screen and (max-height: 1280px) {
+    .soon-text h1 {
+        top: 36% !important;
+        font-size: 55px;
+        left: 48.5%;
+    }
+} */
+
+
 @media (max-width: 1200px) {
     .coin-sec .coin-leftright .coim-para {
         font-size: 22px;
@@ -3326,14 +3338,14 @@ screen and (max-height: 800px) {
         float: left !important;
         width: 100% !important;
         padding: 0px !important;
-        padding-top: 0px !important;
+        padding-top: 95px !important;
         height: 100px !important;
         align-items: center !important;
     }
 
     .soon-text h1 {
-        top: 30%;
-        left: 44.5%;
+        top: 30% !important;
+        left: 45.5%;
         font-size: 57px;
     }
 
@@ -3394,28 +3406,10 @@ screen and (max-height: 800px) {
         margin-top: 20px;
     }
 
-    .col-md-6.poker-left::before {
-        height: 72vh;
-        width: 30%;
-        background-image: url(/hot.png);
-        content: "";
-        background-size: cover;
-        left: -15%;
-        bottom: -4%;
-        /* top: 5%; */
-        position: absolute;
-    }
 
-    .dragun-main::before {
-        bottom: -4%;
-    }
 
-    section.home-main-sec5:after {
-        left: 74%;
-        top: 30%;
-        position: absolute;
-        width: 26%;
-    }
+
+  
     .text-head::before {
         top: 24%;
         left: 10%;
@@ -3539,6 +3533,10 @@ screen and (max-height: 800px) {
 
 
 @media (max-width: 1199px) {
+    .col-md-6.poker-left::before {
+        left: -30%;
+        height: 670px;
+    }
     .home-main-sec7 .cthulhu-left{margin-left: 0px;}
 
     .home-main-sec .head-ul .main-right::after {
@@ -3715,29 +3713,8 @@ screen and (max-height: 800px) {
         margin-top: 15px;
     }
 
-    .col-md-6.poker-left::before {
-        height: 72vh;
-        width: 46%;
-        background-image: url(/hot.png);
-        content: "";
-        background-size: cover;
-        left: -19%;
-        bottom: -0%;
-        /* top: 5%; */
-        position: absolute;
-    }
 
-    .dragun-main::before {
-        height: 72vh;
-        width: 46%;
-        background-image: url(/hot.png);
-        content: "";
-        background-size: cover;
-        left: -22%;
-        bottom: -0%;
-        /* top: 5%; */
-        position: absolute;
-    }
+
 
     .text-head::before {
         top: 23%;
@@ -3820,8 +3797,7 @@ screen and (max-height: 800px) {
     section.home-main-sec5:after {
         left: 72%;
         z-index: -1;
-        /* width: 29%; */
-        top: 17%;
+ 
     }
 
 
@@ -4043,6 +4019,10 @@ screen and (max-height: 800px) {
 }
 
 @media (max-width: 992px) {
+    .col-md-6.poker-left::before {
+        left: -43%;
+        height: 670px;
+    }
  
     .cthulhu-right .left-shapes {
         top: 30%;
@@ -4079,9 +4059,6 @@ screen and (max-height: 800px) {
 
     section.home-main-sec5:after {
         left: 70%;
-        z-index: -1;
-        width: 30%;
-        top: 16%;
     }
 
     #footer-txt {
@@ -4096,31 +4073,6 @@ screen and (max-height: 800px) {
     .coming-image {
         float: left;
         width: 60% !important;
-    }
-
-
-    .col-md-6.poker-left::before {
-        height: 72vh;
-        width: 46%;
-        background-image: url(/hot.png);
-        content: "";
-        background-size: cover;
-        left: -20%;
-        bottom: -0%;
-        /* top: 5%; */
-        position: absolute;
-    }
-
-    .dragun-main::before {
-        height: 72vh;
-        width: 46%;
-        background-image: url(/hot.png);
-        content: "";
-        background-size: cover;
-        left: -22%;
-        bottom: -0%;
-        /* top: 5%; */
-        position: absolute;
     }
 
 
@@ -4469,18 +4421,6 @@ screen and (max-height: 800px) {
         margin-top: 40px !important;
     }
 
-    .col-md-6.poker-left::before {
-        height: 72vh;
-        width: 68%;
-        background-image: url(/hot.png);
-        content: "";
-        background-size: cover;
-        left: -35%;
-        bottom: -0%;
-        /* top: 5%; */
-        position: absolute;
-    }
-
     .dragun-main::before {
     display: none !important;
     }
@@ -4583,6 +4523,10 @@ screen and (max-height: 800px) {
 }
 
 @media (max-width: 890px) {
+    .col-md-6.poker-left::before {
+        left: -36%;
+        height: 670px;
+    }
     .home-main-sec2 .value-right {
         float: left;
         margin-left: 00px !important;
@@ -4639,17 +4583,7 @@ screen and (max-height: 800px) {
 
 @media (max-width: 830px) {
 
-    .col-md-6.poker-left::before {
-        height: 72vh;
-        width: 55%;
-        background-image: url(/hot.png);
-        content: "";
-        background-size: cover;
-        left: -30%;
-        bottom: -6%;
-        /* top: 5%; */
-        position: absolute;
-    }
+
 
     .home-main-sec4 .poker-left {
         width: 80%;
@@ -5124,11 +5058,7 @@ screen and (max-height: 800px) {
 
     }
 
-    section.home-main-sec5:after {
-        left: 56% !important;
-        z-index: -1 !important;
-        width: 45% !important;
-    }
+
 
     .navbar-nav .top-nav .nav-item {
         margin-left: 23px !important;
@@ -5145,9 +5075,9 @@ screen and (max-height: 800px) {
 
 
     .home-main-sec4 .poker-left {
-        width: 80% !important;
+        width: 100% !important;
         margin-top: 20px;
-        margin-left: 70px;
+        margin-left: -10px;
     }
 
     .home-main-sec4 .poker-right {
@@ -5169,30 +5099,8 @@ screen and (max-height: 800px) {
         width: 30% !important;
     }
 
-    .col-md-6.poker-left::before {
-        height: 72vh;
-        width: 55%;
-        background-image: url(/hot.png);
-        content: "";
-        background-size: cover;
-        left: -32%;
-        bottom: -6%;
-        /* top: 5%; */
-        position: absolute;
-    }
+ 
 
-    .dragun-main::before {
-        height: 72vh;
-        width: 55%;
-        background-image: url(/hot.png);
-        content: "";
-        background-size: cover;
-        left: -34%;
-        bottom: -6%;
-        /* top: 5%; */
-        position: absolute;
-        display: none !important;
-    }
 
     .left-main .left1 {
         margin-bottom: 30px !important;
@@ -5273,7 +5181,10 @@ screen and (max-height: 800px) {
     }
 
     #arkham-img {
-        width: 30% !important;
+        width: 60% !important;
+    }
+    .col-md-6.poker-left::before{
+        display: none ;
     }
 
     .cthulhu-left h2 {
@@ -5566,30 +5477,6 @@ screen and (max-height: 800px) {
         margin-left: 100px;
     }
 
-    .col-md-6.poker-left::before {
-        height: 72vh;
-        width: 86%;
-        background-image: url(/hot.png);
-        content: "";
-        background-size: cover;
-        left: -42%;
-        bottom: -0%;
-        /* top: 5%; */
-        position: absolute;
-    }
-
-    .dragun-main::before {
-        height: 72vh;
-        width: 86%;
-        background-image: url(/hot.png);
-        content: "";
-        background-size: cover;
-        left: -42%;
-        bottom: -0%;
-        /* top: 5%; */
-        position: absolute;
-    }
-
     .text-head:before {
         top: 30%;
         left: 10%;
@@ -5658,11 +5545,7 @@ screen and (max-height: 800px) {
         width: 100%;
     }
 
-    .home-main-sec4 .poker-left {
-        width: 75% !important;
-        margin-top: 15px;
-        margin-left: 100px;
-    }
+  
 
     img.close-btn1 {
         width: 3%;
@@ -5919,11 +5802,6 @@ screen and (max-height: 800px) {
         font-size: 42px;
         -webkit-text-stroke-width: 1px;
     }
-    section.home-main-sec5:after {
-        left: 47%;
-        z-index: -1;
-        width: 54%;
-    }
 
     .home-main-sec5 .dragun-main h1 {
         font-size: 17px;
@@ -5967,10 +5845,10 @@ screen and (max-height: 800px) {
     }
 
     .home-main-sec4 .poker-right {
-        width: 75% !important;
-        margin-top: 0px;
+        width: 100% !important;
+        /* margin-top: 0px; */
+        margin-left: 0px !important;
     }
-
     .col-md-8.fantasy-right h2 {
         font-size: 16px;
         width: 100%;
@@ -6202,29 +6080,6 @@ screen and (max-height: 800px) {
         height: 95%;
     }
 
-    .col-md-6.poker-left::before {
-        height: 43vh;
-        width: 31%;
-        background-image: url(/hot.png);
-        content: "";
-        background-size: cover;
-        left: -10%;
-        bottom: 0%;
-        /* top: 5%; */
-        position: absolute;
-    }
-
-    .dragun-main::before {
-        height: 43vh;
-        width: 31%;
-        background-image: url(/hot.png);
-        content: "";
-        background-size: cover;
-        left: 0%;
-        bottom: -8%;
-        /* top: 5%; */
-        position: absolute;
-    }
 
     .coin-sec .modal-header {
         margin-top: 15px !important;
@@ -6496,11 +6351,6 @@ screen and (max-height: 800px) {
         height: 33px;
     }
 
-    section.home-main-sec5:after {
-        left: 39%;
-        z-index: -1;
-        width: 61%;
-    }
 
     .home-main-sec5 {
 
@@ -7117,8 +6967,6 @@ screen and (max-height: 800px) {
     #cht-left {
         margin-top: 85px;
     }
-
-    /* section.home-main-sec5:after{display: block;} */
     #res-set {
         justify-content: flex-end !important;
     }
@@ -7137,30 +6985,8 @@ screen and (max-height: 800px) {
         width: 150% !important;
     }
 
-    .col-md-6.poker-left::before {
-        height: 43vh;
-        width: 31%;
-        background-image: url(/hot.png);
-        content: "";
-        background-size: cover;
-        left: -10%;
-        bottom: -5%;
-        /* top: 5%; */
-        position: absolute;
-    }
 
-    .dragun-main::before {
-        height: 43vh;
-        width: 31%;
-        background-image: url(/hot.png);
-        content: "";
-        background-size: cover;
-        left: -10%;
-        bottom: -5%;
-        /* top: 5%; */
-        position: absolute;
-    }
-
+ 
     .home-main-sec4 .poker-left h2 {
         line-height: 20px;
         margin-top: 10px;
@@ -7461,28 +7287,7 @@ screen and (max-height: 800px) {
         margin-top: 0px;
     }
 
-    .col-md-6.poker-left::before {
-        height: 31vh;
-        width: 31%;
-        content: "";
-        background-size: cover;
-        left: -8%;
-        bottom: 0%;
-        /* top: 5%; */
-        display: none !important;
-        position: absolute;
-    }
 
-    .dragun-main::before {
-        height: 31vh;
-        width: 31%;
-        content: "";
-        background-size: cover;
-        left: -8%;
-        bottom: 0%;
-        /* top: 5%; */
-        position: absolute;
-    }
 
     .home-main-sec4 .poker-right img {
         width: 160%;
