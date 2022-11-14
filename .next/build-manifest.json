@@ -25,15 +25,15 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
+    "/arkhampoker": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/arkhampoker.js"
+    ],
     "/coin": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/coin.js"
-    ],
-    "/realchathulu": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/realchathulu.js"
     ]
   },
   "ampFirstPages": []

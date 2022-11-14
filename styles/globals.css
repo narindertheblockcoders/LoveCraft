@@ -1656,6 +1656,17 @@ li#res-set {
 
 
 @media (max-width: 1944px) {
+    #arkham-img {
+        width: 100% !important;
+        margin-right: -150px;
+    }
+    .cthulhu-right .left-shapes{left: 14%;}
+    .cthulhu-left h2 {
+        color: #fff;
+        font-size: 28px;
+        /* text-transform: uppercase; */
+        line-height: 1.5;
+    }
     .carousel-inner {
         box-shadow: 5px 10px 100px 10px #fff !important;
         position: fixed !important;
@@ -1682,10 +1693,10 @@ li#res-set {
       }
       .coin-sec .coin-leftright .coim-para {
         width: 92%;
-        font-size: 28px;
-        line-height: 52px !important;
+        font-size: 31px;
+        /* line-height: 52px !important; */
         letter-spacing: 0.4px !important;
-        text-transform: uppercase;
+        /* text-transform: uppercase; */
       }
 }
 
@@ -1764,7 +1775,7 @@ li#res-set {
         background-image: url(/hot.png);
         content: "";
         background-size: cover;
-        left: -10%;
+        left: -13%;
         bottom: -0%;
         /* top: 5%; */
         position: absolute;
@@ -2356,7 +2367,7 @@ screen and (max-height: 768px) {
 
 @media (max-width: 1536px) {
     section.home-main-sec5:after {
-        left: 78%;
+        left: 79%;
         top: 30%;
         position: absolute;
         width: 28%;
@@ -2778,6 +2789,8 @@ screen and (max-height: 900px) {
 }
 
 @media (max-width: 1280px) {
+    .home-main-sec7 .cthulhu-left{margin-left: 50px;}
+
     .text-headimg {
         float: left;
         width: 100%;
@@ -2788,10 +2801,11 @@ screen and (max-height: 900px) {
         margin-bottom: 0px;
     }
     .dragun-main::before {
-        left: -22% !important;
+        left: -18% !important;
         background-repeat: no-repeat;
-        top: 29% !important;
+        top: 22% !important;
         width: 38%;
+        height: 79vh;
     }
     .cthulhu-right {
         margin-left: -123px;
@@ -2808,8 +2822,8 @@ screen and (max-height: 900px) {
     }
 
     .text-head::before {
-        left: 25%;
-        top: 20%;
+        left: 21%;
+        top: 27%;
     }
     .home-main-sec4 .poker-left h1 {
         font-size: 64px;
@@ -3085,7 +3099,7 @@ screen and (max-height: 900px) {
 
     .cthulhu-left h2 {
         color: white;
-        font-size: 16px;
+        font-size: 19px;
         line-height: 1.5;
     }
 
@@ -3133,8 +3147,8 @@ screen and (max-height: 900px) {
         margin-top: 0px;
     }
     .coin-sec .coin-leftright .coim-para {
-        font-size: 22px;
-        line-height: 35px !important;
+        font-size: 24px;
+        line-height: unset !important;
     }
 
     .footer-h1-text {
@@ -3163,12 +3177,11 @@ screen and (max-height: 900px) {
     
     
 
-
     .col-md-8.cthulhu-left:after {
         content: "";
         width: 21%;
         left: 79%;
-        top: 8%;
+        top: 16%;
         z-index: 1;
     }
 
@@ -3526,6 +3539,8 @@ screen and (max-height: 800px) {
 
 
 @media (max-width: 1199px) {
+    .home-main-sec7 .cthulhu-left{margin-left: 0px;}
+
     .home-main-sec .head-ul .main-right::after {
         right: -28%;
 
