@@ -220,7 +220,8 @@ const Coin = () => {
                       aria-label="#"
                     >
                       {" "}
-                      <img className="close-btn " id="cls-btn" src="/popup-btn.png" alt="" />
+                      <img className="close-btn " id="cls-btn"    data-bs-dismiss="modal"
+                      aria-label="#" src="/popup-btn.png" alt="" />
                     </button>
                 <div className="modal-content" id="modal-content1">
 

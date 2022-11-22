@@ -89,7 +89,8 @@ header .top-nav .first-shape {
     /* top: 17%; */
     bottom: 0 !important;
     z-index: -5;
-    left: 68%;
+    right: -0%;
+    /* left: 68%; */
 }
 
 section.header .container {
@@ -331,7 +332,7 @@ header .top-nav .two-shape {
     background-repeat: no-repeat;
     top: unset;
     bottom: 0 !important;
-    z-index: -5;
+    z-index:0;
     left: 0%;
 }
 
@@ -343,7 +344,7 @@ header .top-nav .two-shape {
     height: 200px;
     z-index: 1;
     background: url(/rotate-text.png) no-repeat;
-    left: -30%;
+    left: -35%;
     top: 43%;
 }
 
@@ -1105,7 +1106,7 @@ img.arrow4 {
     background-repeat: no-repeat;
     position: relative;
     top: 0%;
-    margin-top: 150px !important;
+    margin-top: 100px !important;
     overflow: auto !important;
     padding: 50px !important;
 }
@@ -1591,7 +1592,7 @@ ul.left-main {
 
 /* /////////////////end design//////////////// */
 #arkham-img {
-    width: 60% !important;
+    width: 100% !important;
     margin-right: -150px;
 }
 
@@ -1613,9 +1614,10 @@ ul.left-main {
     float: left !important;
     width: 100% !important;
     padding: 0px !important;
-    padding-top: 95px !important;
-    height: 0px !important;
-    align-items: center !important;
+    padding-top: 0px !important;
+    height: 150px !important;
+    /* display: flex; */
+    align-items: end !important;
 }
 
 /* 
@@ -1655,8 +1657,6 @@ li#res-set {
 
 
 
-
-
 /* ///////////////RESPONSIVE FILE//////////////// */
 
 
@@ -1668,7 +1668,10 @@ li#res-set {
         margin-right: -150px;
     }
 
-    .cthulhu-right .left-shapes{left: 14%;}
+    .cthulhu-right .left-shapes {
+        left: 6%;
+        top: 43%;
+    }
     .cthulhu-left h2 {
         color: #fff;
         font-size: 28px;
@@ -1684,14 +1687,14 @@ li#res-set {
       }
       #arrow-set {
         position: fixed;
-        top: 80% !important;
+        top: 87% !important;
         left: 26.5% !important;
       }
       #arrow-right {
         position: fixed;
-        top: 80%;
+        top: 87%;
         z-index: 999;
-        left: 70.5% !important;
+        left: 71.5% !important;
       }
       .close-btn1 {
         position: absolute;
@@ -1709,39 +1712,29 @@ li#res-set {
 }
 
 @media (max-width: 1900px) {
+    .col-md-8.fantasy-right h2 {
+        font-size: 31px;
+        /* text-transform: uppercase; */
+        line-height: 1.5;
+      
+    }
     .dragun-main::before {
-        left: -26%;
-        height: 670px;
+        left: -9%;
+        height: 870px;
     }
     .col-md-6.poker-left::before{
-        left: -18%;
-        height: 670px;
+        left: -11%;
+        height: 870px;
     }
     section.home-main-sec5:after {
-        left: 79%;
-        height: 670px;
+        left: 75%;
+        height: 870px;
     }
     .text-head::before {top:38% ;}
-    .home-main-sec .container::after {
-        /* top: 22%; */
-        width: 35% !important   ;
-        height: 670px ;
-    }
-    .home-main-sec .container::before{
-        height: 670px;
-    }
-    /* .home-main-sec .container::before{top: 22% !important;} */
-    #footer-txt {
-        float: left !important;
-        width: 100% !important;
-        padding: 0px !important;
-        padding-top: 65px !important;
-        height: 0px !important;
-        align-items: center !important;
-    }
+
     .coin-sec .coin-leftright .coim-para {
         width: 92%;
-        font-size: 32px;
+        font-size: 31px;
         letter-spacing: 0.4px !important;
         /* text-transform: uppercase; */
     }
@@ -1764,7 +1757,7 @@ li#res-set {
 
     .col-md-8.fantasy-right::after {
         top: 20%;
-        left: 0%;
+        left: -2%;
         z-index: -1;
         width: 38%;
     }
@@ -1775,9 +1768,9 @@ li#res-set {
         line-height: 1.5;
     }
     .cthulhu-right .left-shapes {
-        left: 14%;
+        left: 6%;
+        top: 43%;
     }
-
 
     .fantasy-right h1 {
         font-size: 64px;
@@ -1789,11 +1782,10 @@ li#res-set {
         z-index: 1;
         top: 0%;
     }
-
     .close-btn1 {
         position: absolute;
-        top: 7%;
-        left: 111%;
+        top: 5%;
+        left: 110%;
         z-index: 1;
     }
 
@@ -1801,20 +1793,20 @@ li#res-set {
     .carousel-inner {
         box-shadow: 5px 10px 100px 10px #fff !important;
         position: fixed !important;
-        top: 9% !important;
+        top: 7% !important;
         width: 63% !important;
-        left: 18.8% !important;
+        left: 19% !important;
     }
 
     #arrow-set {
         position: fixed;
-        top: 80% !important;
+        top: 88% !important;
         left: 22.5% !important;
     }
 
     #arrow-right {
         position: fixed;
-        top: 80%;
+        top: 88%;
         z-index: 999;
         left: 75% !important;
     }
@@ -1829,18 +1821,104 @@ li#res-set {
         font-size: 70px;
         color: #b1262b;
     }
-    .coming-txt{top: 31% !important;}
+    .coming-txt{top: 31% ;}
 }
 
-@media (max-width: 1566px) {
+
+@media (max-width: 1700px) {
+    .close-btn1 {
+        position: absolute;
+        top: 4%;
+        left: 101%;
+        z-index: 1;
+    }
+    .col-md-8.cthulhu-left:after {
+        content: "";
+        width: 16%;
+        height: 90vh;
+        position: absolute;
+        background: url(/cthulhu-after.png);
+        background-repeat: no-repeat;
+        left: 84%;
+        top: 10%;
+    }
+    
+    .cthulhu-left h2 {
+        color: #fff;
+        font-size: 24px;
+        /* text-transform: uppercase; */
+        line-height: 1.5;
+    }
+    .cthulhu-right img {
+        width: 90%;
+        margin-left: 50px;
+    }
+    
+    .cthulhu-right .left-shapes {
+        left: 0%;
+        top: 43%;
+    }
+    .col-md-8.fantasy-right::after {
+        top: 20%;
+        left: -7%;
+        z-index: -1;
+        width: 38%;
+    }
+    .col-md-12.text-dragun p {
+        width: 68%;
+        /* text-transform: uppercase; */
+        text-align: center;
+        /* margin-left: -70px; */
+    }
+    .coming-txt {
+        top: 26% ;
+        left: 45%;
+    }
     .dragun-main::before {
-        left: -21%;
-        height: 670px;
+        left: -15%;
+        height: 770px;
     }
-    .col-md-6.poker-left::before{
-        left: -21%;
-        height: 670px;
+    section.home-main-sec5:after {
+        left: 75%;
+        height: 770px;
     }
+    #arkham-img {
+        width: 90% !important;
+        margin-right: -150px;
+    }
+    .col-md-6.poker-left::before {
+        left: -18%;
+        height: 820px;
+    }
+    .home-main-sec4 .poker-left h2 {
+        font-size: 33px;
+        width: 94%;
+    }
+
+    #footer-txt{height: 100px !important;}
+    .home-main-sec .container::after {
+        height: 750px;
+    }
+    .home-main-sec .container::before {
+        height: 750px;
+        right: -9%;
+    }
+    }
+    
+
+
+@media (max-width: 1566px) {
+    .home-main-sec4 .poker-left h2 {
+    
+        width: 100%;
+    }
+    .dragun-main::before {
+        height: 700px;
+    }section.home-main-sec5:after {
+        left: 75%;
+        height: 700px;
+    }
+
 li#res-set {
     margin-left: 50px;
 }
@@ -1881,15 +1959,6 @@ li#res-set {
         width: 100%;
     }
 
-    #footer-txt {
-        float: left !important;
-        width: 100% !important;
-        padding: 0px !important;
-        padding-top: 0px !important;
-        height: 100px !important;
-        align-items: center !important;
-
-    }
 
     .modal-dialog {
         max-width: 500px;
@@ -1919,20 +1988,7 @@ li#res-set {
         height: 79px;
     }
 
-    .main-left .bimg {
-        height: 256px;
-        margin-right: 20px;
-    }
 
-    .main-right .simg {
-        height: 256px;
-        margin-left: 20px;
-    }
-
-    .footer .footer-h1 img {
-        padding-top: 14px;
-        height: 41px;
-    }
 
     .col-md-12.text-dragun p {
         width: 62%;
@@ -2019,11 +2075,7 @@ li#res-set {
         padding-right: 136px;
     }
 
-    .home-main-sec {
-
-        padding: 9px 0px;
-
-    }
+ 
 
     .left-shape .left-text .rotate {
         left: 38px;
@@ -2061,16 +2113,7 @@ li#res-set {
         top: -47%;
     }
 
-    .left-shape {
-        left: -38%;
-        top: 20%;
-        width: 352px;
-    }
-    .right-shape {
-        right: -10%;
-        top: 20%;
-        width: 307px;
-    }
+
     .coin-sec .coin-img {
         /* left: 23%; */
         width: 100%;
@@ -2197,7 +2240,7 @@ li#res-set {
 
     .col-md-8.fantasy-right::after {
         top: 12%;
-        left: -13%;
+        /* left: -13%; */
         z-index: -1;
         width: 38%;
     }
@@ -2376,10 +2419,6 @@ screen and (max-height: 768px) {
 
 }
 
-
-
-
-
 @media (max-width: 1536px) {
 
 
@@ -2393,18 +2432,6 @@ screen and (max-height: 768px) {
 
     .fantasy-left img {
         margin-left: unset;
-    }
-
-    /* .cthulhu-right {
-        margin-left: unset !important;
-        margin-right: unset !important;
-    } */
-
-    .home-main-sec .head-ul .main-right {
-        list-style: none;
-        width: 50%;
-        position: relative;
-        ;
     }
 
 
@@ -2444,7 +2471,7 @@ screen and (max-height: 768px) {
 
     .coin-sec .coin-leftright .coim-para {
         /* width: 76%; */
-        font-size: 24px;
+        font-size: 26px;
     }
 
     img.arrowleft {
@@ -2460,21 +2487,21 @@ screen and (max-height: 768px) {
     }
 
     .carousel-inner {
-        /* top: 17% !important; */
-        width: 60% !important;
-        left: 21% !important;
+        top: 6% !important;
+        width: 63% !important;
+        left: 19.5% !important;
     }
-
+    
     #arrow-set {
         position: fixed;
-        top: 77% !important;
-        left: 29% !important;
+        top: 88% !important;
+        left: 23% !important;
     }
 
     #arrow-right {
         position: fixed;
-        top: 77%;
-        left: 69% !important;
+        top: 88% !important;
+        left: 75% !important;
     }
 
     .coin-sec .coin-img {
@@ -2492,10 +2519,11 @@ screen and (max-height: 768px) {
     }
 
     .close-btn1 {
-        left: 81%;
+        left: 82.5%;
         z-index: 1;
-        top: 0%;
+        top: 5.5%;
     }
+    
 
     .cthulhu-left h2 {
         color: white;
@@ -2566,12 +2594,9 @@ screen and (max-height: 768px) {
     }
 
     .home-main-sec4 .poker-left h2 {
-
-        line-height: 43px;
         margin-top: 10px;
-        font-size: 24px;
+        font-size: 26px;
     }
-
     .home-main-sec5 .dragun-main::after {
         width: 31%;
         top: 17%;
@@ -2589,15 +2614,16 @@ screen and (max-height: 768px) {
 
     .home-main-sec5 .dragun-main {
         padding-top: 20px;
-        padding-bottom: 15px;
+        padding-bottom: 20px;
     }
 
     .soon-text h1 {
         top: 30%;
         left: 48%;
+        font-size: 50px;
     }
     .col-md-8.fantasy-right h2 {
-        font-size: 24px;
+        font-size: 27px;
         width: 100%;
     }
 
@@ -2623,7 +2649,7 @@ screen and (max-height: 768px) {
     } */
 
     .fantasy-left img {
-        width: 100%;
+        width: 95%;
     }
 
     .home-main-sec7 .container {
@@ -2650,7 +2676,7 @@ screen and (max-height: 768px) {
 
     .cthulhu-right img {
         width: 100%;
-        margin-left: -50px;
+        margin-left: -70px;
     }
 
     .cthulhu-right .left-shapes {
@@ -2658,15 +2684,13 @@ screen and (max-height: 768px) {
         width: 25%;
         height: 206px;
         font-size: 36px;
-        left: 13.5%;
+        left: 8.5%;
     }
-    
 
     .cthulhu-left h2 {
         color: white;
-        font-size: 18px;
-    }
-
+        font-size: 21px;
+    } 
     .home-main-sec7 {
         padding-top: 0px !important;
     }
@@ -2675,6 +2699,14 @@ screen and (max-height: 768px) {
 
         overflow: scroll;
     }
+    #footer-txt{height: 85px !important;}
+.home-main-sec .container::after {
+    height: 730px;
+}
+.home-main-sec .container::before {
+    height: 720px;
+    right: -9%;
+}
 
 }
 
@@ -2703,7 +2735,12 @@ screen and (max-height: 900px) {
     #modal-content1 {
         margin-top: 120px !important;
     }
-
+    .col-md-8.fantasy-right::after {
+        top: 20%;
+        /* left: -13%; */
+        z-index: -1;
+        width: 38%;
+    }
     #cls-btn {
         position: absolute !important;
         left: 152.5% !important;
@@ -2714,14 +2751,185 @@ screen and (max-height: 900px) {
     .modal-header {
         height: 60%;
     }
+    
 
 }
+@media (max-width: 1440px) {
 
-@media (max-width: 1366px) {
+    .carousel-inner {
+        top: 6% !important;
+        width: 71% !important;
+        left: 15.5% !important;
+    }
+    .close-btn1 {
+        left: 86.5%;
+        z-index: 1;
+        top: 5.5%;
+    }
+    
+    .home-main-sec .container::after {
+        height: 750px;
+        left: -5%;
+    }
+    .home-main-sec .container::after {
+        height: 730px;
+    }
+    .home-main-sec .container::before {
+        height: 720px;
+        right: -12%;
+    }
     #footer-txt {
-        padding-top: 80px !important;
+        height: 90px !important;
+    }
+    .col-md-6.poker-left::before {
+        left: -21%;
+        height: 820px;
+    }
+    #arkham-img {
+        width: 90% !important;
+        margin-right: -50px;
+    }
+    }
+    
+@media (max-width: 1350px) {
+
+
+
+    #arrow-set {
+        position: fixed;
+        top: 80% !important;
+        left: 22.5% !important;
     }
 
+    #arrow-right {
+        position: fixed;
+        top: 80%;
+        z-index: 999;
+        left: 73% !important;
+    }
+
+
+
+    #cls-btn {
+        position: absolute !important;
+        left: 149.5% !important;
+        margin-top: 0px !important;
+        top: 13% !important;
+        z-index: 9999;
+        width: 7%;
+    }
+
+    .modal-header {
+        height: 68%;
+    }
+
+    .col-md-6.poker-left::before {
+        height: 590px;
+    }
+}
+
+
+
+@media (max-width: 1366px) {
+    .col-md-8.cthulhu-left:after {
+        content: "";
+        width: 16%;
+        left: 84%;
+        top: 16%;
+        height: 84vh;
+    }
+    #modal-content1 {
+        margin-top: 16px !important;
+    }
+    #cls-btn {
+        position: absolute !important;
+        left: 152.5% !important;
+        margin-top: 0px !important;
+        top: 7% !important;
+    }
+    .modal-header {
+        height: 74%;
+    }
+    .modal-header {
+        height: 80%;
+    }
+    .carousel-inner {
+        top: 3% !important;
+        width: 62% !important;
+        left: 20.4% !important;
+    }
+    .cthulhu-right .left-shapes {
+        float: left;
+        width: 25%;
+        height: 206px;
+        font-size: 36px;
+        left: 5.5%;
+        top: 36%;
+    }
+
+    .cthulhu-right img {
+        width: 85%;
+        margin-left: -20px;
+    }
+    .cthulhu-left h1 {
+        font-size: 56px;
+    }
+    .cthulhu-left h2 {
+        color: white;
+        font-size: 17px;
+        width: 90%;
+        margin-left: -50px !important;
+    }
+    .col-md-8.fantasy-right h2 {
+        font-size: 22px;
+        width: 100%;
+    }
+    .fantasy-left img {
+        width: 80%;
+        margin-left: 20px;
+    }
+    .dragun-main::before {
+        height: 580px;
+        left: -18%;
+    }
+    section.home-main-sec5:after {
+        left: 75%;
+        height: 580px;
+    }
+    .col-md-12.text-dragun p {
+        width: 65%;
+        font-size: 20px;
+    }
+    .home-main-sec5 .dragun-main img {
+        width: 75%;
+    }
+    
+    .soon-text h1 {
+        top: 27%;
+        left: 49%;
+        font-size: 45px;
+    }
+    .col-md-6.poker-left::before {
+        left: -22%;
+        height: 600px;
+    }
+    #arkham-img {
+        width: 75% !important;
+        margin-right: -25px;
+    }
+    .left-main .left1 {
+        width: 191px;
+        height: 57px;
+        margin-bottom: 9%;
+    }
+
+    .coin-sec .coin-leftright .coim-para {
+        /* width: 76%; */
+        font-size: 22px;
+    }
+
+.footer-h1-text {
+    font-size: 40px;}
     .coin-sec .coin-img {
         /* top: -5px;
         left: 15%; */
@@ -2735,36 +2943,33 @@ screen and (max-height: 900px) {
         justify-content: center;
         align-items: center;
         height: 100px;
-        margin-bottom: 20px;
+        margin-bottom: 0px;
     }
 
     .close-btn1 {
-        left: 86%;
+        left: 82.5%;
         z-index: 1;
         top: 4%;
     }
+    
 
     #arrow-right {
         position: fixed;
-        top: 80% !important;
+        top: 87% !important;
         left: 75% !important;
     }
 
     #arrow-set {
         position: fixed;
-        top: 80% !important;
+        top: 87% !important;
         left: 23% !important;
     }
 
-    .carousel-inner {
-        top: 4% !important;
-        width: 70% !important;
-        left: 16% !important;
-    }
+   
 
     .text-head::before {
-        left: 25%;
-        top: 30%;
+        left: 23%;
+        top: 26%;
     }
 
     .coin-sec .coin-leftright {
@@ -2774,17 +2979,51 @@ screen and (max-height: 900px) {
     .home-main-sec2 .text-head h1 {
         font-size: 2.5rem;
     }
+    .home-main-sec .container::after {
+        height: 585px;
+        left: -6%;
+    }
+    
+    .home-main-sec .container::before {
+        height: 570px;
+        right: -17%;
+    }
+    #footer-txt {
+        height: 45px !important;
+    }
+    .home-main-sec .head-ul .main-left .bimg{
+       width:95% ;    }
+    .simg{width: 85%;}
+    .head-text-img{width: 90%;}
+    .coming-image{width: 45%;}
+    .right-shape {
+        right: 5%;
+        top: 22%;
+    }
+
+.home-main-sec .head-text {
+    display: flex;
+    justify-content: center;
+    margin: 0;
 }
 
+}
+
+
 @media (max-width: 1280px) {
+
+    .fantasy-left img {
+        width: 90% !important;
+        padding-bottom: 10px;
+    }
     .col-md-6.poker-left::before {
         left: -25%;
         height: 670px;
     }
     .home-main-sec7 .cthulhu-left{margin-left: 50px;}
     .dragun-main::before {
-        left: -26%;
-        height: 670px;
+        left: -22%;
+        /* height: 670px; */
     }
 
     .text-headimg {
@@ -2807,7 +3046,7 @@ screen and (max-height: 900px) {
 
 
     #arkham-img {
-        width: 100% !important;
+        width: 80% !important;
         margin-right: -85px;
     }
 
@@ -2818,51 +3057,34 @@ screen and (max-height: 900px) {
     .home-main-sec4 .poker-left h1 {
         font-size: 64px;
     }
-    /* .col-md-6.poker-left::before {
-        height: 72vh;
-        width: 40%;
-        background-image: url(/hot.png);
-        content: "";
-        background-size: cover;
-        left: -20%;
-        bottom: -0%;
-        /* top: 5%; 
-        position: absolute;
-    } */
+
 
     .home-main-sec .container::after {
-        /* top: 22%; */
-        width: 53% !important;
+        height: 585px;
         left: -8%;
     }
-    /* .home-main-sec .container::after {
-        top: 5%;
-        width: 629px !important;
-        left: 0%;
-        height: 843px;
-    } */
-    
-    #footer-txt {
-        float: left !important;
-        width: 100% !important;
-        padding: 0px !important;
-        padding-top: 100px !important;
-        height: 100px !important;
-        align-items: center !important;
+    .home-main-sec .container::before {
+        height: 585px;
+        right: -17%;
     }
-    .col-md-12.text-dragun p {
-        width: 75%;
-        /* font-size: 24px; */
-    }
-    
 
+    .col-md-12.text-dragun p {
+        width: 72%;
+        font-size: 18px;
+    }
+    
+    .head-text-img {
+        width: 85%;
+    }
 
 
     .coming-image {
         float: left;
-        width: 50% !important;
+        width: 47% !important;
     }
-
+    #footer-txt {
+        height: 60px !important;
+    }
     #modal-dialogs {
         max-width: 728px !important;
     }
@@ -2937,11 +3159,6 @@ screen and (max-height: 900px) {
         top: 18%;
     }
 
-    /* .close-btn {
-            position: absolute !important;
-            left: 76% !important;
-            margin-top: -90px !important;
-        } */
     .home-main-sec10::after {
 
         left: 11%;
@@ -2995,7 +3212,7 @@ screen and (max-height: 900px) {
     .home-main-sec4 .poker-left h2 {
         line-height: 1.5;
         margin-top: 8px;
-        font-size: 28px;
+        font-size: 26px;
     }
 
     .owl-carousel .owl-item img {
@@ -3024,8 +3241,10 @@ screen and (max-height: 900px) {
 
     .owl-carousel .owl-nav button.owl-next {
 
-        top: 89%;
-    }
+        top: 89%;}
+         
+
+    
 
     .owl-carousel .owl-nav button.owl-next,
     .owl-carousel .owl-nav button.owl-prev {
@@ -3066,7 +3285,7 @@ screen and (max-height: 900px) {
     }
 
     .soon-text h1 {
-        top: 27% !important;
+        top: 28% !important;
         font-size: 55px;
         left: 48.5%;
     }
@@ -3103,6 +3322,7 @@ screen and (max-height: 900px) {
         color: white;
         font-size: 19px;
         line-height: 1.5;
+        width: 100%;
     }
 
     .home-main-sec7 .container {
@@ -3111,7 +3331,7 @@ screen and (max-height: 900px) {
 
     .cthulhu-right .left-shapes {
         top: 38%;
-        left: 7%;
+        left: 0%;
     }
 
     .fantasy-left img {
@@ -3124,10 +3344,12 @@ screen and (max-height: 900px) {
         margin-top: 0px;
     }
 
-    .main-right img {
-
-        margin-top: 0px;
+    
+    .simg {
+        width: 90%;
     }
+    
+    
 
     .right-shape .right-text .rotate2 {
         top: 75%;
@@ -3168,17 +3390,13 @@ screen and (max-height: 900px) {
     }
 
     .col-md-8.fantasy-right h2 {
-        font-size: 23px;
+        font-size: 22px;
         width: 85%;
     }
     .coin-sec .coin-img {
-        /* left: 0%; */
         width: 100%;
-        /* top: 7px; */
     }
     
-    
-
     .col-md-8.cthulhu-left:after {
         content: "";
         width: 21%;
@@ -3187,10 +3405,6 @@ screen and (max-height: 900px) {
         z-index: 1;
     }
 
-    /* .modal.show .modal-dialog { */
-    /* margin-top: 0px !important; */
-    /* min-height: 100vh; */
-    /* } */
     #dungeon-setting {
         justify-content: flex-end
     }
@@ -3206,15 +3420,36 @@ screen and (max-height: 900px) {
         margin-top: 0px;
     }
 
-    .right-shape {
-        right: 0%;
-        top: 14%;
-        width: 307px;
+    /* .left-shape {
+        left: -38%;
+        top: 33%;
+    } */
+    #modal-content1 {
+        margin-top: 100px !important;
     }
 
-    .left-shape {
-        left: -43%;
-        top: 15%;
+    .modal-header {
+        height: 55%;
+    }
+    #modal-content1 {
+        margin-top: 65px !important;
+    }
+
+    #cls-btn {
+        position: absolute !important;
+        left: 149.5% !important;
+        margin-top: 0px !important;
+        top: 12% !important;
+        z-index: 9999;
+        width: 7%;
+    }
+
+    .modal-header {
+        height: 68%;
+    }
+
+    #modal-content1 {
+        margin-left: -50% !important;
     }
 
 }
@@ -3226,8 +3461,7 @@ screen and (max-height: 900px) {
 
 
 
-@media screen and (max-width: 1280px),
-screen and (max-height: 1024px) {
+@media screen and (max-width: 1280px){
     #modal-content1 {
         margin-top: 100px !important;
     }
@@ -3238,8 +3472,7 @@ screen and (max-height: 1024px) {
 
 }
 
-@media screen and (max-width: 1280px),
-screen and (max-height: 800px) {
+@media (max-width: 1280px) {
     #modal-content1 {
         margin-top: 90px !important;
     }
@@ -3254,15 +3487,23 @@ screen and (max-height: 800px) {
     .modal-header {
         height: 68%;
     }
-
-}
-
-
-@media screen and (max-width: 1280px) {
-    .home-main-sec4 .poker-left{
-        padding-left: 100px !important;
+    .carousel-inner {
+        box-shadow: 5px 10px 100px 10px #fff !important;
+        position: fixed !important;
+        top: 5% !important;
+        width: 69% !important;
+        left: 17% !important;
+    }
+    .close-btn1 {
+        position: fixed;
+        top: 5%;
+        left: 86%;
+        z-index: 1;
     }
 }
+
+
+
 
 /* @media screen and (max-width: 1280px),
 screen and (max-height: 1280px) {
@@ -3275,6 +3516,19 @@ screen and (max-height: 1280px) {
 
 
 @media (max-width: 1200px) {
+    .home-main-sec7 .cthulhu-left {
+        margin-left: -30px;
+    }
+    
+    .cthulhu-right img {
+        width: 100%;
+        margin-left: -100px;
+    }    
+    .home-main-sec4 .poker-left h2 {
+        line-height: 1.5;
+        margin-top: 8px;
+        font-size: 23px;
+    }
     .coin-sec .coin-leftright .coim-para {
         font-size: 22px;
         line-height: unset !important;
@@ -3309,13 +3563,13 @@ screen and (max-height: 1280px) {
         top: 30%;
         left: 4.5%;
     }
-
     .cthulhu-right .left-shapes {
         float: left;
         width: 25%;
         height: 206px;
         font-size: 36px;
-        left: 10.5% !important;
+        left: 2.5% !important;
+        top: 39%;
     }
 
     .col-md-12.text-dragun p {
@@ -3334,17 +3588,8 @@ screen and (max-height: 1280px) {
         padding-left: 0px;
     }
 
-    #footer-txt {
-        float: left !important;
-        width: 100% !important;
-        padding: 0px !important;
-        padding-top: 95px !important;
-        height: 100px !important;
-        align-items: center !important;
-    }
-
     .soon-text h1 {
-        top: 30% !important;
+        top: 30% ;
         left: 45.5%;
         font-size: 57px;
     }
@@ -3403,7 +3648,7 @@ screen and (max-height: 1280px) {
     .home-main-sec4 .poker-right {
         width: 30%;
         margin-left: 50px;
-        margin-top: 20px;
+        margin-top: 0px;
     }
 
 
@@ -3454,23 +3699,22 @@ screen and (max-height: 1280px) {
 }
 
 
-@media screen and (max-width: 1280px),
-screen and (max-height: 800px) {
+@media screen and (max-width: 1280px){
     #modal-content1 {
-        margin-top: 65px !important;
+        margin-top: 45px !important;
     }
 
     #cls-btn {
         position: absolute !important;
         left: 149.5% !important;
         margin-top: 0px !important;
-        top: 12% !important;
+        top: 10% !important;
         z-index: 9999;
         width: 7%;
     }
 
     .modal-header {
-        height: 68%;
+        height: 73%;
     }
 
     #modal-content1 {
@@ -3481,67 +3725,65 @@ screen and (max-height: 800px) {
 }
 
 
-@media (max-width: 1350px) {
-    .close-btn1 {
-        position: absolute;
-        top: 4%;
-        left: 80.7%;
-        z-index: 1;
+@media (max-width: 1199px) {
+    .modal-header {
+        height: 80%;
     }
-
-
-    .carousel-inner {
-        box-shadow: 5px 10px 100px 10px #fff !important;
-        position: fixed !important;
-        top: 11.5% !important;
-        width: 63% !important;
-        left: 18.8% !important;
-    }
-
-    #arrow-set {
-        position: fixed;
-        top: 80% !important;
-        left: 22.5% !important;
-    }
-
-    #arrow-right {
-        position: fixed;
-        top: 80%;
-        z-index: 999;
-        left: 73% !important;
-    }
-
     #modal-content1 {
-        margin-top: 75px !important;
-        padding: 10px !important;
+        margin-top: 30px !important;
     }
-
     #cls-btn {
         position: absolute !important;
         left: 149.5% !important;
         margin-top: 0px !important;
-        top: 13% !important;
+        top: 9% !important;
         z-index: 9999;
         width: 7%;
     }
-
-    .modal-header {
-        height: 68%;
+    
+    .col-md-8.fantasy-right h2 {
+        font-size: 20px;
+        width: 100%;
+    }
+    .home-main-sec5 .dragun-main img {
+        width: 87%;
+        margin-left: -10%;
+    }
+    .soon-text h1 {
+        top: 26% ;
+        left: 46.5%;
+        font-size: 57px;
+    }
+    .col-md-12.text-dragun p {
+        width: 69%;
+        font-size: 16px;
+    }
+    li#res-set {
+        margin-left: 0px;
     }
     
-}
-
-
-@media (max-width: 1199px) {
     .col-md-6.poker-left::before {
-        left: -30%;
-        height: 670px;
+        left: -21%;
+        height: 590px;
     }
-    .home-main-sec7 .cthulhu-left{margin-left: 0px;}
+    .home-main-sec4 .poker-right {
+        width: 40%;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .col-md-6.poker-left::before {
+        left: -26%;
+        height: 590px;
+    }
+    /* .home-main-sec7 .cthulhu-left{margin-left: 0px;} */
 
     .home-main-sec .head-ul .main-right::after {
         right: -28%;
 
+    }
+    .home-main-sec4 .poker-left {
+        margin-left: 0px;
+        width: 50%;
     }
 
     .carousel-inner {
@@ -3560,13 +3802,13 @@ screen and (max-height: 800px) {
 
     #arrow-set {
         position: fixed;
-        top: 73% !important;
+        top: 87% !important;
         left: 25.5% !important;
     }
 
     #arrow-right {
         position: fixed;
-        top: 74% !important;
+        top: 87% !important;
         left: 72.5% !important;
     }
 
@@ -3622,35 +3864,69 @@ screen and (max-height: 800px) {
     }
 
 
-
-
-
     .home-main-sec .head-ul .main-left::after {
         left: -37%;
     }
 
     .left-shape {
-        left: -42%;
-        top: 23%;
+        background: url(/rotate-text1199.png) no-repeat;
+             left: -15%;
+        
     }
-
-    /* .coin-sec .coin-leftright .coim-para {
-            width: 95%;}     */
-    .footer-h1-text {
-        font-size: 28px;
-        /* padding-right: 18%; */
+    .right-shape {
+        right: -7%;
+        top: 24%;
+        background: url(/rotate-text11992.png) no-repeat;
+    
     }
+    #footer-txt {
+        height: 47px !important;
+    }
+    
+    .home-main-sec .container::before {
+        height: 585px;
+        right: -21%;
+    }
+    .home-main-sec .head-ul{margin-top: 0px !important;}
 }
 
 @media (max-width: 1024px) {
+    .modal-header {
+        height: 68%;
+    }
+    .col-md-8.cthulhu-left:after {
+        content: "";
+        width: 16%;
+        left: 85%;
+        top: 16%;
+        z-index: 1;
+    }
+    .home-main-sec7 .cthulhu-left {
+        margin-left: 0px;
+    }
+    .col-md-8.fantasy-right h2 {
+        font-size: 19px;
+        width: 100%;
+    }
+    
+
+    .dragun-main::before {
+        left: -31%;
+        /* height: 670px; */
+    }
+    .home-main-sec .container::before {
+        height: 585px;
+        right: -34%;
+    }
     #cls-btn {
         position: absolute !important;
         left: 139.5% !important;
         margin-top: 0px !important;
-        top: 8% !important;
+        top: 12% !important;
         z-index: 9999;
         width: 7%;
     }
+    
 
     .modal-content {
         width: 910px !important;
@@ -3665,14 +3941,13 @@ screen and (max-height: 800px) {
     }
 
     #modal-content1 {
-        margin-top: 25px !important;
+        margin-top: 60px !important;
         z-index: 9999;
     }
 
     #footer-txt {
-        height: 50px !important;
+        height: 75px !important;
     }
-
     .cthulhu-right img {
         width: 100%;
         margin-left: 0px;
@@ -3688,12 +3963,11 @@ screen and (max-height: 800px) {
         width: 100% !important;
         margin-right: -0px;
     }
-
     .col-md-12.text-dragun p {
-        width: 78%;
-        font-size: 16px;
+        width: 71%;
+        font-size: 17px;
     }
-
+    
     li.dragun-upper {
         float: left;
         display: flex;
@@ -3775,8 +4049,8 @@ screen and (max-height: 800px) {
     }
 
     .left-shape {
-        left: -33%;
-        top: 28%;
+        left: -27%;
+        top: 38%;
     }
 
     .soon-text h1 {
@@ -3785,9 +4059,10 @@ screen and (max-height: 800px) {
     }
 
     .right-shape {
-        right: -4%;
+        right: -19%;
         width: 100%;
     }
+    
 
     .main-left .bimg {
         height: 300px;
@@ -3795,7 +4070,7 @@ screen and (max-height: 800px) {
     }
 
     section.home-main-sec5:after {
-        left: 72%;
+        left: 73%;
         z-index: -1;
  
     }
@@ -3803,7 +4078,6 @@ screen and (max-height: 800px) {
 
 
     .main-right .simg {
-        height: 300px;
         margin-left: 45px;
     }
 
@@ -3845,8 +4119,12 @@ screen and (max-height: 800px) {
     }
 
     .home-main-sec5 .dragun-main img {
-        width: 91%;
-        margin-left: -6%;
+        width: 84%;
+        margin-left: 0%;
+    }
+    #dungeon-setting {
+        justify-content: flex-end;
+        margin-left: -70px;
     }
 
     .home-main-sec4 .poker-left h1 {
@@ -3933,10 +4211,9 @@ screen and (max-height: 800px) {
 
     .soon-text h1 {
         top: 33%;
-        left: 43%;
-        font-size: 63px;
+        left: 44%;
+        font-size: 55px;
     }
-
     .home-main-sec5 .dragun-main::after {
         width: 42%;
         top: 17%;
@@ -3952,9 +4229,10 @@ screen and (max-height: 800px) {
     }
 
     .cthulhu-right .left-shapes {
-        top: 30%;
-        left: 8% !important;
+        top: 36%;
+        left: 0% !important;
     }
+    
 
     .cthulhu-right .left-shapes {
         width: 37%;
@@ -4015,10 +4293,24 @@ screen and (max-height: 800px) {
     #arkham-img {
         width: 100% !important;
     }
-
+    #modal-head {
+        width: 100% !important;
+        padding-top: 0px !important;
+        background-size: contain;
+    }
 }
 
 @media (max-width: 992px) {
+
+
+    .home-main-sec5 .dragun-main img {
+        width: 75%;
+        margin-left: 0%;
+    }
+    .dragun-main::before {
+        left: -34%;
+        height: 565px;
+    }
     .col-md-6.poker-left::before {
         left: -43%;
         height: 670px;
@@ -4038,15 +4330,13 @@ screen and (max-height: 800px) {
     .valt-img {
         width: 30% !important;
     }
-
     .carousel-inner {
         box-shadow: 5px 10px 100px 10px #fff !important;
         position: fixed !important;
-        top: 0.3% !important;
-        width: 85% !important;
-        left: 7% !important;
+        top: 5.3% !important;
+        width: 68% !important;
+        left: 14% !important;
     }
-
     .close-btn1 {
         top: 0.3%;
         left: 92%;
@@ -4058,9 +4348,8 @@ screen and (max-height: 800px) {
     }
 
     section.home-main-sec5:after {
-        left: 70%;
+        left: 72%;
     }
-
     #footer-txt {
         float: left !important;
         width: 100% !important;
@@ -4083,7 +4372,7 @@ screen and (max-height: 800px) {
         margin-top: -30px !important;
     } */
     .modal.show .modal-dialog {
-        margin-top: 80px !important;
+        margin-top: 0px !important;
         min-height: 0vh;
     }
 
@@ -4129,20 +4418,11 @@ screen and (max-height: 800px) {
 
     .home-main-sec5 .dragun-main img {
         width: 76%;
-        margin-left: -6%;
+        margin-left: 7%;
     }
 
-    .main-right .simg {
-        height: 264px;
-    }
-
-
-    /* .home-main-sec {
-        height: 59vh !important;
-    } */
 
     .coin-sec {
-
         padding: 6px 0px;
     }
 
@@ -4160,10 +4440,8 @@ screen and (max-height: 800px) {
         left: -26%;
 
     }
-
-    .main-left .bimg {
-        height: 283px;
-
+    .home-main-sec .head-ul .main-left .bimg {
+        width: 100%;
     }
 
     .col-md-8.fantasy-right::after {
@@ -4177,21 +4455,18 @@ screen and (max-height: 800px) {
     }
 
     .col-md-8.fantasy-right h2 {
-        font-size: 16px;
-        width: 91%;
-        line-height: 22px;
+        font-size: 21px;
+        width: 100%;
+        line-height: unset !important;
     }
 
     .fantasy-left img {
-        width: 89%;
-        padding-bottom: 9px;
+        width: 94% !important;
+        padding-bottom: 0px;
+        margin-top: 15px;
     }
 
-    .main-right .simg {
-        height: 283px;
-
-    }
-
+   
     .footer .footer-h1 img {
         height: 38px;
         padding-top: 6px;
@@ -4358,6 +4633,25 @@ screen and (max-height: 800px) {
 
 @media (max-width: 991px) {
     #modal-content1 {
+        margin-top: 0px !important;
+        z-index: 9999;
+    }
+    #cls-btn {
+        position: absolute !important;
+        left: 134.5% !important;
+        margin-top: 0px !important;
+        top: 6% !important;
+        z-index: 10004;
+        width: 7%;
+    }
+    .modal-header {
+        height: 85%;
+    }
+    .col-md-6.poker-left::before {
+        left: -33%;
+        height: 575px;
+    }
+    #modal-content1 {
         margin-left: -44% !important;
     }
 
@@ -4372,24 +4666,23 @@ screen and (max-height: 800px) {
     }
 
     .close-btn1 {
-        top: 9.3%;
-        left: 92%;
+        top: 8.3%;
+        left: 82%;
         width: 5%;
         z-index: 1;
     }
-
     #arrow-right {
         position: fixed;
         width: 7%;
-        top: 79% !important;
-        left: 78.5% !important;
+        top: 88% !important;
+        left: 72% !important;
     }
 
     #arrow-set {
         position: fixed;
-        top: 79% !important;
+        top: 88% !important;
         width: 7%;
-        left: 13% !important;
+        left: 18% !important;
     }
 
     .fantasy-left img {
@@ -4421,9 +4714,9 @@ screen and (max-height: 800px) {
         margin-top: 40px !important;
     }
 
-    .dragun-main::before {
+    /* .dragun-main::before {
     display: none !important;
-    }
+    } */
 
     .home-main-sec4 .poker-left {
         margin-left: 100px;
@@ -4450,7 +4743,7 @@ screen and (max-height: 800px) {
     .home-main-sec4 .poker-left h2 {
         line-height: 27px;
         margin-top: 0px;
-        font-size: 23px;
+        font-size: 20px;
 
     }
 
@@ -4724,7 +5017,7 @@ screen and (max-height: 800px) {
     .home-main-sec .head-text img {
         height: 64px;
         margin-top: 10px;
-        position: absolute;
+        /* position: absolute; */
     }
 
 
@@ -4806,7 +5099,7 @@ screen and (max-height: 800px) {
     }
 
     .main-right .simg {
-        width: 71%;
+        width: 100%;
         margin-top: 65px;
     }
 
@@ -5119,11 +5412,10 @@ screen and (max-height: 800px) {
     }
 
     .col-md-8.fantasy-right h2 {
-        font-size: 14px;
+        font-size: 16px;
         width: 100%;
         line-height: 22px;
     }
-
 
     .col-md-4.fantasy-left {
         display: flex;
@@ -5194,10 +5486,11 @@ screen and (max-height: 800px) {
     }
 
     .right-shape {
-        right: -1%;
-        top: 42%;
+        right: -34%;
+        top: 31%;
+        width: 120%;
     }
-
+    
     #modal-header1 {
         padding: 66px 26px !important;
         padding-left: 70px !important;
@@ -7687,36 +7980,14 @@ screen and (max-height: 800px) {
 }
 
 
-/* @media  (min-width: 480px)  {
 
-    .home-main-sec .head-ul .main-left {
-        list-style: none;
-        width: 20%;
-        display: flex;
-        justify-content: flex-end;
-        position: relative;
-    }
-    .main-left .bimg {
-        height: 100%;
-        margin-top: 24px;
-        width: 100%;
-    }
-    .home-main-sec .head-ul .main-right {
-        list-style: none;
-        width: 20%;
-        display: flex;
-        justify-content: flex-end;
-        position: relative;
-    }
-    .main-right .simg {
-        height: 50%;
-        margin-top: 24px;
-        width: 100%;
-        top: 80% !;
-    }
-    .left-shape {
-        top: 5%;
-        height: 50px;
-        width: 50%;
-    }
-} */
+
+
+
+
+
+
+
+
+
+

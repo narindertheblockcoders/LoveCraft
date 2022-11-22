@@ -17,10 +17,10 @@ const FrontPage = () => {
     <div className='body-type'>
            <section className="home-main-sec">
         <div className="container">
-            <h1 className="head-text"><img src="/lovecraft-text.png" alt=""/></h1>
+            <h1 className="head-text"><img className='head-text-img' src="/lovecraft-text.png" alt=""/></h1>
             <div className="row">
            
-               <ul className="head-ul mb-0" >
+               <ul className="head-ul mt-2 mb-0" >
                    <li className="main-left">
                <div className="left-shape" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                 
