@@ -8160,6 +8160,12 @@ screen and (max-height: 1280px) {
 }
 
 @media (max-width: 370px) {
+    .cthulhu-left h2 {
+        color: white;
+        font-size: 11px;
+        margin-bottom: 10px !important;
+        line-height: 1.5;
+    }
     .home-main-sec4 .poker-right {
         width: 22% !important;
         margin-left: 50px !important;
@@ -8201,7 +8207,7 @@ screen and (max-height: 1280px) {
         position: absolute !important;
         left: 96.5% !important;
         margin-top: 0px !important;
-        top: 6% !important;
+        top: 7% !important;
         width: 5%;
     }
 
@@ -8336,7 +8342,7 @@ screen and (max-height: 1280px) {
 
     .home-main-sec7 {
         padding-top: 0px;
-        height: 52vh !important;
+        height: 56vh !important;
     }
 
 
@@ -8360,8 +8366,8 @@ screen and (max-height: 1280px) {
     .cthulhu-left h1 {
         font-size: 35px;
         margin-top: 20px;
+        margin-bottom: 5px;
     }
-
     .modal-backdrop.show {
         opacity: unset !important;
         height: 0vh;
@@ -8425,7 +8431,7 @@ screen and (max-height: 1280px) {
     
 
     .body-type {
-        height: 54vh !important;
+        height: 56vh !important;
     }
 
 
