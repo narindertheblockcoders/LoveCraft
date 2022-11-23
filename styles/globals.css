@@ -7807,6 +7807,10 @@ screen and (max-height: 1280px) {
         width: 77%;
         margin-left: 77px;
     }
+    #coin-sec, section.home-main-sec4 {
+        width: 85%;
+        margin-left: 40px;
+    }
     section.home-main-sec4 {
         width: 77%;
         margin-left: 77px;
@@ -7844,9 +7848,27 @@ screen and (max-height: 1280px) {
         background-size: contain;
         height: 58%;
     }
+    .col-md-8.fantasy-right h2 {
+        font-size: 11px;
+        width: 100%;
+        line-height: 18px;
+    }
+    .home-main-sec4 .poker-left h2 {
+        line-height: 20px;
+        margin-top: 10px;
+        font-size: 11px;
+    }
+    .home-main-sec4 .poker-left h1 {
+        font-size: 27px;
+        -webkit-text-stroke-width: 0px;
+    }
     
 }
 @media (max-width: 385px) {
+    #coin-sec, section.home-main-sec4 {
+        width: 100%;
+        margin-left: 0px;
+    }
     section.home-main-sec2 {
         width: 0%;
         margin-left: 0px;
