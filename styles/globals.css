@@ -7545,7 +7545,7 @@ screen and (max-height: 1280px) {
 }
 
 @media (max-width: 400px) {
-    .body-type{margin-right: 50px !important;}
+    .body-type{padding-right: 50px !important;}
 
     .home-main-sec .head-ul .main-left .bimg {
         width: 76%;
@@ -7679,6 +7679,7 @@ screen and (max-height: 1280px) {
 
 }
     @media (max-width: 395px) {
+        .body-type{padding-right: 0px !important;}
     .body-type{height: 55vh !important;}
     #coin-sec {
         height: 56vh;
