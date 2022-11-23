@@ -7545,6 +7545,7 @@ screen and (max-height: 1280px) {
 }
 
 @media (max-width: 400px) {
+    .body-type{margin-right: 50px !important;}
 
     .home-main-sec .head-ul .main-left .bimg {
         width: 76%;
@@ -7623,8 +7624,11 @@ screen and (max-height: 1280px) {
     }
 
     #coin-sec {
-        height: 46vh;
-        /* position: fixed; */
+        height: 54vh;
+    }
+    .home-main-sec7 {
+        padding-top: 0;
+        height: 54vh!important;
     }
     .coin-sec .coin-leftright {
         padding-left: unset;
@@ -8432,11 +8436,11 @@ screen and (max-height: 1280px) {
         height: 47vh;
     } */
     .soon-text h1 {
-        top: 28%;
-        left: 48%;
-        font-size: 20px;
+        top: 27%;
+        left: 49%;
+        font-size: 28px;
         -webkit-text-stroke-width: 1px;
-        font-weight: 700;
+        font-weight: bold;
     }
     .cthulhu-left h2 {
         color: white;
