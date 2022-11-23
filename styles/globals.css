@@ -8416,16 +8416,27 @@ screen and (max-height: 1280px) {
         font-size: 10px;
         margin-top: 0px !important;
     }
-
+    .home-main-sec7 {
+        padding-top: 0px;
+        height: 52vh !important;
+    }
+    #coin-sec {
+        height: 52vh;
+    }
+    .col-md-12.text-dragun p {
+        width: 85%;
+        font-size: 10px;
+        margin-left: -30px;
+    }
     /* #coin-sec {
         height: 47vh;
     } */
     .soon-text h1 {
-        top: 27%;
-        left: 49%;
-        font-size: 28px;
+        top: 28%;
+        left: 48%;
+        font-size: 20px;
         -webkit-text-stroke-width: 1px;
-        font-weight: bold;
+        font-weight: 700;
     }
     .cthulhu-left h2 {
         color: white;
