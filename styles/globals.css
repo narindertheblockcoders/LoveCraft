@@ -7710,14 +7710,31 @@ screen and (max-height: 1280px) {
         font-weight: bold;
     }
     .body-type {
-        height: 56vh !important;
+        height: 52vh !important;
     }
     .home-main-sec4 .poker-right {
         width: 24% !important;
         margin-left: 80px !important;
     }
+    .coin-sec .coin-leftright {
+        padding-left: unset;
+        padding: 10px;
+        margin-top: 50px;
+    }
+    #cht-left {
+        margin-top: 50px;
+    }
+    
 }
 @media (max-width: 385px) {
+    #cht-left {
+        margin-top: 0px;
+    }
+    .coin-sec .coin-leftright {
+        padding-left: unset;
+        padding: 10px;
+        margin-top: 0px;
+    }
     .home-main-sec4 .poker-right {
         width: 22% !important;
         margin-left: 80px !important;
@@ -8122,7 +8139,7 @@ screen and (max-height: 1280px) {
         width: 100% !important;
         padding: 0px !important;
         padding-top: 0px !important;
-        height: 10px !important;
+        height: 30px !important;
         align-items: center !important;
     }
 
@@ -8224,10 +8241,9 @@ screen and (max-height: 1280px) {
         top: 86% !important;
         left: 70% !important;
     }
-
     .text-head:before {
         top: 37%;
-        left: 30%;
+        left: 28%;
         background-size: contain;
         height: 65%;
     }
