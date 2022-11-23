@@ -7708,10 +7708,10 @@ screen and (max-height: 1280px) {
 @media (max-width: 390px) {
     .home-main-sec7 {
         padding-top: 0px;
-        height: 59vh !important;
+        height: 53vh !important;
     }
     #coin-sec {
-        height: 59vh;
+        height: 53vh;
         /* position: fixed; */
     }
     .home-main-sec .head-text img {
@@ -7731,14 +7731,14 @@ screen and (max-height: 1280px) {
     }
     #arrow-set {
         position: fixed !important;
-        top: 84% !important;
+        top: 89% !important;
         left: 25% !important;
         width: 5% !important;
     }
 
     #arrow-right {
         position: fixed;
-        top: 84% !important;
+        top: 89% !important;
         left: 71% !important;
         width: 5% !important;
     }
@@ -7771,10 +7771,10 @@ screen and (max-height: 1280px) {
     }
     .home-main-sec7 {
         padding-top: 0px;
-        height: 51vh !important;
+        height: 52vh !important;
     }
     #coin-sec {
-        height: 47vh;
+        height: 52vh;
         /* position: fixed; */
     }
     .text-head::before {
@@ -7784,7 +7784,7 @@ screen and (max-height: 1280px) {
         height: 58%;
     }
     .body-type {
-        height: 52vh !important;
+        height: 53vh !important;
     }
     .soon-text h1 {
         top: 30%;
@@ -7800,7 +7800,7 @@ screen and (max-height: 1280px) {
     }
     .home-main-sec7 {
         padding-top: 0px;
-        height: 47vh !important;
+        height: 52vh !important;
     }
     img.close-btn1 {
         width: 4%;
@@ -8342,7 +8342,7 @@ screen and (max-height: 1280px) {
 
     .home-main-sec7 {
         padding-top: 0px;
-        height: 57vh !important;
+        height: 48vh !important;
     }
 
 
@@ -8375,7 +8375,7 @@ screen and (max-height: 1280px) {
     }
 
     #coin-sec {
-        height: 56vh;
+        height: 48vh;
         /* position: fixed; */
     }
 
@@ -8434,9 +8434,8 @@ screen and (max-height: 1280px) {
         height: 47vh !important;
     } */
     
-
     .body-type {
-        height: 56vh !important;
+        height: 55vh !important;
     }
 
 
