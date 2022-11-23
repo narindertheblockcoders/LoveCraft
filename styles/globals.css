@@ -8190,7 +8190,7 @@ screen and (max-height: 1280px) {
 
     .coming-image {
         width: 40% !important;
-        margin-top: 15px;
+        margin-top: 20px;
     }
 
     h1.head-text {
@@ -8336,7 +8336,7 @@ screen and (max-height: 1280px) {
 
     .home-main-sec7 {
         padding-top: 0px;
-        height: 52vh !important;
+        height: 56vh !important;
     }
 
 
@@ -8369,7 +8369,7 @@ screen and (max-height: 1280px) {
     }
 
     #coin-sec {
-        height: 52vh;
+        height: 56vh;
         /* position: fixed; */
     }
 
@@ -8378,8 +8378,8 @@ screen and (max-height: 1280px) {
     }
 
     .body-type {
-        /* height: 58.5vh !important; */
-        height: 55vh !important;
+        height: 58.5vh !important;
+        /* height: 57vh !important; */
         width: 100%;
     }
 
@@ -8404,7 +8404,7 @@ screen and (max-height: 1280px) {
 
 @media (max-width: 360px) {
     #coin-sec {
-        height: 47vh;
+        height: 52vh;
         /* position: fixed; */
     }
     .soon-text h1 {
@@ -8420,12 +8420,12 @@ screen and (max-height: 1280px) {
     }
     .home-main-sec7 {
         padding-top: 0px;
-        height: 46vh !important;
+        height: 52vh !important;
     }
     
 
     .body-type {
-        height: 51vh !important;
+        height: 54vh !important;
     }
 
 
