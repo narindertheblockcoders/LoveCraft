@@ -7827,6 +7827,24 @@ screen and (max-height: 1280px) {
         width: 77%;
         margin-left: 77px;
     }
+    .soon-text h1 {
+        top: 30%;
+        left: 45.5%;
+        font-size: 26px;
+        -webkit-text-stroke-width: 0!important;
+        font-weight: 700;
+    }
+    .home-main-sec4 .poker-left h1 {
+        font-size: 27px;
+        -webkit-text-stroke-width: 0.4px;
+    }
+    .text-head:before {
+        top: 38%;
+        left: 27%;
+        background-size: contain;
+        height: 58%;
+    }
+    
 }
 @media (max-width: 385px) {
     section.home-main-sec2 {
