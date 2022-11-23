@@ -8342,7 +8342,7 @@ screen and (max-height: 1280px) {
 
     .home-main-sec7 {
         padding-top: 0px;
-        height: 56vh !important;
+        height: 57vh !important;
     }
 
 
@@ -8375,7 +8375,7 @@ screen and (max-height: 1280px) {
     }
 
     #coin-sec {
-        height: 52vh;
+        height: 56vh;
         /* position: fixed; */
     }
 
@@ -8409,10 +8409,9 @@ screen and (max-height: 1280px) {
 }
 
 @media (max-width: 360px) {
-    #coin-sec {
+    /* #coin-sec {
         height: 47vh;
-        /* position: fixed; */
-    }
+    } */
     .soon-text h1 {
         top: 27%;
         left: 49%;
@@ -8420,14 +8419,20 @@ screen and (max-height: 1280px) {
         -webkit-text-stroke-width: 1px;
         font-weight: bold;
     }
+    .cthulhu-left h2 {
+        color: white;
+        font-size: 11px;
+        margin-bottom: 10px !important;
+        line-height: 1.5;
+    }
     #footer-txt {
         padding-top: 0px !important;
         margin-top: -15px;
     }
-    .home-main-sec7 {
+    /* .home-main-sec7 {
         padding-top: 0px;
         height: 47vh !important;
-    }
+    } */
     
 
     .body-type {
