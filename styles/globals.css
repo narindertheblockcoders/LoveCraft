@@ -7735,19 +7735,12 @@ screen and (max-height: 1280px) {
         left: 74% !important;
         width: 5% !important;
     }    
-    #coin-sec {
-        height: 53vh;
-        width: 80%;
-        margin-left: 60px;
-    }
-    
+
 }
 @media (max-width: 390px) {
-    #coin-sec {
-        height: 53vh;
-        width: 100%;
-        margin-left: 0px;
-    }
+
+
+    
     .home-main-sec7 {
         padding-top: 0px;
         height: 53vh !important;
@@ -7806,11 +7799,61 @@ screen and (max-height: 1280px) {
         height: 58vh !important;
     }
     .home-main-sec4 .poker-right {
-        width: 24% !important;
+        width: 22% !important;
         margin-left: 80px !important;
+    }
+    #coin-sec {
+        height: 53vh;
+        width: 77%;
+        margin-left: 77px;
+    }
+    section.home-main-sec4 {
+        width: 77%;
+        margin-left: 77px;
+    }
+    section#same-here {
+        width: 77%;
+        margin-left: 95px;
+    }
+    section.home-main-sec6 {
+        width: 77%;
+        margin-left: 71px;
+    }
+    section.home-main-sec7 {
+        width: 77%;
+        margin-left: 100px;
+    }
+    section.home-main-sec2 {
+        width: 77%;
+        margin-left: 77px;
     }
 }
 @media (max-width: 385px) {
+    section.home-main-sec2 {
+        width: 0%;
+        margin-left: 0px;
+    }
+    section.home-main-sec7 {
+        width: 100%;
+        margin-left: 0px;
+    }
+    section.home-main-sec6 {
+        width: 100%;
+        margin-left: 0px;
+    }
+    section#same-here {
+        width: 100%;
+        margin-left: 0px;
+    }
+    section.home-main-sec4 {
+        width: 100%;
+        margin-left: 0px;
+    }
+    #coin-sec {
+        height: 53vh;
+        width: 100%;
+        margin-left: 0px;
+    }
     .home-main-sec4 .poker-right {
         width: 22% !important;
         margin-left: 80px !important;
