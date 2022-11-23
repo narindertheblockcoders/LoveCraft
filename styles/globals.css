@@ -4,6 +4,7 @@
     font-family: myFirstFont;
     src: url(/ringbearer/Ringbearer\ Medium\ 500.ttf);
 }
+
 @font-face {
     font-family: mySecondFont;
     src: url(/public/EB_Garamond/EBGaramond-VariableFont_wght.ttf);
@@ -24,7 +25,7 @@
     background-color: #000000;
     margin: 0;
     width: 100%;
-    
+
     padding: 0;
     float: left;
 
@@ -151,7 +152,10 @@ section.home-main-sec4 {
     /* position: fixed; */
 
 }
-#coin-page-row{align-items: center;}
+
+#coin-page-row {
+    align-items: center;
+}
 
 section.home-main-sec {
     display: flex;
@@ -332,7 +336,7 @@ header .top-nav .two-shape {
     background-repeat: no-repeat;
     top: unset;
     bottom: 0 !important;
-    z-index:0;
+    z-index: 0;
     left: 0%;
 }
 
@@ -1068,6 +1072,7 @@ img.arrow4 {
 .col-md-4.coin-leftside {
     padding-left: 3%;
 }
+
 .coin-sec .coin-leftright .coim-para {
     width: 92%;
     font-size: 30px;
@@ -1440,7 +1445,7 @@ ul.left-main {
     flex-direction: column;
 }
 
-.col-md-6.poker-left::before{
+.col-md-6.poker-left::before {
     height: 824px;
     width: 619px;
     background-image: url(/hot.png);
@@ -1451,6 +1456,7 @@ ul.left-main {
     /* top: 5%; */
     position: absolute;
 }
+
 .home-main-sec4 .poker-left h1 {
     font-size: 94px;
 
@@ -1672,43 +1678,49 @@ li#res-set {
         left: 6%;
         top: 43%;
     }
+
     .cthulhu-left h2 {
         color: #fff;
         font-size: 28px;
         /* text-transform: uppercase; */
         line-height: 1.5;
     }
+
     .carousel-inner {
         box-shadow: 5px 10px 100px 10px #fff !important;
         position: fixed !important;
         top: 9% !important;
         width: 57% !important;
         left: 22% !important;
-      }
-      #arrow-set {
+    }
+
+    #arrow-set {
         position: fixed;
         top: 87% !important;
         left: 26.5% !important;
-      }
-      #arrow-right {
+    }
+
+    #arrow-right {
         position: fixed;
         top: 87%;
         z-index: 999;
         left: 71.5% !important;
-      }
-      .close-btn1 {
+    }
+
+    .close-btn1 {
         position: absolute;
         top: 7%;
         left: 105.5%;
         z-index: 1;
-      }
-      .coin-sec .coin-leftright .coim-para {
+    }
+
+    .coin-sec .coin-leftright .coim-para {
         width: 92%;
         font-size: 31px;
         /* line-height: 52px !important; */
         letter-spacing: 0.4px !important;
         /* text-transform: uppercase; */
-      }
+    }
 }
 
 @media (max-width: 1900px) {
@@ -1716,21 +1728,27 @@ li#res-set {
         font-size: 31px;
         /* text-transform: uppercase; */
         line-height: 1.5;
-      
+
     }
+
     .dragun-main::before {
         left: -9%;
         height: 870px;
     }
-    .col-md-6.poker-left::before{
+
+    .col-md-6.poker-left::before {
         left: -11%;
         height: 870px;
     }
+
     section.home-main-sec5:after {
         left: 75%;
         height: 870px;
     }
-    .text-head::before {top:38% ;}
+
+    .text-head::before {
+        top: 38%;
+    }
 
     .coin-sec .coin-leftright .coim-para {
         width: 92%;
@@ -1738,12 +1756,15 @@ li#res-set {
         letter-spacing: 0.4px !important;
         /* text-transform: uppercase; */
     }
-    
-    .modal-header{height: 47% ;}
+
+    .modal-header {
+        height: 47%;
+    }
 
     #modal-content1 {
         margin-top: 114px !important;
     }
+
     .cthulhu-right .left-shapes {
         left: 10%;
     }
@@ -1761,12 +1782,14 @@ li#res-set {
         z-index: -1;
         width: 38%;
     }
+
     .cthulhu-left h2 {
         color: #fff;
         font-size: 30px;
         /* text-transform: uppercase; */
         line-height: 1.5;
     }
+
     .cthulhu-right .left-shapes {
         left: 6%;
         top: 43%;
@@ -1782,6 +1805,7 @@ li#res-set {
         z-index: 1;
         top: 0%;
     }
+
     .close-btn1 {
         position: absolute;
         top: 5%;
@@ -1810,18 +1834,24 @@ li#res-set {
         z-index: 999;
         left: 75% !important;
     }
+
     #arkham-img {
         width: 100% !important;
         margin-right: -150px;
     }
+
     .home-main-sec4 .poker-left h2 {
         font-size: 35px;
     }
+
     .home-main-sec4 .poker-left h1 {
         font-size: 70px;
         color: #b1262b;
     }
-    .coming-txt{top: 31% ;}
+
+    .coming-txt {
+        top: 31%;
+    }
 }
 
 
@@ -1832,6 +1862,7 @@ li#res-set {
         left: 101%;
         z-index: 1;
     }
+
     .col-md-8.cthulhu-left:after {
         content: "";
         width: 16%;
@@ -1842,91 +1873,110 @@ li#res-set {
         left: 84%;
         top: 10%;
     }
-    
+
     .cthulhu-left h2 {
         color: #fff;
         font-size: 24px;
         /* text-transform: uppercase; */
         line-height: 1.5;
     }
+
     .cthulhu-right img {
         width: 90%;
         margin-left: 50px;
     }
-    
+
     .cthulhu-right .left-shapes {
         left: 0%;
         top: 43%;
     }
+
     .col-md-8.fantasy-right::after {
         top: 20%;
         left: -7%;
         z-index: -1;
         width: 38%;
     }
+
     .col-md-12.text-dragun p {
         width: 68%;
         /* text-transform: uppercase; */
         text-align: center;
         /* margin-left: -70px; */
     }
+
     .coming-txt {
-        top: 26% ;
+        top: 26%;
         left: 45%;
     }
+
     .dragun-main::before {
         left: -15%;
         height: 770px;
     }
+
     section.home-main-sec5:after {
         left: 75%;
         height: 770px;
     }
+
     #arkham-img {
         width: 90% !important;
         margin-right: -150px;
     }
+
     .col-md-6.poker-left::before {
         left: -18%;
         height: 820px;
     }
+
     .home-main-sec4 .poker-left h2 {
         font-size: 33px;
         width: 94%;
     }
 
-    #footer-txt{height: 100px !important;}
+    #footer-txt {
+        height: 100px !important;
+    }
+
     .home-main-sec .container::after {
         height: 750px;
     }
+
     .home-main-sec .container::before {
         height: 750px;
         right: -9%;
     }
-    }
-    
+}
+
 
 
 @media (max-width: 1566px) {
     .home-main-sec4 .poker-left h2 {
-    
+
         width: 100%;
     }
+
     .dragun-main::before {
         height: 700px;
-    }section.home-main-sec5:after {
+    }
+
+    section.home-main-sec5:after {
         left: 75%;
         height: 700px;
     }
 
-li#res-set {
-    margin-left: 50px;
-}
+    li#res-set {
+        margin-left: 50px;
+    }
 
     .cthulhu-right .left-shapes {
         left: 12%;
     }
-    .home-main-sec4 .poker-left{padding-left: 80px;}
+
+    .home-main-sec4 .poker-left {
+        padding-left: 80px;
+    }
 
     #modal-content1 {
         margin-top: 115px !important;
@@ -2075,7 +2125,7 @@ li#res-set {
         padding-right: 136px;
     }
 
- 
+
 
     .left-shape .left-text .rotate {
         left: 38px;
@@ -2491,7 +2541,7 @@ screen and (max-height: 768px) {
         width: 63% !important;
         left: 19.5% !important;
     }
-    
+
     #arrow-set {
         position: fixed;
         top: 88% !important;
@@ -2523,7 +2573,7 @@ screen and (max-height: 768px) {
         z-index: 1;
         top: 5.5%;
     }
-    
+
 
     .cthulhu-left h2 {
         color: white;
@@ -2597,6 +2647,7 @@ screen and (max-height: 768px) {
         margin-top: 10px;
         font-size: 26px;
     }
+
     .home-main-sec5 .dragun-main::after {
         width: 31%;
         top: 17%;
@@ -2622,6 +2673,7 @@ screen and (max-height: 768px) {
         left: 48%;
         font-size: 50px;
     }
+
     .col-md-8.fantasy-right h2 {
         font-size: 27px;
         width: 100%;
@@ -2690,7 +2742,8 @@ screen and (max-height: 768px) {
     .cthulhu-left h2 {
         color: white;
         font-size: 21px;
-    } 
+    }
+
     .home-main-sec7 {
         padding-top: 0px !important;
     }
@@ -2699,14 +2752,19 @@ screen and (max-height: 768px) {
 
         overflow: scroll;
     }
-    #footer-txt{height: 85px !important;}
-.home-main-sec .container::after {
-    height: 730px;
-}
-.home-main-sec .container::before {
-    height: 720px;
-    right: -9%;
-}
+
+    #footer-txt {
+        height: 85px !important;
+    }
+
+    .home-main-sec .container::after {
+        height: 730px;
+    }
+
+    .home-main-sec .container::before {
+        height: 720px;
+        right: -9%;
+    }
 
 }
 
@@ -2735,12 +2793,14 @@ screen and (max-height: 900px) {
     #modal-content1 {
         margin-top: 120px !important;
     }
+
     .col-md-8.fantasy-right::after {
         top: 20%;
         /* left: -13%; */
         z-index: -1;
         width: 38%;
     }
+
     #cls-btn {
         position: absolute !important;
         left: 152.5% !important;
@@ -2751,9 +2811,10 @@ screen and (max-height: 900px) {
     .modal-header {
         height: 60%;
     }
-    
+
 
 }
+
 @media (max-width: 1440px) {
 
     .carousel-inner {
@@ -2761,36 +2822,42 @@ screen and (max-height: 900px) {
         width: 71% !important;
         left: 15.5% !important;
     }
+
     .close-btn1 {
         left: 86.5%;
         z-index: 1;
         top: 5.5%;
     }
-    
+
     .home-main-sec .container::after {
         height: 750px;
         left: -5%;
     }
+
     .home-main-sec .container::after {
         height: 730px;
     }
+
     .home-main-sec .container::before {
         height: 720px;
         right: -12%;
     }
+
     #footer-txt {
         height: 90px !important;
     }
+
     .col-md-6.poker-left::before {
         left: -21%;
         height: 820px;
     }
+
     #arkham-img {
         width: 90% !important;
         margin-right: -50px;
     }
-    }
-    
+}
+
 @media (max-width: 1350px) {
 
 
@@ -2838,26 +2905,32 @@ screen and (max-height: 900px) {
         top: 16%;
         height: 84vh;
     }
+
     #modal-content1 {
         margin-top: 16px !important;
     }
+
     #cls-btn {
         position: absolute !important;
         left: 152.5% !important;
         margin-top: 0px !important;
         top: 7% !important;
     }
+
     .modal-header {
         height: 74%;
     }
+
     .modal-header {
         height: 80%;
     }
+
     .carousel-inner {
         top: 3% !important;
         width: 62% !important;
         left: 20.4% !important;
     }
+
     .cthulhu-right .left-shapes {
         float: left;
         width: 25%;
@@ -2871,52 +2944,63 @@ screen and (max-height: 900px) {
         width: 85%;
         margin-left: -20px;
     }
+
     .cthulhu-left h1 {
         font-size: 56px;
     }
+
     .cthulhu-left h2 {
         color: white;
         font-size: 17px;
         width: 90%;
         margin-left: -50px !important;
     }
+
     .col-md-8.fantasy-right h2 {
         font-size: 22px;
         width: 100%;
     }
+
     .fantasy-left img {
         width: 80%;
         margin-left: 20px;
     }
+
     .dragun-main::before {
         height: 580px;
         left: -18%;
     }
+
     section.home-main-sec5:after {
         left: 75%;
         height: 580px;
     }
+
     .col-md-12.text-dragun p {
         width: 65%;
         font-size: 20px;
     }
+
     .home-main-sec5 .dragun-main img {
         width: 75%;
     }
-    
+
     .soon-text h1 {
         top: 27%;
         left: 49%;
         font-size: 45px;
     }
+
     .col-md-6.poker-left::before {
         left: -22%;
         height: 600px;
     }
+
     #arkham-img {
         width: 75% !important;
         margin-right: -25px;
     }
+
     .left-main .left1 {
         width: 191px;
         height: 57px;
@@ -2928,8 +3012,10 @@ screen and (max-height: 900px) {
         font-size: 22px;
     }
 
-.footer-h1-text {
-    font-size: 40px;}
+    .footer-h1-text {
+        font-size: 40px;
+    }
+
     .coin-sec .coin-img {
         /* top: -5px;
         left: 15%; */
@@ -2951,7 +3037,7 @@ screen and (max-height: 900px) {
         z-index: 1;
         top: 4%;
     }
-    
+
 
     #arrow-right {
         position: fixed;
@@ -2965,7 +3051,7 @@ screen and (max-height: 900px) {
         left: 23% !important;
     }
 
-   
+
 
     .text-head::before {
         left: 23%;
@@ -2979,33 +3065,47 @@ screen and (max-height: 900px) {
     .home-main-sec2 .text-head h1 {
         font-size: 2.5rem;
     }
+
     .home-main-sec .container::after {
         height: 585px;
         left: -6%;
     }
-    
+
     .home-main-sec .container::before {
         height: 570px;
         right: -17%;
     }
+
     #footer-txt {
         height: 45px !important;
     }
-    .home-main-sec .head-ul .main-left .bimg{
-       width:95% ;    }
-    .simg{width: 85%;}
-    .head-text-img{width: 90%;}
-    .coming-image{width: 45%;}
+
+    .home-main-sec .head-ul .main-left .bimg {
+        width: 95%;
+    }
+
+    .simg {
+        width: 85%;
+    }
+
+    .head-text-img {
+        width: 90%;
+    }
+
+    .coming-image {
+        width: 45%;
+    }
+
     .right-shape {
         right: 5%;
         top: 22%;
     }
 
-.home-main-sec .head-text {
-    display: flex;
-    justify-content: center;
-    margin: 0;
-}
+    .home-main-sec .head-text {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
 
 }
 
@@ -3016,11 +3116,16 @@ screen and (max-height: 900px) {
         width: 90% !important;
         padding-bottom: 10px;
     }
+
     .col-md-6.poker-left::before {
         left: -25%;
         height: 670px;
     }
-    .home-main-sec7 .cthulhu-left{margin-left: 50px;}
+
+    .home-main-sec7 .cthulhu-left {
+        margin-left: 50px;
+    }
+
     .dragun-main::before {
         left: -22%;
         /* height: 670px; */
@@ -3054,6 +3159,7 @@ screen and (max-height: 900px) {
         left: 21%;
         top: 27%;
     }
+
     .home-main-sec4 .poker-left h1 {
         font-size: 64px;
     }
@@ -3063,6 +3169,7 @@ screen and (max-height: 900px) {
         height: 585px;
         left: -8%;
     }
+
     .home-main-sec .container::before {
         height: 585px;
         right: -17%;
@@ -3072,7 +3179,7 @@ screen and (max-height: 900px) {
         width: 72%;
         font-size: 18px;
     }
-    
+
     .head-text-img {
         width: 85%;
     }
@@ -3082,9 +3189,11 @@ screen and (max-height: 900px) {
         float: left;
         width: 47% !important;
     }
+
     #footer-txt {
         height: 60px !important;
     }
+
     #modal-dialogs {
         max-width: 728px !important;
     }
@@ -3241,10 +3350,11 @@ screen and (max-height: 900px) {
 
     .owl-carousel .owl-nav button.owl-next {
 
-        top: 89%;}
-         
+        top: 89%;
+    }
 
-    
+
+
 
     .owl-carousel .owl-nav button.owl-next,
     .owl-carousel .owl-nav button.owl-prev {
@@ -3285,7 +3395,7 @@ screen and (max-height: 900px) {
     }
 
     .soon-text h1 {
-        top: 28% !important;
+        top: 28% ;
         font-size: 55px;
         left: 48.5%;
     }
@@ -3344,12 +3454,12 @@ screen and (max-height: 900px) {
         margin-top: 0px;
     }
 
-    
+
     .simg {
         width: 90%;
     }
-    
-    
+
+
 
     .right-shape .right-text .rotate2 {
         top: 75%;
@@ -3370,6 +3480,7 @@ screen and (max-height: 900px) {
         flex-direction: row;
         margin-top: 0px;
     }
+
     .coin-sec .coin-leftright .coim-para {
         font-size: 24px;
         line-height: unset !important;
@@ -3393,10 +3504,11 @@ screen and (max-height: 900px) {
         font-size: 22px;
         width: 85%;
     }
+
     .coin-sec .coin-img {
         width: 100%;
     }
-    
+
     .col-md-8.cthulhu-left:after {
         content: "";
         width: 21%;
@@ -3431,6 +3543,7 @@ screen and (max-height: 900px) {
     .modal-header {
         height: 55%;
     }
+
     #modal-content1 {
         margin-top: 65px !important;
     }
@@ -3461,7 +3574,7 @@ screen and (max-height: 900px) {
 
 
 
-@media screen and (max-width: 1280px){
+@media screen and (max-width: 1280px) {
     #modal-content1 {
         margin-top: 100px !important;
     }
@@ -3487,6 +3600,7 @@ screen and (max-height: 900px) {
     .modal-header {
         height: 68%;
     }
+
     .carousel-inner {
         box-shadow: 5px 10px 100px 10px #fff !important;
         position: fixed !important;
@@ -3494,6 +3608,7 @@ screen and (max-height: 900px) {
         width: 69% !important;
         left: 17% !important;
     }
+
     .close-btn1 {
         position: fixed;
         top: 5%;
@@ -3519,29 +3634,34 @@ screen and (max-height: 1280px) {
     .home-main-sec7 .cthulhu-left {
         margin-left: -30px;
     }
-    
+
     .cthulhu-right img {
         width: 100%;
         margin-left: -100px;
-    }    
+    }
+
     .home-main-sec4 .poker-left h2 {
         line-height: 1.5;
         margin-top: 8px;
         font-size: 23px;
     }
+
     .coin-sec .coin-leftright .coim-para {
         font-size: 22px;
         line-height: unset !important;
     }
+
     .home-main-sec2 .value-right {
         float: left;
         margin-left: 30px !important;
     }
+
     #arkham-img {
         width: 100% !important;
         margin-right: -150px;
     }
-    .home-main-sec4 .poker-left{
+
+    .home-main-sec4 .poker-left {
         padding-left: 30px !important;
     }
 
@@ -3563,6 +3683,7 @@ screen and (max-height: 1280px) {
         top: 30%;
         left: 4.5%;
     }
+
     .cthulhu-right .left-shapes {
         float: left;
         width: 25%;
@@ -3589,7 +3710,7 @@ screen and (max-height: 1280px) {
     }
 
     .soon-text h1 {
-        top: 30% ;
+        top: 30%;
         left: 45.5%;
         font-size: 57px;
     }
@@ -3654,7 +3775,7 @@ screen and (max-height: 1280px) {
 
 
 
-  
+
     .text-head::before {
         top: 24%;
         left: 10%;
@@ -3699,7 +3820,7 @@ screen and (max-height: 1280px) {
 }
 
 
-@media screen and (max-width: 1280px){
+@media screen and (max-width: 1280px) {
     #modal-content1 {
         margin-top: 45px !important;
     }
@@ -3729,9 +3850,11 @@ screen and (max-height: 1280px) {
     .modal-header {
         height: 80%;
     }
+
     #modal-content1 {
         margin-top: 30px !important;
     }
+
     #cls-btn {
         position: absolute !important;
         left: 149.5% !important;
@@ -3740,47 +3863,55 @@ screen and (max-height: 1280px) {
         z-index: 9999;
         width: 7%;
     }
-    
+
     .col-md-8.fantasy-right h2 {
         font-size: 20px;
         width: 100%;
     }
+
     .home-main-sec5 .dragun-main img {
         width: 87%;
         margin-left: -10%;
     }
+
     .soon-text h1 {
-        top: 26% ;
+        top: 26%;
         left: 46.5%;
         font-size: 57px;
     }
+
     .col-md-12.text-dragun p {
         width: 69%;
         font-size: 16px;
     }
+
     li#res-set {
         margin-left: 0px;
     }
-    
+
     .col-md-6.poker-left::before {
         left: -21%;
         height: 590px;
     }
+
     .home-main-sec4 .poker-right {
         width: 40%;
         margin-left: 0px;
         margin-top: 0px;
     }
+
     .col-md-6.poker-left::before {
         left: -26%;
         height: 590px;
     }
+
     /* .home-main-sec7 .cthulhu-left{margin-left: 0px;} */
 
     .home-main-sec .head-ul .main-right::after {
         right: -28%;
 
     }
+
     .home-main-sec4 .poker-left {
         margin-left: 0px;
         width: 50%;
@@ -3870,30 +4001,36 @@ screen and (max-height: 1280px) {
 
     .left-shape {
         background: url(/rotate-text1199.png) no-repeat;
-             left: -15%;
-        
+        left: -15%;
+
     }
+
     .right-shape {
         right: -7%;
         top: 24%;
         background: url(/rotate-text11992.png) no-repeat;
-    
+
     }
+
     #footer-txt {
         height: 47px !important;
     }
-    
+
     .home-main-sec .container::before {
         height: 585px;
         right: -21%;
     }
-    .home-main-sec .head-ul{margin-top: 0px !important;}
+
+    .home-main-sec .head-ul {
+        margin-top: 0px !important;
+    }
 }
 
 @media (max-width: 1024px) {
     .modal-header {
         height: 68%;
     }
+
     .col-md-8.cthulhu-left:after {
         content: "";
         width: 16%;
@@ -3901,23 +4038,27 @@ screen and (max-height: 1280px) {
         top: 16%;
         z-index: 1;
     }
+
     .home-main-sec7 .cthulhu-left {
         margin-left: 0px;
     }
+
     .col-md-8.fantasy-right h2 {
         font-size: 19px;
         width: 100%;
     }
-    
+
 
     .dragun-main::before {
         left: -31%;
         /* height: 670px; */
     }
+
     .home-main-sec .container::before {
         height: 585px;
         right: -34%;
     }
+
     #cls-btn {
         position: absolute !important;
         left: 139.5% !important;
@@ -3926,7 +4067,7 @@ screen and (max-height: 1280px) {
         z-index: 9999;
         width: 7%;
     }
-    
+
 
     .modal-content {
         width: 910px !important;
@@ -3948,6 +4089,7 @@ screen and (max-height: 1280px) {
     #footer-txt {
         height: 75px !important;
     }
+
     .cthulhu-right img {
         width: 100%;
         margin-left: 0px;
@@ -3963,11 +4105,12 @@ screen and (max-height: 1280px) {
         width: 100% !important;
         margin-right: -0px;
     }
+
     .col-md-12.text-dragun p {
         width: 71%;
         font-size: 17px;
     }
-    
+
     li.dragun-upper {
         float: left;
         display: flex;
@@ -4062,7 +4205,7 @@ screen and (max-height: 1280px) {
         right: -19%;
         width: 100%;
     }
-    
+
 
     .main-left .bimg {
         height: 300px;
@@ -4072,7 +4215,7 @@ screen and (max-height: 1280px) {
     section.home-main-sec5:after {
         left: 73%;
         z-index: -1;
- 
+
     }
 
 
@@ -4122,6 +4265,7 @@ screen and (max-height: 1280px) {
         width: 84%;
         margin-left: 0%;
     }
+
     #dungeon-setting {
         justify-content: flex-end;
         margin-left: -70px;
@@ -4214,6 +4358,7 @@ screen and (max-height: 1280px) {
         left: 44%;
         font-size: 55px;
     }
+
     .home-main-sec5 .dragun-main::after {
         width: 42%;
         top: 17%;
@@ -4232,7 +4377,7 @@ screen and (max-height: 1280px) {
         top: 36%;
         left: 0% !important;
     }
-    
+
 
     .cthulhu-right .left-shapes {
         width: 37%;
@@ -4293,6 +4438,7 @@ screen and (max-height: 1280px) {
     #arkham-img {
         width: 100% !important;
     }
+
     #modal-head {
         width: 100% !important;
         padding-top: 0px !important;
@@ -4307,15 +4453,17 @@ screen and (max-height: 1280px) {
         width: 75%;
         margin-left: 0%;
     }
+
     .dragun-main::before {
         left: -34%;
         height: 565px;
     }
+
     .col-md-6.poker-left::before {
         left: -43%;
         height: 670px;
     }
- 
+
     .cthulhu-right .left-shapes {
         top: 30%;
         left: 7% !important;
@@ -4330,6 +4478,7 @@ screen and (max-height: 1280px) {
     .valt-img {
         width: 30% !important;
     }
+
     .carousel-inner {
         box-shadow: 5px 10px 100px 10px #fff !important;
         position: fixed !important;
@@ -4337,6 +4486,7 @@ screen and (max-height: 1280px) {
         width: 68% !important;
         left: 14% !important;
     }
+
     .close-btn1 {
         top: 0.3%;
         left: 92%;
@@ -4350,6 +4500,7 @@ screen and (max-height: 1280px) {
     section.home-main-sec5:after {
         left: 72%;
     }
+
     #footer-txt {
         float: left !important;
         width: 100% !important;
@@ -4440,6 +4591,7 @@ screen and (max-height: 1280px) {
         left: -26%;
 
     }
+
     .home-main-sec .head-ul .main-left .bimg {
         width: 100%;
     }
@@ -4466,7 +4618,7 @@ screen and (max-height: 1280px) {
         margin-top: 15px;
     }
 
-   
+
     .footer .footer-h1 img {
         height: 38px;
         padding-top: 6px;
@@ -4636,6 +4788,7 @@ screen and (max-height: 1280px) {
         margin-top: 0px !important;
         z-index: 9999;
     }
+
     #cls-btn {
         position: absolute !important;
         left: 134.5% !important;
@@ -4644,13 +4797,16 @@ screen and (max-height: 1280px) {
         z-index: 10004;
         width: 7%;
     }
+
     .modal-header {
         height: 85%;
     }
+
     .col-md-6.poker-left::before {
         left: -33%;
         height: 575px;
     }
+
     #modal-content1 {
         margin-left: -44% !important;
     }
@@ -4671,6 +4827,7 @@ screen and (max-height: 1280px) {
         width: 5%;
         z-index: 1;
     }
+
     #arrow-right {
         position: fixed;
         width: 7%;
@@ -4760,12 +4917,15 @@ screen and (max-height: 1280px) {
         padding: 0px 0 !important;
         text-align: center;
     }
+
     #modal-content1 {
         margin-top: 0px !important;
     }
+
     .modal-content {
         width: 800px !important;
     }
+
     .modal-header {
         height: 56%;
         padding: 0px 0 !important;
@@ -4820,6 +4980,7 @@ screen and (max-height: 1280px) {
         left: -36%;
         height: 670px;
     }
+
     .home-main-sec2 .value-right {
         float: left;
         margin-left: 00px !important;
@@ -4833,9 +4994,11 @@ screen and (max-height: 1280px) {
     #modal-content1 {
         margin-left: -22% !important;
     }
+
     .modal-content {
         width: 715px !important;
     }
+
     .dragun-main::before {
         display: none;
     }
@@ -4848,7 +5011,7 @@ screen and (max-height: 1280px) {
         height: 48%;
     }
 
- 
+
 
     .modal-content {
         margin-left: 0%;
@@ -4899,7 +5062,7 @@ screen and (max-height: 1280px) {
         margin-top: 137px !important;
         z-index: 9999;
     } */
-/* 
+    /* 
     .modal-header {
         height: 33%;
     } */
@@ -5392,7 +5555,7 @@ screen and (max-height: 1280px) {
         width: 30% !important;
     }
 
- 
+
 
 
     .left-main .left1 {
@@ -5475,8 +5638,9 @@ screen and (max-height: 1280px) {
     #arkham-img {
         width: 60% !important;
     }
-    .col-md-6.poker-left::before{
-        display: none ;
+
+    .col-md-6.poker-left::before {
+        display: none;
     }
 
     .cthulhu-left h2 {
@@ -5490,7 +5654,7 @@ screen and (max-height: 1280px) {
         top: 31%;
         width: 120%;
     }
-    
+
     #modal-header1 {
         padding: 66px 26px !important;
         padding-left: 70px !important;
@@ -5599,6 +5763,7 @@ screen and (max-height: 1280px) {
     li#res-set {
         margin-left: 0px;
     }
+
     #arrow-right {
         position: fixed;
         top: 63% !important;
@@ -5620,6 +5785,7 @@ screen and (max-height: 1280px) {
         z-index: 9999;
         width: 7%;
     }
+
     #modal-content1 {
         margin-left: -15% !important;
 
@@ -5838,7 +6004,7 @@ screen and (max-height: 1280px) {
         width: 100%;
     }
 
-  
+
 
     img.close-btn1 {
         width: 3%;
@@ -5887,9 +6053,7 @@ screen and (max-height: 1280px) {
         height: 221px;
     }
 
-    .main-right .simg {
-        height: 221px;
-    }
+
 
     .footer .footer-h1 img {
         margin-bottom: 0px;
@@ -6089,6 +6253,7 @@ screen and (max-height: 1280px) {
         font-size: 40px;
         -webkit-text-stroke-width: 1px;
     }
+
     .soon-text h1 {
         top: 40%;
         left: 37%;
@@ -6142,6 +6307,7 @@ screen and (max-height: 1280px) {
         /* margin-top: 0px; */
         margin-left: 0px !important;
     }
+
     .col-md-8.fantasy-right h2 {
         font-size: 16px;
         width: 100%;
@@ -6351,6 +6517,12 @@ screen and (max-height: 1280px) {
 
     #arkham-img {
         width: 100% !important;
+        margin-top : 0px;
+    }
+    .home-main-sec4 .poker-left {
+        width: 100% !important;
+        margin-top: 20px;
+        margin-left: -0px;
     }
 
     .coming-image {
@@ -6462,7 +6634,6 @@ screen and (max-height: 1280px) {
     }
 
     .main-right .simg {
-        height: 80%;
         margin-top: 24px;
     }
 
@@ -6589,15 +6760,13 @@ screen and (max-height: 1280px) {
     }
 
     .home-main-sec4 .poker-left h1 {
-        font-size: 32px;
+        font-size: 37px;
         -webkit-text-stroke-width: 0.4px;
     }
-
     .home-main-sec4 .poker-right {
-        width: 20% !important;
-        margin-left: 50px !important;
+        width: 22% !important;
+        margin-left: 80px !important;
     }
-
     .footer .footer-h1 img {
         margin-bottom: 0px;
         height: 28px;
@@ -6735,7 +6904,7 @@ screen and (max-height: 1280px) {
 
     .col-md-8.fantasy-right h2 {
         font-size: 13px;
-        width: 98%;
+        width: 100%;
         line-height: 18px;
     }
 
@@ -6984,7 +7153,7 @@ screen and (max-height: 1280px) {
 
     .home-main-sec5 .dragun-main {
         padding-top: 20px;
-        padding-bottom: 20px;
+        padding-bottom: 10px;
     }
 
 
@@ -7014,7 +7183,7 @@ screen and (max-height: 1280px) {
 
     .home-main-sec .head-ul .main-right {
         list-style: none;
-        width: 45% !important;
+        width: 42% !important;
         position: relative;
     }
 
@@ -7208,36 +7377,43 @@ screen and (max-height: 1280px) {
 
 @media (max-width: 414px) {
     .main-right .simg {
-        height: 85%;
         margin-top: 24px;
-        width: 55% !important;
+        width: 50% !important;
+        margin-top: 10px;
+    }
+    
+    .home-main-sec .head-ul .main-left .bimg{
+        margin-top: 10px;
     }
     .modal-header {
-        height: 42%;
+        height: 29%;
         padding: 0px 0 !important;
         text-align: center;
     }
+
     .home-main-sec .head-ul .main-left {
         margin-top: 0px;
         margin-left: 40px;
     }
-   
+
     .main-left .bimg {
         margin-right: -18px;
         width: 80%;
         height: 90%;
     }
+
     .right-shape {
-        right: -11%;
-        top: 31%;
+        right: -7%;
+        top: 30%;
         width: 91%;
     }
+
     #footer-txt {
         float: left !important;
         width: 100% !important;
         padding: 0px !important;
         padding-top: 0px !important;
-        height: 30px !important;
+        height: 15px !important;
         align-items: center !important;
     }
 
@@ -7249,7 +7425,7 @@ screen and (max-height: 1280px) {
         position: absolute !important;
         left: 98.5% !important;
         margin-top: 0px !important;
-        top: 11% !important;
+        top: 6% !important;
         width: 7%;
     }
 
@@ -7260,6 +7436,7 @@ screen and (max-height: 1280px) {
     #cht-left {
         margin-top: 85px;
     }
+
     #res-set {
         justify-content: flex-end !important;
     }
@@ -7279,7 +7456,7 @@ screen and (max-height: 1280px) {
     }
 
 
- 
+
     .home-main-sec4 .poker-left h2 {
         line-height: 20px;
         margin-top: 10px;
@@ -7329,8 +7506,9 @@ screen and (max-height: 1280px) {
 
     .home-main-sec7 {
         padding-top: 0px;
-        height: 53vh !important;
+        height: 46vh !important;
     }
+    
 
     .home-main-sec2 .text-head h1 {
         font-size: 18px;
@@ -7355,57 +7533,69 @@ screen and (max-height: 1280px) {
     .body-type {
         height: 56vh !important;
     }
+
     .carousel-inner {
         top: 8% !important;
         left: 20% !important;
         width: 60% !important;
     }
-    
+
 }
 
 @media (max-width: 400px) {
+
+    .home-main-sec .head-ul .main-left .bimg {
+        width: 76%;
+        height: unset !important;
+    }
     .soon-text h1 {
         top: 30%;
-        left: 49%;
-        font-size: 28px;
+        left: 47%;
+        font-size: 30px;
         -webkit-text-stroke-width: 1px;
         font-weight: bold;
     }
-    
+
     #arrow-set {
         position: fixed !important;
-        top: 78% !important;
+        top: 84% !important;
         left: 25% !important;
         width: 5% !important;
     }
+
     #arrow-right {
         position: fixed;
-        top: 78% !important;
+        top: 84% !important;
         left: 71% !important;
         width: 5% !important;
     }
+
     img.close-btn1 {
         width: 4%;
-        top: 13%;
-        left: 80%;
+        top: 6%;
+        left: 77.5%;
     }
+
     .carousel-inner {
-        top: 13% !important;
-        left: 20% !important;
-        width: 60% !important;
+        top: 6% !important;
+        left: 22.5% !important;
+        width: 55% !important;
     }
+
     #cls-btn {
         position: absolute !important;
         left: 98.5% !important;
         margin-top: 0px !important;
-        top: 7% !important;
+        top: 6% !important;
         width: 7%;
     }
+
     #modal-content1 {
         margin-top: 28px !important;
     }
+
     .modal-header {
-        height: 35%;
+        height: 29%;
         padding: 0px 0 !important;
         text-align: center;
     }
@@ -7424,12 +7614,14 @@ screen and (max-height: 1280px) {
         left: -40% !important;
         /* top: 8% !important; */
     }
+
     .coming-image {
         width: 40% !important;
-        margin-top: -20px;
+        margin-top: 0px;
     }
+
     #coin-sec {
-        height: 54vh;
+        height: 46vh;
         /* position: fixed; */
     }
     .coin-sec .coin-leftright {
@@ -7437,14 +7629,17 @@ screen and (max-height: 1280px) {
         padding: 10px;
         margin-top: 0px;
     }
+
     .popup-footer {
         padding-top: 0px !important;
         padding-left: 0;
     }
+
     li.coin-popup img {
         padding-inline: 13px;
         width: 150%;
     }
+
     .text-headimg {
         float: left;
         width: 100%;
@@ -7454,32 +7649,110 @@ screen and (max-height: 1280px) {
         height: 70px;
         margin-bottom: 0px;
     }
+
     .valt-img {
         width: 30% !important;
         margin-top: 10px;
-    }    
+    }
+
     .text-head::before {
-        top: 43%;
-        left: 25%;
+        top: 40%;
+        left: 33%;
         background-size: contain;
         height: 58%;
     }
+
     #cht-left {
         margin-top: 0px;
     }
-    .left-shape {
-        left: 25%;
-        top: 35%;
-    }
-    
-}
 
+    .left-shape {
+        left: 18%;
+        top: 43%;
+    }
+
+}
+@media (max-width: 390px) {
+    .home-main-sec7 {
+        padding-top: 0px;
+        height: 51vh !important;
+    }
+    #coin-sec {
+        height: 52vh;
+        /* position: fixed; */
+    }
+    .home-main-sec .head-text img {
+        height: unset;
+        margin-top: 0px;
+        width: 45%;
+    }
+    .carousel-inner {
+        top: 6% !important;
+        left: 18% !important;
+        width: 62% !important;
+    }
+    img.close-btn1 {
+        width: 4%;
+        top: 6%;
+        left: 80%;
+    }
+    .text-head::before {
+        top: 38%;
+        left: 30%;
+        background-size: contain;
+        height: 58%;
+    }
+    .soon-text h1 {
+        top: 30%;
+        left: 45%;
+        font-size: 30px;
+        -webkit-text-stroke-width: 0px !important;
+        font-weight: bold;
+    }
+}
+@media (max-width: 385px) {
+    .text-head::before {
+        top: 38%;
+        left: 33%;
+        background-size: contain;
+        height: 58%;
+    }
+    .body-type {
+        height: 47vh !important;
+    }
+    .soon-text h1 {
+        top: 30%;
+        left: 47%;
+        font-size: 30px;
+        -webkit-text-stroke-width: 0px !important;
+        font-weight: bold;
+    }
+    .carousel-inner {
+        top: 6% !important;
+        left: 22.5% !important;
+        width: 55% !important;
+    }
+    .home-main-sec7 {
+        padding-top: 0px;
+        height: 47vh !important;
+    }
+    img.close-btn1 {
+        width: 4%;
+        top: 6%;
+        left: 77.5%;
+    }
+}
 @media (max-width: 375px) {
+
     .coming-image {
         width: 40% !important;
         margin-top: 0px;
     }
-    .body-type{height: 70vh !important;}
+
+    .body-type {
+        height: 70vh !important;
+    }
+
     .popup-footer {
         padding-top: 0px !important;
         padding-left: 0;
@@ -7506,11 +7779,12 @@ screen and (max-height: 1280px) {
         top: 10% !important;
         width: 5%;
     }
-    
+
     #modal-content1 {
         margin-top: 30px !important;
         margin-left: 2% !important;
     }
+
     .modal-header {
         height: 40%;
         padding: 0px 0 !important;
@@ -7523,10 +7797,11 @@ screen and (max-height: 1280px) {
         margin-left: -10% !important;
         padding: 10px !important;
     }
+
     .coin-sec .coin-leftright {
         padding-left: unset;
         padding: 10px;
-        margin-top: 100px;
+        margin-top: 40px;
     }
 
 
@@ -7553,12 +7828,15 @@ screen and (max-height: 1280px) {
     .valt-img {
         margin-top: 0px;
     }
-    .text-headimg{height: 70px !important;}
+
+    .text-headimg {
+        height: 70px !important;
+    }
 
 
     .home-main-sec5 .dragun-main {
         padding-top: 10px;
-        padding-bottom: 2 0px;
+        padding-bottom: 15px;
     }
 
     .cthulhu-left h2 {
@@ -7594,8 +7872,8 @@ screen and (max-height: 1280px) {
     }
 
     .text-head:before {
-        top: 37%;
-        left: 20%;
+        top: 35%;
+        left: 25%;
         background-size: contain;
         height: 65%;
     }
@@ -7615,7 +7893,7 @@ screen and (max-height: 1280px) {
 
 
     .home-main-sec4 .poker-right {
-        width: 20% !important;
+        width: 22% !important;
         margin-left: 50px !important;
     }
 
@@ -7645,30 +7923,50 @@ screen and (max-height: 1280px) {
     }
 
     .main-right .simg {
-        height: 80%;
-        margin-top: 24px;
-        width: 50%;
+        margin-top: 10px;
+        width: 50% !important;
+
     }
+
+    .home-main-sec .head-ul .main-left .bimg {
+        width: 100%;
+        margin-top: 10px;
+        height: 100%;
+    }
+
     .coming-image {
         width: 40% !important;
-        margin-top: 50px;
+        margin-top: 30px;
     }
+
     .home-main-sec .head-ul .main-left:before {
         height: 50vh;
         left: -80% !important;
         /* top: 8% !important; */
     }
-    
+
+    .home-main-sec .head-text img {
+        height: unset;
+        /* margin-top: -19px; */
+        width: 40%;
+    }
+
     .home-main-sec .head-ul .main-right::before {
-        top: 11%;
+        top: -3%;
         left: 50% !important;
         height: 50vh;
     }
-        
+
 
     .left-shape {
-        left: 20%;
-        top: 39%;
+        left: -15%;
+        top: 40%;
+    }
+
+    .home-main-sec .head-ul .main-left:before {
+        height: 50vh;
+        left: -80% !important;
+        top: -8% !important;
     }
 
     .home-main-sec .head-ul .main-right {
@@ -7689,58 +7987,69 @@ screen and (max-height: 1280px) {
     }
 
     #cht-left {
-        margin-top: 100px;
+        margin-top: 52px;
     }
 
- 
+
     .carousel-inner {
         top: 10% !important;
-        left: 12% !important;
-        width: 75% !important;
+        left: 17% !important;
+        width: 65% !important;
     }
 
 
     img.close-btn1 {
         width: 4%;
         top: 10%;
-        left: 87%;
+        left: 82%;
     }
 
     #arrow-set {
-        top: 77% !important;
-        left: 18% !important;
+        top: 82% !important;
+        left: 20% !important;
     }
+
     #arrow-right {
-        top: 77% !important;
-        left: 77% !important;
+        top: 82% !important;
+        left: 74% !important;
     }
+
     .soon-text h1 {
-        top: 32%;
-        left: 46%;
+        top: 30%;
+        left: 45.5%;
         font-size: 25px;
         -webkit-text-stroke-width: 0.5px;
         font-weight: bold;
     }
+    li#res-set {
+        margin-left: 15px;
+    }
     .home-main-sec4 .poker-left {
         width: 50% !important;
         margin-left: 20px;
+        margin-top: 5px;
     }
+
     #arkham-img {
         width: 170% !important;
         margin-top: 0px;
         margin-left: 20px !important;
     }
+
     .home-main-sec4 .poker-left h2 {
         line-height: 20px;
         margin-top: 10px;
         font-size: 14px;
         margin-bottom: 0;
     }
+
     .fantasy-left img {
         width: 100% !important;
         padding-bottom: 0%;
         /* display: none; */
+        margin-top: 0;
     }
+
     .col-md-8.fantasy-right h2 {
         font-size: 12px;
         width: 98%;
@@ -7777,29 +8086,51 @@ screen and (max-height: 1280px) {
         font-size: 18px;
         margin-top: 5px;
     }
+
     h1.head-text {
         margin-top: 10px;
     }
-    
+
 }
 
 @media (max-width: 370px) {
+    .home-main-sec4 .poker-right {
+        width: 20% !important;
+        margin-left: 50px !important;
+    }
+    #footer-txt {
+        float: left !important;
+        width: 100% !important;
+        padding: 0px !important;
+        padding-top: 0px !important;
+        height: 10px !important;
+        align-items: center !important;
+    }
 
     #cht-left {
         margin-top: 74px;
     }
+
     .main-right .simg {
-        height: 80%;
-        margin-top: 24px;
-        width: 50%;
+        height: unset !important;
+        margin-top: 7px;
+        width: 45% !important;
     }
+
+    .home-main-sec .head-ul .main-left .bimg {
+        width: 91%;
+        margin-top: 10px;
+    }
+
     .coming-image {
         width: 40% !important;
-        margin-top: 0px;
+        margin-top: 15px;
     }
+
     h1.head-text {
         margin-top: 15px;
     }
+
     #cls-btn {
         position: absolute !important;
         left: 96.5% !important;
@@ -7807,19 +8138,23 @@ screen and (max-height: 1280px) {
         top: 6% !important;
         width: 5%;
     }
+
     #modal-content1 {
         margin-top: 20px !important;
         margin-left: 2% !important;
     }
+
     .modal-header {
-        height: 33%;
+        height: 31%;
         padding: 0px 0 !important;
         /* text-align: center; */
     }
+
     .modal-header .modal-title {
         font-size: 21px;
         margin-bottom: 0.5rem !important;
     }
+
     .home-main-sec .head-ul .main-left {
         list-style: none;
         width: 30%;
@@ -7828,31 +8163,35 @@ screen and (max-height: 1280px) {
         position: relative;
         margin-left: 50px;
     }
+
     .home-main-sec .head-ul .main-left:before {
         height: 50vh;
         left: -70% !important;
         /* top: 8% !important; */
     }
+
     .carousel-inner {
-        top: 12% !important;
+        top: 7% !important;
         left: 22% !important;
         width: 56% !important;
     }
+
     img.close-btn1 {
         width: 4%;
-        top: 12%;
+        top: 7%;
         left: 78%;
     }
+
     .home-main-sec4 .poker-left {
-        width: 50%!important;
+        width: 50% !important;
         margin-left: 20px;
-        margin-top: 0px !important  ;
+        margin-top: 0px !important;
         font-size: 13px !important;
     }
 
 
     #arrow-set {
-        top: 80% !important;
+        top: 86% !important;
         left: 25% !important;
     }
 
@@ -7863,19 +8202,50 @@ screen and (max-height: 1280px) {
     }
 
     #arrow-right {
-        top: 80% !important;
+        top: 86% !important;
         left: 70% !important;
     }
 
+    .text-head:before {
+        top: 37%;
+        left: 30%;
+        background-size: contain;
+        height: 65%;
+    }
+
+    .col-md-12.text-dragun p {
+        width: 94%;
+        font-size: 12px;
+    }
+
+    .home-main-sec5 .dragun-main img {
+        width: 52%;
+        margin-left: 0%;
+    }
+
+    li#res-set {
+        margin-left: 25px;
+    }
+
+    .home-main-sec5 .dragun-main {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
 
     .soon-text h1 {
-        top: 30%;
-        left: 50%;
+        top: 28%;
+        left: 48%;
         font-size: 30px;
         -webkit-text-stroke-width: 1px;
         font-weight: bold;
     }
 
+    .fantasy-left img {
+        width: 91% !important;
+        padding-bottom: 0%;
+        /* display: none; */
+        margin-top: 0px;
+    }
 
     #footer-txt {
         padding-top: 0px !important;
@@ -7883,16 +8253,21 @@ screen and (max-height: 1280px) {
     }
 
     #cht-left {
-        margin-top: 50px;
+        margin-top: 0px;
     }
+
     .valt-img {
         margin-top: 5px;
     }
+
     .home-main-sec2 .value-right {
         float: left;
         margin-left: 0px !important;
     }
-    .text-headimg{height: 75px !important;}
+
+    .text-headimg {
+        height: 75px !important;
+    }
 
     .home-main-sec7 {
         padding-top: 0px;
@@ -7916,10 +8291,12 @@ screen and (max-height: 1280px) {
         left: 18%;
         width: 72%;
     }
+
     .cthulhu-left h1 {
         font-size: 35px;
         margin-top: 20px;
     }
+
     .modal-backdrop.show {
         opacity: unset !important;
         height: 0vh;
@@ -7940,19 +8317,23 @@ screen and (max-height: 1280px) {
         height: 55vh !important;
         width: 100%;
     }
+
     .home-main-sec .head-ul .main-right:before {
-        left: 62%!important;
+        left: 62% !important;
         top: 1% !important;
     }
+
     .coin-sec .coin-leftright {
         padding: 10px;
         margin-top: 80px;
     }
+
     .coin-sec .coin-leftright {
         padding-left: unset;
         padding: 10px;
-        margin-top: 65px !important;
+        margin-top: 20px !important;
     }
+
 
 }
 
@@ -7961,6 +8342,7 @@ screen and (max-height: 1280px) {
         padding-top: 0px !important;
         margin-top: -31px;
     }
+
     .body-type {
         height: 51vh !important;
     }
@@ -7978,16 +8360,3 @@ screen and (max-height: 1280px) {
     }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
