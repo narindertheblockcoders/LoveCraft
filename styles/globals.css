@@ -7672,6 +7672,18 @@ screen and (max-height: 1280px) {
     }
 
 }
+    @media (max-width: 395px) {
+    .body-type{height: 48vh !important;}
+    #coin-sec {
+        height: 52vh;
+        /* position: fixed; */
+    }
+    .home-main-sec7 {
+        padding-top: 0px;
+        height: 52vh !important;
+    }
+
+}
 @media (max-width: 390px) {
     .home-main-sec7 {
         padding-top: 0px;
@@ -7710,31 +7722,14 @@ screen and (max-height: 1280px) {
         font-weight: bold;
     }
     .body-type {
-        height: 52vh !important;
+        height: 56vh !important;
     }
     .home-main-sec4 .poker-right {
         width: 24% !important;
         margin-left: 80px !important;
     }
-    .coin-sec .coin-leftright {
-        padding-left: unset;
-        padding: 10px;
-        margin-top: 50px;
-    }
-    #cht-left {
-        margin-top: 50px;
-    }
-    
 }
 @media (max-width: 385px) {
-    #cht-left {
-        margin-top: 0px;
-    }
-    .coin-sec .coin-leftright {
-        padding-left: unset;
-        padding: 10px;
-        margin-top: 0px;
-    }
     .home-main-sec4 .poker-right {
         width: 22% !important;
         margin-left: 80px !important;
@@ -8067,10 +8062,10 @@ screen and (max-height: 1280px) {
     }
 
     #arkham-img {
-        width: 170% !important;
         margin-top: 0px;
         margin-left: 20px !important;
     }
+    
 
     .home-main-sec4 .poker-left h2 {
         line-height: 20px;
@@ -8372,26 +8367,33 @@ screen and (max-height: 1280px) {
 
 }
 
-@media (max-width: 350px) {
+@media (max-width: 360px) {
+    #coin-sec {
+        height: 47vh;
+        /* position: fixed; */
+    }
+    .soon-text h1 {
+        top: 27%;
+        left: 49%;
+        font-size: 28px;
+        -webkit-text-stroke-width: 1px;
+        font-weight: bold;
+    }
     #footer-txt {
         padding-top: 0px !important;
-        margin-top: -31px;
+        margin-top: -15px;
     }
+    .home-main-sec7 {
+        padding-top: 0px;
+        height: 46vh !important;
+    }
+    
 
     .body-type {
         height: 51vh !important;
     }
 
 
-    .carousel-inner {
-        top: 12% !important;
-        left: 20% !important;
-        width: 59% !important;
-    }
 
-    img.close-btn1 {
-        top: 12%;
-        left: 79%;
-    }
 
 }
