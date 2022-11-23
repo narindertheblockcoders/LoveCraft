@@ -7001,7 +7001,7 @@ screen and (max-height: 1280px) {
     .coin-sec .coin-leftright .coim-para {
         font-size: 11px;
         width: 85%;
-        margin-left: 0px;
+        margin-left: 50px;
     }
 
     .coin-sec .coin-leftright {
@@ -7549,7 +7549,13 @@ screen and (max-height: 1280px) {
 }
 
 @media (max-width: 400px) {
-    .body-type{margin-left: -50px !important;}
+    .cthulhu-left h2 {
+        color: white;
+        font-size: 10px;
+        line-height: 1.5;
+        width: 85%;
+    }
+    .body-type{margin-left: 0px !important;}
 
     .home-main-sec .head-ul .main-left .bimg {
         width: 76%;
@@ -7631,7 +7637,7 @@ screen and (max-height: 1280px) {
         -webkit-text-stroke-width: 1px !important;
     }
     #coin-sec {
-        height: 60vh;
+        height: 62vh;
     }
     .home-main-sec7 {
         padding-top: 0;
@@ -7686,10 +7692,16 @@ screen and (max-height: 1280px) {
 
 }
     @media (max-width: 395px) {
+        .cthulhu-left h2 {
+            color: white;
+            font-size: 11px;
+            line-height: 1.5;
+            width: 85%;
+        }
         .coin-sec .coin-leftright .coim-para {
             font-size: 11px;
-            width: 85%;
-            margin-left: 50px;
+            width: 78%;
+            margin-left: 78px;
         }
         .body-type{margin-left: 0px !important;}
     .body-type{height: 55vh !important;}
@@ -7723,8 +7735,19 @@ screen and (max-height: 1280px) {
         left: 74% !important;
         width: 5% !important;
     }    
+    #coin-sec {
+        height: 53vh;
+        width: 80%;
+        margin-left: 60px;
+    }
+    
 }
 @media (max-width: 390px) {
+    #coin-sec {
+        height: 53vh;
+        width: 100%;
+        margin-left: 0px;
+    }
     .home-main-sec7 {
         padding-top: 0px;
         height: 53vh !important;
@@ -7780,7 +7803,7 @@ screen and (max-height: 1280px) {
         font-weight: bold;
     }
     .body-type {
-        height: 56vh !important;
+        height: 58vh !important;
     }
     .home-main-sec4 .poker-right {
         width: 24% !important;
