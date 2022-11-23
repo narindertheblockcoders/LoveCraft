@@ -8201,7 +8201,7 @@ screen and (max-height: 1280px) {
         position: absolute !important;
         left: 96.5% !important;
         margin-top: 0px !important;
-        top: 7% !important;
+        top: 6% !important;
         width: 5%;
     }
 
@@ -8235,15 +8235,17 @@ screen and (max-height: 1280px) {
         left: -70% !important;
         /* top: 8% !important; */
     }
+
     .carousel-inner {
-        top: 7%!important;
-        left: 14.5%!important;
-        width: 70%!important;
+        top: 7% !important;
+        left: 22% !important;
+        width: 56% !important;
     }
+
     img.close-btn1 {
         width: 4%;
         top: 7%;
-        left: 84.5%;
+        left: 78%;
     }
 
     .home-main-sec4 .poker-left {
@@ -8255,9 +8257,10 @@ screen and (max-height: 1280px) {
 
 
     #arrow-set {
-        top: 86%!important;
-        left: 17%!important;
+        top: 86% !important;
+        left: 25% !important;
     }
+
     .modal {
         height: 47vh !important;
         /* overflow-y: scroll !important; */
@@ -8265,8 +8268,8 @@ screen and (max-height: 1280px) {
     }
 
     #arrow-right {
-        top: 86%!important;
-        left: 77%!important;
+        top: 86% !important;
+        left: 70% !important;
     }
     .text-head:before {
         top: 37%;
@@ -8333,7 +8336,7 @@ screen and (max-height: 1280px) {
 
     .home-main-sec7 {
         padding-top: 0px;
-        height: 57vh !important;
+        height: 52vh !important;
     }
 
 
@@ -8357,8 +8360,8 @@ screen and (max-height: 1280px) {
     .cthulhu-left h1 {
         font-size: 35px;
         margin-top: 20px;
-        margin-bottom: 5px;
     }
+
     .modal-backdrop.show {
         opacity: unset !important;
         height: 0vh;
@@ -8366,7 +8369,7 @@ screen and (max-height: 1280px) {
     }
 
     #coin-sec {
-        height: 57vh;
+        height: 52vh;
         /* position: fixed; */
     }
 
@@ -8401,7 +8404,7 @@ screen and (max-height: 1280px) {
 
 @media (max-width: 360px) {
     #coin-sec {
-        height: 52vh;
+        height: 47vh;
         /* position: fixed; */
     }
     .soon-text h1 {
@@ -8417,12 +8420,12 @@ screen and (max-height: 1280px) {
     }
     .home-main-sec7 {
         padding-top: 0px;
-        height: 52vh !important;
+        height: 47vh !important;
     }
     
 
     .body-type {
-        height: 56vh !important;
+        height: 54vh !important;
     }
 
 
