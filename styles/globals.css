@@ -7675,10 +7675,10 @@ screen and (max-height: 1280px) {
 @media (max-width: 390px) {
     .home-main-sec7 {
         padding-top: 0px;
-        height: 51vh !important;
+        height: 59vh !important;
     }
     #coin-sec {
-        height: 52vh;
+        height: 59vh;
         /* position: fixed; */
     }
     .home-main-sec .head-text img {
@@ -7709,8 +7709,27 @@ screen and (max-height: 1280px) {
         -webkit-text-stroke-width: 0px !important;
         font-weight: bold;
     }
+    .body-type {
+        height: 56vh !important;
+    }
+    .home-main-sec4 .poker-right {
+        width: 24% !important;
+        margin-left: 80px !important;
+    }
 }
 @media (max-width: 385px) {
+    .home-main-sec4 .poker-right {
+        width: 22% !important;
+        margin-left: 80px !important;
+    }
+    .home-main-sec7 {
+        padding-top: 0px;
+        height: 51vh !important;
+    }
+    #coin-sec {
+        height: 47vh;
+        /* position: fixed; */
+    }
     .text-head::before {
         top: 38%;
         left: 33%;
@@ -7718,7 +7737,7 @@ screen and (max-height: 1280px) {
         height: 58%;
     }
     .body-type {
-        height: 47vh !important;
+        height: 52vh !important;
     }
     .soon-text h1 {
         top: 30%;
@@ -8095,7 +8114,7 @@ screen and (max-height: 1280px) {
 
 @media (max-width: 370px) {
     .home-main-sec4 .poker-right {
-        width: 20% !important;
+        width: 22% !important;
         margin-left: 50px !important;
     }
     #footer-txt {
@@ -8234,8 +8253,8 @@ screen and (max-height: 1280px) {
 
     .soon-text h1 {
         top: 28%;
-        left: 48%;
-        font-size: 30px;
+        left: 47%;
+        font-size: 28px;
         -webkit-text-stroke-width: 1px;
         font-weight: bold;
     }
@@ -8271,7 +8290,7 @@ screen and (max-height: 1280px) {
 
     .home-main-sec7 {
         padding-top: 0px;
-        height: 45vh !important;
+        height: 52vh !important;
     }
 
 
@@ -8304,7 +8323,7 @@ screen and (max-height: 1280px) {
     }
 
     #coin-sec {
-        height: 47vh;
+        height: 52vh;
         /* position: fixed; */
     }
 
