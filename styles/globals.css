@@ -8356,7 +8356,7 @@ screen and (max-height: 1280px) {
     }
 
     .coin-sec .coin-leftright .coim-para {
-        font-size: 13px;
+        font-size: 11px;
         margin-top: 0px !important;
     }
 
@@ -8412,6 +8412,11 @@ screen and (max-height: 1280px) {
 }
 
 @media (max-width: 360px) {
+    .coin-sec .coin-leftright .coim-para {
+        font-size: 10px;
+        margin-top: 0px !important;
+    }
+
     /* #coin-sec {
         height: 47vh;
     } */
@@ -8424,7 +8429,7 @@ screen and (max-height: 1280px) {
     }
     .cthulhu-left h2 {
         color: white;
-        font-size: 11px;
+        font-size: 10px;
         margin-bottom: 10px !important;
         line-height: 1.5;
     }
