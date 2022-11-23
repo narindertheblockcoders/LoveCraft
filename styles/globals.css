@@ -7001,7 +7001,7 @@ screen and (max-height: 1280px) {
     .coin-sec .coin-leftright .coim-para {
         font-size: 11px;
         width: 85%;
-        margin-left: 50px;
+        margin-left: 0px;
     }
 
     .coin-sec .coin-leftright {
@@ -7167,7 +7167,11 @@ screen and (max-height: 1280px) {
 
 @media (max-width: 450px) {
 
-
+    .cthulhu-left h1 {
+        font-size: 37px;
+        margin-bottom: 5px;
+        -webkit-text-stroke-width: 1px!important;
+    }
     .home-main-sec2 .value-right {
         float: left;
         margin-left: 10px !important;
@@ -7622,9 +7626,12 @@ screen and (max-height: 1280px) {
         width: 40% !important;
         margin-top: 0px;
     }
-
+    .cthulhu-left h1 {
+        font-size: 30px;
+        -webkit-text-stroke-width: 1px !important;
+    }
     #coin-sec {
-        height: 54vh;
+        height: 60vh;
     }
     .home-main-sec7 {
         padding-top: 0;
@@ -7679,6 +7686,11 @@ screen and (max-height: 1280px) {
 
 }
     @media (max-width: 395px) {
+        .coin-sec .coin-leftright .coim-para {
+            font-size: 11px;
+            width: 85%;
+            margin-left: 50px;
+        }
         .body-type{margin-left: 0px !important;}
     .body-type{height: 55vh !important;}
     #coin-sec {
