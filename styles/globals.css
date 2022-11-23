@@ -7771,10 +7771,10 @@ screen and (max-height: 1280px) {
     }
     .home-main-sec7 {
         padding-top: 0px;
-        height: 52vh !important;
+        height: 48vh !important;
     }
     #coin-sec {
-        height: 52vh;
+        height: 48vh;
         /* position: fixed; */
     }
     .text-head::before {
@@ -7798,10 +7798,7 @@ screen and (max-height: 1280px) {
         left: 22.5% !important;
         width: 55% !important;
     }
-    .home-main-sec7 {
-        padding-top: 0px;
-        height: 52vh !important;
-    }
+
     img.close-btn1 {
         width: 4%;
         top: 6%;
