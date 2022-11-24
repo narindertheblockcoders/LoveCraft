@@ -8681,10 +8681,10 @@ screen and (max-height: 1280px) {
     }
     .home-main-sec7 {
         padding-top: 0px;
-        height: 52vh !important;
+        height: 51vh !important;
     }
     #coin-sec {
-        height: 52vh;
+        height: 51vh;
     }
     .col-md-12.text-dragun p {
         width: 85%;
@@ -8697,13 +8697,13 @@ screen and (max-height: 1280px) {
     .soon-text h1 {
         top: 30%;
         left: 49%;
-        font-size: 22px;
+        font-size: 24px;
         -webkit-text-stroke-width: 1px;
         font-weight: bold;
     }
     .cthulhu-left h2 {
         color: white;
-        font-size: 10px;
+        font-size: 11px;
         margin-bottom: 10px !important;
         line-height: 1.5;
     }
