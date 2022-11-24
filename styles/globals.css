@@ -7895,8 +7895,75 @@ screen and (max-height: 1280px) {
         top: 5%;
         left: 58% !important;
     }
+    .carousel-inner {
+        top: 6% !important;
+        left: 12% !important;
+        width: 62% !important;
+    }
+    img.close-btn1 {
+        width: 4%;
+        top: 6%;
+        left: 74%;
+    }
+    #arrow-set {
+        position: fixed !important;
+        top: 89% !important;
+        left: 15% !important;
+        width: 5% !important;
+    }
+    #arrow-right {
+        position: fixed;
+        top: 89% !important;
+        left: 66% !important;
+        width: 5% !important;
+    }
+    #modal-content1 {
+        margin-top: 50px !important;
+        margin-left: -10% !important;
+    }
+    #cls-btn {
+        position: absolute !important;
+        left: 89.5% !important;
+        margin-top: 0px !important;
+        top: 7% !important;
+        width: 7%;
+    }
 }
 @media (max-width: 385px) {
+    #cls-btn {
+    position: absolute !important;
+    left: 98.5% !important;
+    margin-top: 0px !important;
+    top: 6% !important;
+    width: 7%;
+}
+    #modal-content1 {
+        margin-top: 28px !important;
+        margin-left: -1% !important;
+    }
+    
+    #arrow-right {
+        position: fixed;
+        top: 89% !important;
+        left: 71% !important;
+        width: 5% !important;
+    }
+    #arrow-set {
+        position: fixed !important;
+        top: 89% !important;
+        left: 25% !important;
+        width: 5% !important;
+    }
+    img.close-btn1 {
+        width: 4%;
+        top: 6%;
+        left: 80%;
+    }
+    .carousel-inner {
+        top: 6% !important;
+        left: 18% !important;
+        width: 62% !important;
+    }
     .home-main-sec .head-ul .main-right::before {
         top: 14%;
         left: 53% !important;
