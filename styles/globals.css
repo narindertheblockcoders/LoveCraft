@@ -8665,7 +8665,12 @@ screen and (max-height: 1280px) {
         margin-top: 20px !important;
     }
 
-
+    .cthulhu-left h2 {
+        color: white;
+        font-size: 13px;
+        margin-bottom: 10px !important;
+        line-height: 1.5;
+    }
 }
 
 @media (max-width: 360px) {
