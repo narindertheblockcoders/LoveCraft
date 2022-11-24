@@ -7928,6 +7928,12 @@ screen and (max-height: 1280px) {
         top: 7% !important;
         width: 7%;
     }
+    .cthulhu-left h2 {
+        color: white;
+        font-size: 12px;
+        line-height: 1.5;
+        width: 85%;
+    }
 }
 @media (max-width: 385px) {
     #cls-btn {
