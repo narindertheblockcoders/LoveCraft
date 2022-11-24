@@ -7551,7 +7551,7 @@ screen and (max-height: 1280px) {
 @media (max-width: 400px) {
     .cthulhu-left h2 {
         color: white;
-        font-size: 9px;
+        font-size: 5px;
         line-height: 1.5;
         width: 85%;
     }
