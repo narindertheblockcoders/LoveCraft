@@ -25,6 +25,11 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
+    "/dungeonrun": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/dungeonrun.js"
+    ],
     "/realchathulu": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
