@@ -8468,7 +8468,7 @@ screen and (max-height: 1280px) {
         position: absolute !important;
         left: 96.5% !important;
         margin-top: 0px !important;
-        top: 7% !important;
+        top: 6% !important;
         width: 5%;
     }
 
@@ -8636,7 +8636,7 @@ screen and (max-height: 1280px) {
     }
 
     #coin-sec {
-        height: 48vh;
+        height: 47vh;
         /* position: fixed; */
     }
 
@@ -8695,9 +8695,9 @@ screen and (max-height: 1280px) {
         height: 47vh;
     } */
     .soon-text h1 {
-        top: 27%;
+        top: 30%;
         left: 49%;
-        font-size: 28px;
+        font-size: 22px;
         -webkit-text-stroke-width: 1px;
         font-weight: bold;
     }
@@ -8717,10 +8717,22 @@ screen and (max-height: 1280px) {
     } */
     
     .body-type {
-        height: 55vh !important;
+        height: 56vh !important;
+    }
+    .col-md-8.fantasy-right h2 {
+        font-size: 11px;
+        width: 98%;
+        line-height: 18px;
     }
 
-
-
-
+    .home-main-sec4 .poker-left h2 {
+        line-height: 20px;
+        margin-top: 10px;
+        font-size: 1;
+        margin-bottom: 0;
+    }
+    .coming-image {
+        width: 40% !important;
+        margin-top: 30px;
+    }
 }
