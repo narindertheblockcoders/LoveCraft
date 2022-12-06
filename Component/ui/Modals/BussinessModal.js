@@ -2,7 +2,7 @@ import React from "react";
 
 const BussinessModal = () => {
   return (
-    <div>
+    <div className="bussiness-modal-header">
       <div
         className="modal fade"
         id="staticBackdrop"
@@ -12,13 +12,14 @@ const BussinessModal = () => {
         aria-labelledby="staticBackdropLabel"
         aria-hidden="true"
       >
-        <div className="modal-dialog modal-margin">
+        <div className="modal-dialog modal-margin  modal-dialog-centered" id="modal-dialog">
           <div className="modal-content content-modal">
             <button
               type="button"
               className="btn"
               data-bs-dismiss="modal"
               aria-label="#"
+              id="business-close-btn"
             >
               <img className="close-btn1" src="/popup-btn.png" alt="" />
             </button>
