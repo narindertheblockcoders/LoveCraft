@@ -2273,7 +2273,7 @@ align-items: flex-start;
     }
 
     .modal-content {
-        margin-left: -30%;
+        margin-left: 7% !important;
         top: 8%;
     }
 
