@@ -3024,7 +3024,7 @@ screen and (max-height: 900px) {
 
     .col-md-6.poker-left::before {
         left: -21%;
-        height: 780px;
+        /* height: 780px; */
       }
       .home-main-sec4 .poker-left {
         padding-left: 100px;
@@ -3430,7 +3430,7 @@ screen and (max-height: 900px) {
         top: 33%;
     } */
     #modal-content1 {
-        margin-top: 100px !important;
+        margin-top: 0px !important;
     }
 
     .modal-header {
@@ -3487,7 +3487,7 @@ screen and (max-height: 900px) {
         position: absolute !important;
         left: 152.5% !important;
         margin-top: 0px !important;
-        top: 15% !important;
+        top: 4% !important;
     }
 
     .modal-header {
