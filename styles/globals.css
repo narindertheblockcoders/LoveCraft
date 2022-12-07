@@ -8071,7 +8071,7 @@ screen and (max-height: 1280px) {
     }
     .modal-content {
         width: 475px !important;
-        margin-left: 0% !important;
+        margin-left: 5% !important;
         padding: 10px !important;
     }
     .home-main-sec .head-ul .main-right:before {
