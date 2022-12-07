@@ -7906,10 +7906,10 @@ screen and (max-height: 1280px) {
         width: 5%;
     }
 
-    #modal-content1 {
+    /* #modal-content1 {
         margin-top: 20px !important;
         margin-left: 2% !important;
-    }
+    } */
 
     .modal-header {
         height: 31%;
@@ -8062,11 +8062,18 @@ screen and (max-height: 1280px) {
     }
 
     .body-type {
-        height: 58.5vh !important;
+        height: 48.5vh !important;
         /* height: 57vh !important; */
         width: 100%;
     }
-
+    .modal-header1 {
+        height: 74vh !important;
+    }
+    .modal-content {
+        width: 475px !important;
+        margin-left: 0% !important;
+        padding: 10px !important;
+    }
     .home-main-sec .head-ul .main-right:before {
         left: 62% !important;
         top: 1% !important;
