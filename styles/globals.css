@@ -3469,18 +3469,18 @@ screen and (max-height: 900px) {
 
 @media screen and (max-width: 1280px) {
     #modal-content1 {
-        margin-top: 100px !important;
+        margin-top: 0px !important;
     }
 
     .modal-header {
-        height: 55%;
+        height: 80%;
     }
 
 }
 
 @media (max-width: 1280px) {
     #modal-content1 {
-        margin-top: 90px !important;
+        margin-top: 0px !important;
     }
 
     #cls-btn {
@@ -3491,7 +3491,7 @@ screen and (max-height: 900px) {
     }
 
     .modal-header {
-        height: 68%;
+        height: 80%;
     }
 
 
