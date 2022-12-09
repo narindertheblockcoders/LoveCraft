@@ -6144,7 +6144,9 @@ screen and (max-height: 1280px) {
 
 
 @media (max-width: 480px) {
-
+    #business-close-btn {
+        margin-top: 0%;
+    }
     .modal-header1{justify-content: flex-start !important;}
     .modal-header {
         height: 42%;
@@ -6562,6 +6564,7 @@ screen and (max-height: 1280px) {
 
     .home-main-sec2 .text-head h1 {
         font-size: 16px;
+        color: black !important;
     }
 
     .text-center1 {
@@ -6962,8 +6965,13 @@ screen and (max-height: 1280px) {
 
     .modal-header .poppu-para {
         font-size: 13px;
+        color: black !important;
         text-align: center;
     }
+    .poppu-para {
+        color: black !important;
+    }
+
 
     .popup-footer {
         padding-top: 0px !important;
