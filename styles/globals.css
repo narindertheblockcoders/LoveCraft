@@ -6144,8 +6144,11 @@ screen and (max-height: 1280px) {
 
 
 @media (max-width: 480px) {
+    img.close-btn1 {
+        width: 100% !important;
+    }
     #business-close-btn {
-        margin-top: 0%;
+        margin-top: 1%;
     }
     .modal-header1{justify-content: flex-start !important;}
     .modal-header {
