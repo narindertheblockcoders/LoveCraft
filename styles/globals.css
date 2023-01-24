@@ -6138,7 +6138,7 @@ screen and (max-height: 1280px) {
 
     .text-footer {
         font-size: 18px;
-        text-align: center;
+        text-align: center !important;
     }
 }
 
