@@ -779,6 +779,7 @@ div#slider-nd {
 .modal-header .poppu-para {
     font-size: 29px;
     text-align: center;
+    color: black !important;
 }
 
 .popup-footer {
@@ -1318,6 +1319,7 @@ div#ss-2 {
 .text-editor {
     text-align: right !important;
     padding-right: 80px;
+    color: black !important;
 
 }
 
@@ -2299,6 +2301,7 @@ li#res-set {
 
     .home-main-sec2 .text-head h1 {
         font-size: 20px;
+        color: black !important;
     }
 
     .owl-carousel .owl-item img {
