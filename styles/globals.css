@@ -4677,6 +4677,7 @@ screen and (max-height: 1280px) {
 
 
 @media (max-width: 991px) {
+   
     #modal-content1 {
         margin-top: 0px !important;
         z-index: 9999;
@@ -4794,7 +4795,52 @@ screen and (max-height: 1280px) {
 
 
 @media (max-width: 950px) {
-
+    .modal.show .modal-header{
+        padding-bottom: 50px !important;
+    }
+    .home-main-sec5 .dragun-main img {
+        width: 50% !important;
+        margin-left: 0%;
+        height: 100% !important;
+    }
+    li#res-set {
+        margin-left: 0px;
+        height: 100% !important;
+        width: 30% !important;
+        justify-content: center;
+        margin-top: 0px !important
+    }
+    #dungeon-setting{
+        margin-top: 0px !important;
+    }
+    .body-type {
+        position: fixed;
+        width: 100vh;
+        height: 100vw;
+    }
+    .home-main-sec .container::before {
+        left: unset !important;
+        float: right;
+        width: 30% !important;
+        bottom: 0 !important;
+        top: 0;
+        right: 0% !important;
+        height: 100% !important;
+        background-size: contain !important;
+        background-position: right bottom !important;
+        display: block !important;
+    }
+    .home-main-sec .container::after {
+        left: 0;
+        width:30%;
+        bottom: 0 !important;
+        top: 0 !important;
+        right: 0;
+        height: 100%;
+        background-size: contain;
+        background-position: left bottom !important;
+        display: block;
+    }
     #business-close-btn {
         margin-top: 5.5%;
     }
@@ -5340,11 +5386,6 @@ screen and (max-height: 1280px) {
         width: 42%;
         top: 17%;
         left: 59%;
-    }
-
-    .home-main-sec5 .dragun-main img {
-        width: 90%;
-        margin-left: 0%;
     }
 
     .soon-text h1 {
@@ -6068,11 +6109,6 @@ screen and (max-height: 1280px) {
         line-height: 25px;
     }
 
-    .home-main-sec5 .dragun-main img {
-        width: 95%;
-        margin-left: 0%;
-    }
-
     .col-md-12.text-dragun p {
         width: 100%;
         font-size: 13px;
@@ -6118,21 +6154,11 @@ screen and (max-height: 1280px) {
 
     .fantasy-left img {
         width: 100%;
-        padding-bottom: 9%;
+        padding-bottom:0px;
     }
-
     .fantasy-right h1 {
         font-size: 32px;
         /* -webkit-text-stroke-width: 1px; */
-    }
-
-    .home-main-sec .container::after {
-        left: -28%;
-    }
-
-    .home-main-sec .container::before {
-
-        left: 51%;
     }
 
     #modal-header1 {
@@ -6355,6 +6381,8 @@ screen and (max-height: 1280px) {
     img.close-btn1 {
         width: 100% !important;
     }
+    li#res-set {
+        width: 23% !important;}
 
     #business-close-btn {
         margin-top: 1%;
@@ -6501,15 +6529,6 @@ screen and (max-height: 1280px) {
         top: 25%;
         left: 22%;
         width: 72%;
-    }
-
-
-    .home-main-sec .container::before {
-        display: none;
-    }
-
-    .home-main-sec .container::after {
-        display: none;
     }
 
     header .top-nav .four-shape {
@@ -6733,10 +6752,6 @@ screen and (max-height: 1280px) {
         padding-top: 0px;
     }
 
-    .home-main-sec5 .dragun-main img {
-        width: 60%;
-        margin-left: 0%;
-    }
 
     .fantasy-right h1 {
         font-size: 37px;
@@ -6800,17 +6815,11 @@ screen and (max-height: 1280px) {
         display: none;
     }
 
-    .fantasy-left img {
-        width: 100% !important;
-        padding-bottom: 0%;
-        /* display: none; */
-    }
-
     .fantasy-right {
         width: 100%;
     }
 
-    .col-md-8.fantasy-right {
+    .col-md-8.fantasg6153y-right {
         width: 70% !important;
     }
 
@@ -6879,19 +6888,7 @@ screen and (max-height: 1280px) {
     }
 
     .home-main-sec .head-ul .main-left::after {
-        display: none;
-    }
-
-    .home-main-sec .head-ul .main-left:before {
-        content: "";
-        width: 113%;
-        height: 48vh !important;
-        position: absolute;
-        background: url(/home-girl2.png);
-        background-repeat: no-repeat;
-        left: -18% !important;
-        top: 30% !important;
-        z-index: -1 !important;
+        display: block;
     }
 
     .main-left .bimg {
@@ -6902,17 +6899,6 @@ screen and (max-height: 1280px) {
         display: none;
     }
 
-    .home-main-sec .head-ul .main-right::before {
-        content: "";
-        width: 100%;
-        height: 40vh;
-        background: url(/cartoon2.png);
-        background-repeat: no-repeat;
-        position: absolute;
-        left: 54%;
-        top: 48%;
-        z-index: -1;
-    }
 
     .coin-sec .coin-leftright .coim-para {
         font-size: 11px;
@@ -6959,7 +6945,7 @@ screen and (max-height: 1280px) {
     }
 
     .modal-header .modal-title {
-        font-size: 30px;
+        font-size: 22px;
     }
 
     li.coin-popup img {
@@ -7009,9 +6995,10 @@ screen and (max-height: 1280px) {
 
     #body-value {
         height: 100vw !important;
-        position: absolute !important;
-        width: 100% !important;
+        position: fixed !important;
+        width: 100vh !important;
     }
+
 
     li.dragun-upper {
         margin-top: 15px;
@@ -7057,7 +7044,7 @@ screen and (max-height: 1280px) {
     .body-type {
         position: fixed;
         width: 100vh;
-        height: 100vw;
+        height: 100vw !important;
     }
 }
 
@@ -7300,10 +7287,6 @@ screen and (max-height: 1280px) {
         height: 85%;
     }
 
-    .home-main-sec .head-ul .main-right:before {
-        left: 9% !important;
-        top: 1% !important;
-    }
 
     .home-main-sec .head-ul .main-left .bimg {
         margin-top: 10px;
@@ -7371,10 +7354,8 @@ screen and (max-height: 1280px) {
     }
 
     #cls-btn {
-        position: absolute !important;
-        left: 96.5% !important;
         margin-top: 0px !important;
-        top: 9% !important;
+        top: 8% !important;
         width: 7%;
     }
 
@@ -7441,27 +7422,6 @@ screen and (max-height: 1280px) {
         margin-top: 25px !important;
     }
 
-    .body-type {
-        height: 66vh !important;
-    }
-
-    .home-main-sec .head-ul .main-right::before {
-        top: 33%;
-        left: 66% !important;
-    }
-
-    .home-main-sec .head-ul .main-left:before {
-        height: 50vh;
-        left: -39% !important;
-        top: 13% !important;
-    }
-
-    .body-type {
-        height: 56vh !important;
-    }
-
-
-
 }
 
 @media (max-width: 400px) {
@@ -7502,11 +7462,6 @@ screen and (max-height: 1280px) {
 
     .body-type {
         height: 59vh !important;
-    }
-
-    .home-main-sec .head-ul .main-right::before {
-        top: 14%;
-        left: 53% !important;
     }
 
     .home-main-sec .head-ul .main-left:before {
@@ -8155,6 +8110,11 @@ screen and (max-height: 1280px) {
 }
 
 @media (max-width: 370px) {
+    #cls-btn {
+        position: absolute !important;
+        left: 96.5% !important;
+        top: 9% !important;
+    }
     .cthulhu-left h2 {
         color: white;
         font-size: 13px;
