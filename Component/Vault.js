@@ -12,7 +12,7 @@ const Vault = () => {
 
             <div className="text-head">
             <h1 className='mt-0'> Artifacts</h1></div>
-            <div className="row">
+            <div className="row" id='vault-row'>
                 <div className="col-md-8 value-right">
                     <ul className="box-head mb-3">
                         <li className="value-box"><img src="/value-box-1.png" alt=""/></li>

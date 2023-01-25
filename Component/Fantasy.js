@@ -20,13 +20,12 @@ const Fantasy = () => {
                             <h2>more about real fantasy can be found in our
                                  <a href='' data-bs-toggle="modal" data-bs-target="#staticBackdrop" style={{textDecoration: "underline", color:"white", paddingRight:"5px",  paddingLeft:"8px",}}>business plan </a>
                                   and at<a href="https://www.realfantasy.com/" target='_blank' style={{textDecoration: "underline", color:"white",marginLeft: "5px"}}> realfantasy.com.</a></h2>
-                
-
                 </div>
+
                 <div className="col-md-4 fantasy-left">
                     <img src="/fansty.jpg" alt=""/>
-               
                 </div>
+                
             </div>
         </div>
         </section>

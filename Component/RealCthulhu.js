@@ -8,9 +8,10 @@ const RealCthulhu = () => {
             <div className="row" id="coin-page-row">
                 <div className="col-md-4 cthulhu-right">
                     <img src="/cthulhu-grafics.png" alt=""/>
-                    <div className="left-shapes">
-                       <a href="#"  data-bs-toggle="modal" data-bs-target="#exampleModal2">                       <p>the narrative</p> 
-</a>
+                    <div className="left-shapes" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                       {/* <a href="#"  data-bs-toggle="modal" data-bs-target="#exampleModal2">                   */}
+                            {/* <p data-bs-toggle="modal" data-bs-target="#exampleModal2">the narrative</p>  */}
+{/* </a> */}
 
 
                     </div>

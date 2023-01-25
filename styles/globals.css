@@ -10,7 +10,7 @@
     src: url(/public/EB_Garamond/EBGaramond-VariableFont_wght.ttf);
 }
 
-*{
+* {
     box-sizing: border-box;
 }
 
@@ -859,7 +859,7 @@ div#slider-nd {
     width: 20%;
     height: 240px;
     position: absolute;
-    background: url(/shape-cthulhu.png) no-repeat;
+    background: url(/shape-cthulhu1.png) no-repeat;
     top: 36%;
     z-index: 5;
     left: 12%;
@@ -4682,6 +4682,12 @@ screen and (max-height: 1280px) {
         z-index: 9999;
     }
 
+    .text-editor {
+        text-align: right !important;
+        padding-right: 70px;
+        font-size: 24px;
+    }
+
     #cls-btn {
         position: absolute !important;
         left: 134.5% !important;
@@ -6221,7 +6227,7 @@ screen and (max-height: 1280px) {
         font-size: 18px;
         text-align: center !important;
     }
-    
+
 }
 
 /* @media (orientation: landscape) {
@@ -7020,7 +7026,7 @@ screen and (max-height: 1280px) {
 
 }
 
-@media screen and (max-width: 991px){
+@media screen and (max-width: 991px) {
     html {
         /* transform: rotate(-90deg); */
         /* transform-origin: left top; */
@@ -7033,265 +7039,9 @@ screen and (max-height: 1280px) {
     }
 }
 
-@media screen and (max-width: 991px) and (min-width: 320px){
-    section.home-main-sec .container {
-        padding: 20px 15px;
-    }
-
-    .home-main-sec .container::after {
-        left: 0;
-        width: 50%;
-        bottom: 0 !important;
-        top: 0 !important;
-        height: 100%;
-        background-size: contain;
-        background-position: left bottom !important;
-    }
-
-    .home-main-sec .container::before {
-        height: 100% !important;
-        right: 0 !important;
-        width: 50% !important;
-        background-size: contain !important;
-        background-position: right bottom !important;
-    }
-
-    .home-main-sec .head-ul {
-        padding: 0 50px;
-        /* justify-content: space-around; */
-    }
-    .left-shape {
-        left: -27%;
-        top: 11%;
-    }
-
-    .home-main-sec .head-text img {
-        height: 35px;
-        width: auto;
-        margin-top: 0px !important;
-    }
-
-    .home-main-sec .head-text {
-        margin: 0px 0 0 0;
-    }
-
-    .home-main-sec .head-ul .main-left .bimg {
-        width: 65%;
-        height: auto;
-    }
-    .simg {
-        width: 65%;
-    }
-
-    #footer-txt {
-        padding-top: 0 !important;
-        height: 80px !important;
-        margin-top: -10px;
-    }
-
-    .coming-image {
-        float: left;
-        height: 35px !important;
-        width: auto !important;
-    }
-
-    .home-main-sec .head-ul .main-left {
-        width: 40%;
-        display: flex;
-        justify-content: center;
-    }
-
-    .home-main-sec .head-ul .main-right {
-        width: 30%;
-    }
-    .left-shape {
-        background: url(/rotate-text1199.png) no-repeat;
-        left: -0%;
-        background-size: contain;
-        background-position: center;
-        background-position: top center;
-        top: 10%;
-        width: 60%;
-    }
-    .right-shape {
-        right: 40% !important;
-        top: 15%;
-        background: url(/rotate-text11992.png) no-repeat;
-        background-size: contain;
-        width: 70% !important;
-        background-position: top center;
-    }
-    .main-right .simg {
-        margin-left: 0px;
-    }
-    .main-right .simg {
-        width: 50% !important;
-        /* margin-top: 65px; */
-        height: 95%;
-        margin-top: 0px !important;
-    }
-    .home-main-sec .head-ul .main-left {
-        margin-top: 0px;
-    }
-    .home-main-sec .head-ul .main-left .bimg {
-        width: 50%;
-        height: 100%;
-    }
-
-    #business-close-btn {
-        margin-top: 0%;
-    }
 
 
-    #arrow-set {
-        width: 100%;
-    }
-
-    .bussiness-modal-header .carousel-inner {
-        margin-left: 27px;
-    }
-
-    .close-btn1 {
-        width: 50%;
-    }
-
-    #business-close-btn {
-        margin-left: -5.1%;
-    }
-
-    .bussiness-modal-header .carousel {
-        left: 1.5%;
-        top: -11%;
-    }
-
-    .home-main-sec2 {
-        padding: 0px;
-        overflow: auto;
-    }
-
-    #arrow-right {
-        width: 100%;
-    }
-
-    .cthulhu-left h2 {
-        font-size: 10px;
-    }
-
-    .coin-sec .coin-leftright .coim-para {
-        font-size: 10px !important;
-        margin-top: 0px !important;
-        padding: 0 !important;
-    }
-    .footer-h1-text {
-        font-size: 24px;
-        margin-top: 0px !important;
-    }
-    .coin-sec .coin-leftright {
-        padding-top: 0px !important;
-        margin-top: 0px !important;
-    }
-    .text-head::before {
-        top: 10%;
-        /* left: 1%; */
-        width: 100%;
-        background-size: contain;
-        height: 100%;
-        background-position: top center;
-    }
-    .col-md-6.poker-left::before  {left: 0;
-    width: 50%;
-    bottom: 0 !important;
-    top: 0 !important;
-    height: 100%;
-    background-size: contain;
-    background-position: left bottom !important;}
-    .home-main-sec4 .poker-left h2 {
-        line-height: 12px !important;
-        margin-top: 0px;
-        font-size: 10px;
-    }
-    #arkham-img {
-        width:50% !important;
-        margin-left: 0px;
-        height: 90%;
-    }
-    #arkham-container {
-        display: flex !important;
-        justify-content: center !important;
-        flex-direction: unset !important;
-    }
-    .home-main-sec4 .poker-right{
-        margin-left: 0px !important;
-        width: 50% !important;
-    }
-    .home-main-sec4 .poker-left {
-        width: 50% !important;
-        margin-left: 180px;
-    }
-    .col-md-6.poker-left::before{
-        display: unset !important ;
-    }
-    .home-main-sec5 .dragun-main img {
-        width: 50% !important;
-        margin-left: 0%;
-        height: 50% !important;
-        
-    }
-    .col-md-12.text-dragun p {
-        width: 100%;
-        font-size: 10px;
-    }
-    .soon-text h1 {
-        top: 26%;
-        left: 50%;
-        font-size: 22px;
-        font-weight: bolder;
-    }
-    #dungeon-setting {
-        justify-content: center;
-        height: 50%;
-        width: 50%;
-        margin-left: 0px;
-    }
-    li#res-set {
-        margin-left: 0px;
-        height: 50% !important;
-        width: 20% !important;
-    }
-    .home-main-sec5 .dragun-main{
-        padding-bottom: 10px !important;
-        margin-top: -25px;
-    }
-    .col-md-8.fantasy-right h2 {
-        font-size: 9px;
-        width: 100%;
-        line-height: 22px;
-    }
-    .fantasy-right h1 {
-        font-size: 30px !important;
-    }
-    .fantasy-left img {
-        width: 60% !important;
-        padding-bottom: 9px;
-        height: 72%;
-        margin-top: 0 ;
-    }
-    .cthulhu-left h1 {
-        font-size: 30px;
-    }
-    .cthulhu-left h2 {
-        font-size: 10px;
-    }
-    .cthulhu-right img {
-        width: 30%;
-        margin-left: 0px;
-        height: 100%;
-        margin-top: 0 !important;
-        padding-top: 0px !important;
-    }
-}
-
-@media (max-width: 480px){
+@media (max-width: 480px) {
     html {
         transform: rotate(-90deg);
         transform-origin: left top;
@@ -7304,7 +7054,7 @@ screen and (max-height: 1280px) {
         background-color: #000000;
     }
 
-    .body-type{
+    .body-type {
         position: fixed;
         width: 100vh;
         height: 100vw;
@@ -7532,16 +7282,44 @@ screen and (max-height: 1280px) {
 
 
 @media (max-width: 414px) {
+
+    .right-shape {
+        right: 8% !important;
+        top: 25% !important;
+        width: 91%;
+    }
+
+    .main-right .simg {
+        margin-left: 45px;
+    }
+
     .main-right .simg {
         margin-top: 24px;
-        width: 50% !important;
+        width: 55% !important;
         margin-top: 10px;
+        height: 85%;
+    }
+
+    .home-main-sec .head-ul .main-right:before {
+        left: 9% !important;
+        top: 1% !important;
     }
 
     .home-main-sec .head-ul .main-left .bimg {
         margin-top: 10px;
+        height: 85%;
+        width: 85%;
     }
-
+    .left-shape {
+        left: 18%;
+        top: 34%;
+        width: 60%;
+        background-size: contain;
+    }
+    .home-main-sec5 .dragun-main {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
     .modal-header {
         height: 29%;
         padding: 0px 0 !important;
@@ -7550,7 +7328,12 @@ screen and (max-height: 1280px) {
 
     .home-main-sec .head-ul .main-left {
         margin-top: 0px;
-        margin-left: 40px;
+        list-style: none;
+        width: 30%;
+        display: flex;
+        justify-content: flex-end;
+        margin-left: 0px;
+        position: relative;
     }
 
     .main-left .bimg {
@@ -7563,7 +7346,16 @@ screen and (max-height: 1280px) {
         right: -7%;
         top: 30%;
         width: 91%;
+        background-size: contain;
+        background-position: top center;
     }
+
+    /* .right-shape {
+        background: url(/rotate-text3.png) no-repeat;
+        background-size: contain;
+    } */
+
+
 
     #footer-txt {
         float: left !important;
@@ -7580,9 +7372,9 @@ screen and (max-height: 1280px) {
 
     #cls-btn {
         position: absolute !important;
-        left: 98.5% !important;
+        left: 96.5% !important;
         margin-top: 0px !important;
-        top: 10% !important;
+        top: 9% !important;
         width: 7%;
     }
 
@@ -7591,7 +7383,7 @@ screen and (max-height: 1280px) {
     }
 
     #cht-left {
-        margin-top: 85px;
+        margin-top: 0px;
     }
 
     #res-set {
@@ -7688,10 +7480,6 @@ screen and (max-height: 1280px) {
         margin-left: 0px !important;
     }
 
-    .home-main-sec .head-ul .main-left .bimg {
-        width: 76%;
-        height: unset !important;
-    }
 
     .soon-text h1 {
         top: 30%;
@@ -7701,15 +7489,6 @@ screen and (max-height: 1280px) {
         font-weight: bold;
     }
 
-
-
-    #cls-btn {
-        position: absolute !important;
-        left: 98.5% !important;
-        margin-top: 0px !important;
-        top: 6% !important;
-        width: 7%;
-    }
 
     #modal-content1 {
         margin-top: 28px !important;
@@ -7743,7 +7522,9 @@ screen and (max-height: 1280px) {
 
     .cthulhu-left h1 {
         font-size: 30px;
-        -webkit-text-stroke-width: 1px !important;
+        -webkit-text-stroke-width: 0px !important;
+        margin-top: -20px;
+        margin-bottom: 1rem;
     }
 
     #coin-sec {
@@ -7793,15 +7574,6 @@ screen and (max-height: 1280px) {
         height: 58%;
     }
 
-    #cht-left {
-        margin-top: 0px;
-    }
-
-    .left-shape {
-        left: 18%;
-        top: 43%;
-    }
-
 }
 
 @media (max-width: 395px) {
@@ -7845,11 +7617,6 @@ screen and (max-height: 1280px) {
     .home-main-sec7 {
         padding-top: 0px;
         height: 53vh !important;
-    }
-
-    .cthulhu-left h1 {
-        font-size: 37px;
-        -webkit-text-stroke-width: 0px !important;
     }
 
     #coin-sec {
@@ -8005,24 +7772,10 @@ screen and (max-height: 1280px) {
         margin-left: -10% !important;
     }
 
-    #cls-btn {
-        position: absolute !important;
-        left: 89.5% !important;
-        margin-top: 0px !important;
-        top: 7% !important;
-        width: 7%;
-    }
 
 }
 
 @media (max-width: 385px) {
-    #cls-btn {
-        position: absolute !important;
-        left: 98.5% !important;
-        margin-top: 0px !important;
-        top: 6% !important;
-        width: 7%;
-    }
 
     #modal-content1 {
         margin-top: 28px !important;
@@ -8177,13 +7930,6 @@ screen and (max-height: 1280px) {
         width: 120%;
     }
 
-    #cls-btn {
-        position: absolute !important;
-        left: 96.5% !important;
-        margin-top: 0px !important;
-        top: 10% !important;
-        width: 5%;
-    }
 
     #modal-content1 {
         margin-top: 30px !important;
@@ -8203,11 +7949,6 @@ screen and (max-height: 1280px) {
         padding: 10px !important;
     }
 
-    .coin-sec .coin-leftright {
-        padding-left: unset;
-        padding: 10px;
-        margin-top: 40px;
-    }
 
 
     .fantasy-left img {
@@ -8239,20 +7980,11 @@ screen and (max-height: 1280px) {
     }
 
 
-    .home-main-sec5 .dragun-main {
-        padding-top: 10px;
-        padding-bottom: 15px;
-    }
-
     .cthulhu-left h2 {
         color: white;
         font-size: 12px;
         margin-bottom: 10px !important;
         line-height: 1.5;
-    }
-
-    #cht-left {
-        margin-top: -22px;
     }
 
     /* .home-main-sec4 .poker-right img {
@@ -8303,33 +8035,6 @@ screen and (max-height: 1280px) {
         width: 100%;
     }
 
-    .right-shape {
-        right: -10%;
-        top: 31%;
-        width: 91%;
-    }
-
-
-    .home-main-sec .head-ul .main-left {
-        list-style: none;
-        width: 30%;
-        display: flex;
-        justify-content: flex-end;
-        margin-left: 50px;
-        position: relative;
-    }
-
-    .main-right .simg {
-        margin-top: 10px;
-        width: 50% !important;
-
-    }
-
-    .home-main-sec .head-ul .main-left .bimg {
-        width: 100%;
-        margin-top: 10px;
-        height: 100%;
-    }
 
     .coming-image {
         width: 40% !important;
@@ -8355,11 +8060,7 @@ screen and (max-height: 1280px) {
     }
 
 
-    .left-shape {
-        left: -15%;
-        top: 40%;
-    }
-
+  
     .home-main-sec .head-ul .main-left:before {
         height: 50vh;
         left: -80% !important;
@@ -8371,23 +8072,6 @@ screen and (max-height: 1280px) {
         width: 30%;
         position: relative;
     }
-
-    .right-shape {
-        background: url(/rotate-text3.png) no-repeat;
-        background-size: contain;
-    }
-
-    .right-shape {
-        right: -8%;
-        top: 31%;
-        width: 91%;
-    }
-
-    #cht-left {
-        margin-top: 52px;
-    }
-
-
 
     .soon-text h1 {
         top: 30%;
@@ -8496,16 +8180,9 @@ screen and (max-height: 1280px) {
         margin-top: 74px;
     }
 
-    .main-right .simg {
-        /* height: unset !important; */
-        /* margin-top: 7px; */
-        width: 65% !important;
-    }
 
-    .home-main-sec .head-ul .main-left .bimg {
-        width: 91%;
-        margin-top: 10px;
-    }
+
+
 
     .coming-image {
         width: 40% !important;
@@ -8516,14 +8193,7 @@ screen and (max-height: 1280px) {
         margin-top: 15px;
     }
 
-    #cls-btn {
-        position: absolute !important;
-        left: 96.5% !important;
-        margin-top: 0px !important;
-        top: 6% !important;
-        width: 5%;
-    }
-
+ 
     /* #modal-content1 {
         margin-top: 20px !important;
         margin-left: 2% !important;
@@ -8540,14 +8210,6 @@ screen and (max-height: 1280px) {
         margin-bottom: 0.5rem !important;
     }
 
-    .home-main-sec .head-ul .main-left {
-        list-style: none;
-        width: 30%;
-        display: flex;
-        justify-content: flex-end;
-        position: relative;
-        margin-left: 50px;
-    }
 
     .home-main-sec .head-ul .main-left:before {
         height: 50vh;
@@ -8586,18 +8248,23 @@ screen and (max-height: 1280px) {
     } */
 
     .home-main-sec5 .dragun-main img {
-        width: 52%;
+
+        width: 50% !important;
         margin-left: 0%;
+        height: 50% !important;
+    }
+    li#res-set {
+        margin-left: 0px;
+        height: 50% !important;
+        width: 22% !important;
+        justify-content: flex-end;
     }
 
     li#res-set {
         margin-left: 25px;
     }
 
-    .home-main-sec5 .dragun-main {
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
+
 
     .soon-text h1 {
         top: 30%;
@@ -8641,13 +8308,6 @@ screen and (max-height: 1280px) {
         height: 48vh !important;
     }
 
-
-    .coin-sec .coin-leftright {
-        padding-left: unset;
-        padding: 10px;
-        margin-top: 0px;
-    }
-
     .coin-sec .coin-leftright .coim-para {
         font-size: 11px;
         margin-top: 0px !important;
@@ -8657,12 +8317,6 @@ screen and (max-height: 1280px) {
         top: 16%;
         left: 18%;
         width: 72%;
-    }
-
-    .cthulhu-left h1 {
-        font-size: 35px;
-        margin-top: 20px;
-        margin-bottom: 5px;
     }
 
     .modal-backdrop.show {
@@ -8701,17 +8355,8 @@ screen and (max-height: 1280px) {
         top: 1% !important;
     }
 
-    .coin-sec .coin-leftright {
-        padding: 10px;
-        margin-top: 80px;
-    }
 
-    .coin-sec .coin-leftright {
-        padding-left: unset;
-        padding: 10px;
-        margin-top: 20px !important;
-    }
-
+ 
     .cthulhu-left h2 {
         color: white;
         font-size: 13px;
@@ -8789,5 +8434,499 @@ screen and (max-height: 1280px) {
     .coming-image {
         width: 40% !important;
         margin-top: 30px;
+    }
+}
+
+
+@media screen and (orientation:landscape) and (max-width: 991px) and (min-width: 380px) {
+    section.home-main-sec .container {
+        padding: 20px 15px;
+    }
+
+    .home-main-sec .container::after {
+        left: 0;
+        width: 50%;
+        bottom: 0 !important;
+        top: 0 !important;
+        height: 100%;
+        background-size: contain;
+        background-position: left bottom !important;
+    }
+
+    .home-main-sec .container::before {
+        height: 100% !important;
+        right: 0 !important;
+        width: 50% !important;
+        background-size: contain !important;
+        background-position: right bottom !important;
+    }
+
+    .home-main-sec .head-ul {
+        padding: 0 50px;
+        /* justify-content: space-around; */
+    }
+
+    .left-shape {
+        left: -27%;
+        top: 11%;
+    }
+
+    .home-main-sec .head-text img {
+        height: 35px;
+        width: auto;
+        margin-top: 0px !important;
+    }
+
+    .home-main-sec .head-text {
+        margin: 0px 0 0 0;
+    }
+
+    .home-main-sec .head-ul .main-left .bimg {
+        width: 65%;
+        height: auto;
+    }
+
+    .simg {
+        width: 65%;
+    }
+
+    #footer-txt {
+        padding-top: 0 !important;
+        height: 80px !important;
+        margin-top: 0px;
+    }
+
+    .coming-image {
+        float: left;
+        height: 35px !important;
+        width: auto !important;
+    }
+
+    .home-main-sec .head-ul .main-left {
+        width: 40%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .home-main-sec .head-ul .main-right {
+        width: 30%;
+    }
+
+    .left-shape {
+        background: url(/rotate-text1199.png) no-repeat;
+        left: -0%;
+        background-size: contain;
+        background-position: center;
+        background-position: top center;
+        top: 10%;
+        width: 60%;
+    }
+
+    .right-shape {
+        right: 40% !important;
+        top: 15%;
+        background: url(/rotate-text11992.png) no-repeat;
+        background-size: contain;
+        width: 70% !important;
+        background-position: top center;
+    }
+
+    .main-right .simg {
+        margin-left: 0px;
+    }
+
+    .main-right .simg {
+        width: 50% !important;
+        /* margin-top: 65px; */
+        height: 95%;
+        margin-top: 0px !important;
+    }
+
+    .home-main-sec .head-ul .main-left {
+        margin-top: 0px;
+    }
+
+    .home-main-sec .head-ul .main-left .bimg {
+        width: 50%;
+        height: 100%;
+    }
+
+    #business-close-btn {
+        margin-top: 0%;
+    }
+
+
+    #arrow-set {
+        width: 100%;
+    }
+
+    .bussiness-modal-header .carousel-inner {
+        margin-left: 27px;
+    }
+
+    .close-btn1 {
+        width: 50%;
+    }
+
+    #business-close-btn {
+        margin-left: -5.1%;
+    }
+
+    .bussiness-modal-header .carousel {
+        left: 1.5%;
+        top: -11%;
+    }
+
+    .home-main-sec2 {
+        padding: 0px;
+        overflow: auto;
+    }
+
+    #arrow-right {
+        width: 100%;
+    }
+
+    .cthulhu-left h2 {
+        font-size: 10px;
+    }
+
+    .coin-sec .coin-leftright .coim-para {
+        font-size: 11px !important;
+        margin-top: 0px !important;
+        padding: 0 !important;
+    }
+
+    .footer-h1-text {
+        font-size: 24px;
+        margin-top: 0px !important;
+    }
+
+    .coin-sec .coin-leftright {
+        padding-top: 0px !important;
+        margin-top: 0px !important;
+    }
+
+    /* .text-head::before {
+        top: 10%;
+        width: 100%;
+        background-size: contain;
+        height: 100%;
+        background-position: top center;
+    } */
+    .col-md-6.poker-left::before {
+        left: -5%;
+        width: 50%;
+        bottom: 0 !important;
+        top: 0 !important;
+        height: 100%;
+        background-size: contain;
+        background-position: left bottom !important;
+    }
+
+
+
+    #arkham-container {
+        display: flex !important;
+        justify-content: center !important;
+        flex-direction: unset !important;
+
+    }
+
+    .home-main-sec4 .poker-right {
+        margin-left: -40px !important;
+        width: 50% !important;
+    }
+
+    .home-main-sec4 .poker-left {
+        width: 50% !important;
+        margin-left: 0px;
+        margin-top: 0px !important;
+    }
+
+    .col-md-6.poker-left::before {
+        display: unset !important;
+    }
+
+    .home-main-sec5 .dragun-main img {
+        width: 50% !important;
+        margin-left: 0%;
+        height: 50% !important;
+
+    }
+
+    .col-md-12.text-dragun p {
+        width: 100%;
+        font-size: 10px;
+    }
+
+    .soon-text h1 {
+        top: 26%;
+        left: 50%;
+        font-size: 22px;
+        font-weight: bolder;
+    }
+
+    #dungeon-setting {
+        justify-content: center;
+        height: 50%;
+        width: 50%;
+        margin-left: 0px;
+    }
+
+    li#res-set {
+        margin-left: 0px;
+        height: 50% !important;
+        width: 20% !important;
+        justify-content: flex-end;
+    }
+
+    .home-main-sec5 .dragun-main {
+        padding-bottom: 10px !important;
+        margin-top: -25px;
+    }
+
+    .col-md-8.fantasy-right h2 {
+        font-size: 9px;
+        width: 100%;
+        line-height: 22px;
+    }
+
+    .fantasy-right h1 {
+        font-size: 30px !important;
+    }
+
+    .fantasy-left img {
+        width: auto !important;
+        padding-bottom: 9px;
+        height: 33%;
+        margin-left: 0px;
+        margin-top: 0;
+    }
+
+    .fantasy-right {
+        width: 65% !important;
+    }
+
+    .col-md-4.fantasy-left {
+        width: 30%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+
+    .cthulhu-left h1 {
+        font-size: 30px;
+    }
+
+    .cthulhu-left h2 {
+        font-size: 10px;
+    }
+
+
+    .col-md-8.value-right img {
+        width: 30%;
+    }
+
+    .text-head:before {
+        top: 18%;
+        left: 35%;
+        background-size: contain;
+        background-position: top center;
+        width: 35%;
+        position: fixed;
+    }
+
+    .home-main-sec2 .value-right {
+        justify-content: unset !important;
+    }
+
+    .text-editor {
+        font-size: 16px;
+        padding-left: 25%;
+    }
+
+    .text-center1 {
+        font-size: 16px;
+        /* display: none; */
+        padding-left: 25%;
+    }
+
+    ul#box-head3 {
+        padding-bottom: 70px;
+    }
+
+    .home-main-sec2 .text-head h1 {
+        font-size: 16px;
+    }
+
+    .sec-head {
+        padding: 6px 5px;
+        font-size: 10px;
+        /* justify-content: center; */
+    }
+
+    .left-main .left1 {
+        width: auto;
+        margin-bottom: 10px !important;
+        height: 50%;
+        background-size: cover;
+        background-position: left center;
+        /* background-attachment: fixed; */
+    }
+
+    ul.left-main {
+        padding-left: 0px;
+    }
+
+    .home-main-sec2 .value-left {
+        margin-top: 0px;
+        align-items: flex-start;
+    }
+
+    .sec-head img {
+        padding-inline: 4px;
+        width: 30%;
+        height: 30%;
+    }
+
+    .valt-img {
+        width: 20% !important;
+    }
+
+    .text-headimg {
+        height: 100%;
+        margin-top: 130px;
+        margin-bottom: 10px;
+    }
+
+    #vault-row {
+        justify-content: center !important;
+        margin-bottom: -0px;
+    }
+
+    .cthulhu-right .left-shapes {
+        top: 30%;
+        left: 7% !important;
+        width: 19%;
+        background-size: contain;
+    }
+
+    .cthulhu-right .left-shapes p {
+        top: 24%;
+        left: 18%;
+        font-size: 13px;
+        margin-bottom: 0 !important;
+    }
+
+    .col-md-4.cthulhu-right {
+        padding: 0px;
+        padding-top: 0px !important;
+        width: 30%;
+        align-items: center !important;
+        height: 100% !important;
+        justify-content: flex-end;
+    }
+
+    .home-main-sec7 .cthulhu-left {
+        width: 57%;
+        margin-left: 50px;
+    }
+
+    .home-main-sec7 .cthulhu-box img {
+        width: 50%;
+    }
+
+    #coin-page-row {
+        align-items: flex-start !important;
+        height: 70vh;
+        overflow: auto;
+        float: left;
+        padding-bottom: 70px !important;
+
+    }
+
+    .cthulhu-right img {
+        width: auto;
+        margin-left: 0px;
+        height: 60%;
+        margin-top: 0px !important;
+        padding-top: 0px !important;
+        position: fixed;
+    }
+
+    .home-main-sec4 .poker-left h1 {
+        font-size: 30px;
+    }
+
+    .home-main-sec4 .poker-left h2 {
+        line-height: 12px !important;
+        margin-top: 0px;
+        font-size: 10px;
+    }
+
+    .home-main-sec4 .poker-right {
+        position: relative;
+        justify-items: flex-start;
+    }
+
+    #arkham-img {
+        width: auto !important;
+        margin-left: 0px;
+        height: 30%;
+    }
+
+    .modal-header {
+        height: 100%;
+    }
+
+    #modal-content1 {
+        background-size: cover !important;
+    }
+
+    #cls-btn {
+        left: 119.5% !important;
+        top: 7% !important;
+    }
+
+    li.coin-popup img {
+        width: 100%;
+    }
+
+    .text-footer {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .popup-footer {
+        padding-top: 0px !important;
+    }
+    .soon-text .container {
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 30%;
+    left: 4%;
+    }
+    section.home-main-sec5:after {
+        left: unset;
+        background-size: contain;
+        background-position: right center;
+        height: 100%;
+        width: 100%;
+        display: block;
+    }
+    .dragun-main::before{
+        left: -5% !important;
+        height: 100%;
+        width: 100%;
+        background-size: contain;
+        background-position: left center;
+        display: block;
+    }
+    .col-md-12.text-dragun p {
+        width: 70%;
+        font-size: 10px;
     }
 }

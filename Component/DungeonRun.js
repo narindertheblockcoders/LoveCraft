@@ -8,7 +8,7 @@ const DungeonRun = () => {
             <ul className="dragun-main">
                 <li className="dragun-upper" id='res-set'> <img src="/dungeon-left.jpg" alt=""/></li>
                 <li className="dragun-upper" id='dungeon-setting'>
-                    <img src="/dungeon-right.jpg" id='dungeon-imaage' alt=""/>
+                    <img src="/dungeon-right1.png" id='dungeon-imaage' alt=""/>
                 </li>
             </ul>
             <div className="col-md-12 text-dragun">
@@ -22,12 +22,11 @@ const DungeonRun = () => {
            </div>
         
     </section>
-    <section className="soon-text">
+    {/* <section className="soon-text">
         <div className="container">
             <h1 className='coming-txt'>Coming Soon!</h1>
         </div>
-
-    </section>
+    </section> */}
     
     </div>
   )
