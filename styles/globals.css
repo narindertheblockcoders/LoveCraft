@@ -1833,11 +1833,48 @@ li#res-set {
 }
 
 @media (max-width: 1900px) {
+    .home-main-sec .container::before {
+        left: unset !important;
+        float: right;
+        width: 30% !important;
+        bottom: 0 !important;
+        top: 0;
+        left: unset;
+        right: 0% !important;
+        height: 100% !important;
+        background-size: contain !important;
+        background-position: right bottom !important;
+        display: block !important;
+    }
+    .home-main-sec .container::after {
+        left: 0 !important;
+        width:30%;
+        bottom: 0 !important;
+        top: unset !important;
+        right: 0;
+        height: 100%;
+        background-size: contain;
+        background-position: left bottom !important;
+        display: block;
+    }
     .close-btn1 {
         margin-top: -40%;
 
     }
-
+    .col-md-8.cthulhu-left:after {
+        content: "";
+        width: 39%;
+        left: unset !important;
+        top: unset !important;
+        z-index: 1;
+        bottom: 0 !important;
+        right: 0px !important;
+        background-size: contain;
+        background-position: right bottom;
+    }
+    .cthulhu-left h2 {
+        color: white;
+        font-size: 16px !important;}
     .col-md-8.fantasy-right h2 {
         font-size: 27px;
         /* text-transform: uppercase; */
@@ -4798,6 +4835,12 @@ screen and (max-height: 1280px) {
 
 
 @media (max-width: 950px) {
+    
+    #footer-txt {
+        padding-top: 0 !important;
+        height: 100% !important;
+        margin-top: 0px;
+    }
     .modal.show .modal-header{
         padding-bottom: 50px !important;
     }
@@ -4816,34 +4859,13 @@ screen and (max-height: 1280px) {
     #dungeon-setting{
         margin-top: 0px !important;
     }
+  
     .body-type {
         position: fixed;
-        width: 100vh;
-        height: 100vw;
+        width: 100vw;
+        height: 100vh;
     }
-    .home-main-sec .container::before {
-        left: unset !important;
-        float: right;
-        width: 30% !important;
-        bottom: 0 !important;
-        top: 0;
-        right: 0% !important;
-        height: 100% !important;
-        background-size: contain !important;
-        background-position: right bottom !important;
-        display: block !important;
-    }
-    .home-main-sec .container::after {
-        left: 0;
-        width:30%;
-        bottom: 0 !important;
-        top: 0 !important;
-        right: 0;
-        height: 100%;
-        background-size: contain;
-        background-position: left bottom !important;
-        display: block;
-    }
+   
     #business-close-btn {
         margin-top: 5.5%;
     }
@@ -5598,6 +5620,7 @@ screen and (max-height: 1280px) {
 }
 
 @media (max-width: 767px) {
+    .value-left{display: none !important;}
     .home-main-sec2 .text-head {
         margin-top: 8px !important
     }
@@ -5621,9 +5644,9 @@ screen and (max-height: 1280px) {
         padding-left: 0%;
     }
 
-    ul.left-main {
+    /* ul.left-main {
         flex-direction: row !important;
-    }
+    } */
 
     .text-head:before {
         top: 30%;
@@ -7068,7 +7091,11 @@ screen and (max-height: 1280px) {
    */
 
 @media (max-width: 450px) and (orientation: landscape) {
-
+    .body-type {
+        position: fixed;
+        width: 100vh;
+        height: 100vw;
+    }
     .cthulhu-left h1 {
         font-size: 37px;
         margin-bottom: 5px;
@@ -7425,6 +7452,15 @@ screen and (max-height: 1280px) {
         margin-top: 25px !important;
     }
 
+    .col-md-4.cthulhu-right {
+        padding: 0px;
+        padding-top: 0px !important;
+        width: 30%;
+        align-items: center !important;
+        height: 130% !important;
+        justify-content: flex-end;
+    }
+    
 }
 
 @media (max-width: 400px) {
@@ -8759,8 +8795,16 @@ screen and (max-height: 1280px) {
 
     .text-headimg {
         height: 100%;
-        margin-top: 130px;
+        margin-top: 0px;
         margin-bottom: 10px;
+    }
+    .text-head:before {
+        top: 27%;
+        left: 32%;
+        background-size: contain;
+        background-position: top center;
+        width: 35%;
+        position: fixed;
     }
 
     #vault-row {
@@ -8801,11 +8845,13 @@ screen and (max-height: 1280px) {
     }
 
     #coin-page-row {
-        align-items: flex-start !important;
+        /* align-items: flex-start !important; */
+        align-items: center !important;
+
         height: 70vh;
-        overflow: auto;
+        /* overflow: auto; */
         float: left;
-        padding-bottom: 70px !important;
+        padding-bottom: 0px !important;
 
     }
 
