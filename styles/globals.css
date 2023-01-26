@@ -4851,7 +4851,7 @@ screen and (max-height: 1280px) {
         padding-bottom: 50px !important;
     }
     .home-main-sec5 .dragun-main img {
-        width: 75% !important;
+        width: 70% !important;
         margin-left: 0%;
         height: 100% !important;
     }
@@ -5889,6 +5889,7 @@ screen and (max-height: 1280px) {
         padding-top: 0px;
         height: 100%;
     }
+    
 
     img.close-btn2 {
         width: 6%;
@@ -6404,8 +6405,9 @@ screen and (max-height: 1280px) {
         width: 100% !important;
     }
     li#res-set {
-        width: 23% !important;}
-
+        width: 19% !important;
+        justify-content: flex-start !important;
+    }
     #business-close-btn {
         margin-top: 1%;
     }
@@ -6511,9 +6513,9 @@ screen and (max-height: 1280px) {
         flex-direction: unset !important;
     }
 
-    .home-main-sec7 {
+    /* .home-main-sec7 {
         height: 62vh !important;
-    }
+    } */
 
     .home-main-sec7 .cthulhu-left {
         justify-content: unset !important;
@@ -6931,7 +6933,7 @@ screen and (max-height: 1280px) {
     .coin-sec .coin-leftright {
         padding-left: unset;
         padding: 10px;
-        margin-top: 130px;
+        margin-top: 0px;
     }
 
     .footer-h1-text {
@@ -7295,7 +7297,7 @@ screen and (max-height: 1280px) {
 
 
 @media (max-width: 414px) {
-
+  
     .right-shape {
         right: 8% !important;
         top: 25% !important;
@@ -7432,14 +7434,13 @@ screen and (max-height: 1280px) {
 
 
     #coin-sec {
-        height: 58vh;
+        height:100%;
         /* position: fixed; */
     }
 
 
     .home-main-sec7 {
         padding-top: 0px;
-        height: 46vh !important;
     }
 
 
@@ -7459,7 +7460,17 @@ screen and (max-height: 1280px) {
     
 }
 
+@media (max-width: 412px) {
+li#res-set {
+    width: 22% !important;
+    justify-content: flex-start !important;
+}
+}
 @media (max-width: 400px) {
+    li#res-set {
+        width: 19% !important;
+        justify-content: flex-start !important;
+    }
     .modal-dialog {
         height: 81.5vh !important;
     }
@@ -7517,15 +7528,6 @@ screen and (max-height: 1280px) {
         margin-bottom: 1rem;
     }
 
-    #coin-sec {
-        height: 62vh;
-    }
-
-    .home-main-sec7 {
-        padding-top: 0;
-        height: 54vh !important;
-    }
-
     .coin-sec .coin-leftright {
         padding-left: unset;
         padding: 10px;
@@ -7567,6 +7569,10 @@ screen and (max-height: 1280px) {
 }
 
 @media (max-width: 395px) {
+    li#res-set {
+        width: 23% !important;
+        justify-content: flex-start !important;
+    }
     .cthulhu-left h2 {
         color: white;
         font-size: 11px;
@@ -7577,7 +7583,7 @@ screen and (max-height: 1280px) {
     .coin-sec .coin-leftright .coim-para {
         font-size: 11px;
         width: 78%;
-        margin-left: 78px;
+        margin-left: 55px;
     }
 
     .body-type {
@@ -7588,31 +7594,10 @@ screen and (max-height: 1280px) {
         height: 55vh !important;
     }
 
-    #coin-sec {
-        height: 56vh;
-        /* position: fixed; */
-    }
-
-    .home-main-sec7 {
-        padding-top: 0px;
-        height: 56vh !important;
-    }
 
 }
 
 @media (max-width: 390px) {
-
-
-
-    .home-main-sec7 {
-        padding-top: 0px;
-        height: 53vh !important;
-    }
-
-    #coin-sec {
-        height: 53vh;
-        /* position: fixed; */
-    }
 
     .home-main-sec .head-text img {
         height: unset;
@@ -7644,11 +7629,6 @@ screen and (max-height: 1280px) {
         margin-left: 80px !important;
     }
 
-    #coin-sec {
-        height: 53vh;
-        width: 77%;
-        margin-left: 77px;
-    }
 
     #coin-sec,
     section.home-main-sec4 {
@@ -7843,25 +7823,10 @@ screen and (max-height: 1280px) {
         margin-left: 0px;
     }
 
-    #coin-sec {
-        height: 53vh;
-        width: 100%;
-        margin-left: 0px;
-    }
 
     .home-main-sec4 .poker-right {
         width: 22% !important;
         margin-left: 80px !important;
-    }
-
-    .home-main-sec7 {
-        padding-top: 0px;
-        height: 48vh !important;
-    }
-
-    #coin-sec {
-        height: 48vh;
-        /* position: fixed; */
     }
 
     .text-head::before {
@@ -7891,6 +7856,11 @@ screen and (max-height: 1280px) {
 }
 
 @media (max-width: 375px) {
+
+    .home-main-sec7 {
+        padding-top: 0px;
+        height: 85%;
+    }
 
     .coming-image {
         width: 40% !important;
@@ -7949,11 +7919,6 @@ screen and (max-height: 1280px) {
 
     #res-set {
         justify-content: flex-end !important;
-    }
-
-    .home-main-sec7 {
-        padding-top: 0px;
-        height: 52vh !important;
     }
 
     .home-main-sec2 .text-head h1 {
@@ -8145,6 +8110,11 @@ screen and (max-height: 1280px) {
 }
 
 @media (max-width: 370px) {
+    .home-main-sec7 {
+        padding-top: 0px;
+        height: 100%;
+    }
+
     #cls-btn {
         position: absolute !important;
         left: 96.5% !important;
@@ -8172,7 +8142,7 @@ screen and (max-height: 1280px) {
     }
 
     #cht-left {
-        margin-top: 74px;
+        margin-top: 30px ;
     }
 
 
@@ -8298,10 +8268,6 @@ screen and (max-height: 1280px) {
         height: 75px !important;
     }
 
-    .home-main-sec7 {
-        padding-top: 0px;
-        height: 48vh !important;
-    }
 
     .coin-sec .coin-leftright .coim-para {
         font-size: 11px;
@@ -8320,10 +8286,6 @@ screen and (max-height: 1280px) {
         overflow: hidden !important;
     }
 
-    #coin-sec {
-        height: 47vh;
-        /* position: fixed; */
-    }
 
     .footer-h1-text {
         margin-top: 1rem;
@@ -8365,14 +8327,19 @@ screen and (max-height: 1280px) {
         font-size: 10px;
         margin-top: 0px !important;
     }
-
-    .home-main-sec7 {
-        padding-top: 0px;
-        height: 51vh !important;
+    li#res-set {
+        width: 25% !important;
+        justify-content: flex-end !important;
     }
-
-    #coin-sec {
-        height: 51vh;
+    .cthulhu-left h2 {
+        color: white;
+        font-size: 8px !important;
+        line-height: 1.5;
+    }
+    section.home-main-sec7 {
+        width: 100%;
+        margin-left: 0px;
+        height: 110%;
     }
 
     .col-md-12.text-dragun p {
@@ -8432,7 +8399,17 @@ screen and (max-height: 1280px) {
     }
 }
 
-
+@media (max-width: 330px) {
+.home-main-sec5 .dragun-main img {
+    width: 45% !important;
+    margin-left: 0%;
+    height: 100% !important;
+}
+li#res-set {
+    width: 27% !important;
+    justify-content: flex-end !important;
+}
+}
 @media screen and (orientation:landscape) and (max-width: 991px) and (min-width: 380px) {
     section.home-main-sec .container {
         padding: 20px 15px;
@@ -8918,10 +8895,10 @@ screen and (max-height: 1280px) {
         height: 100%;
         width: 100%;
         display: block;
-        right: -8%;
+        right: -4%;
     }
     .dragun-main::before{
-        left: -15% !important;
+        left: -13% !important;
         height: 100%;
         width: 100%;
         background-size: contain;
