@@ -8328,7 +8328,7 @@ li#res-set {
         margin-top: 0px !important;
     }
     li#res-set {
-        width: 25% !important;
+        width: 22% !important;
         justify-content: flex-end !important;
     }
     .cthulhu-left h2 {
@@ -8339,7 +8339,7 @@ li#res-set {
     section.home-main-sec7 {
         width: 100%;
         margin-left: 0px;
-        height: 80%;
+        height: 85%;
     }
 
     .col-md-12.text-dragun p {
@@ -8396,6 +8396,10 @@ li#res-set {
 }
 
 @media (max-width: 330px) {
+    li#res-set {
+        width: 25% !important;
+        justify-content: flex-end !important;
+    }
     section.home-main-sec7 {
         width: 100%;
         margin-left: 0px;
