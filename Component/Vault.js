@@ -41,7 +41,7 @@ const Vault = () => {
                     <li className="left1"> <div className="sec-head"> 376,402 <img src="/value-leftsie-1.png" alt=""/></div></li>
                     <li className="left1"> <div className="sec-head">101,877 <img src="/value-leftsie-2.png" alt=""/></div></li>
                     <li className="left1"> <div className="sec-head">21,739 <img src="/value-leftsie-3.png" alt=""/></div></li>
-                    <li className="left1"> <div className="sec-head">7,939 <img src="/value-leftsie-4.png" alt=""/></div></li>
+                    <li className="left1" id='lndscape-left1'> <div className="sec-head">7,939 <img src="/value-leftsie-4.png" alt=""/></div></li>
                   </ul>
 
                 </div>
