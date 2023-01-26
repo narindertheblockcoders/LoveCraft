@@ -1833,30 +1833,30 @@ li#res-set {
 }
 
 @media (max-width: 1900px) {
-    .home-main-sec .container::before {
-        left: unset !important;
-        float: right;
-        width: 30% !important;
-        bottom: 0 !important;
-        top: 0;
-        left: unset;
-        right: 0% !important;
-        height: 100% !important;
+    
+
+    .dragun-main::before {
+        left:-17%   !important;
         background-size: contain !important;
-        background-position: right bottom !important;
-        display: block !important;
+        background-position: left bottom !important; 
+        right: unset !important;
+        height: 100% !important;
+        width: 41% !important;
+        /* height: 670px; */
     }
-    .home-main-sec .container::after {
-        left: 0 !important;
-        width:30%;
-        bottom: 0 !important;
-        top: unset !important;
-        right: 0;
-        height: 100%;
-        background-size: contain;
-        background-position: left bottom !important;
-        display: block;
+
+    section.home-main-sec5:after {
+            left: unset !important;
+        z-index: -1;
+        background-size: contain !important;
+        background-position: right bottom !important; 
+        right: -6% !important;
+        height: 100% !important;
+        width: 30% !important;
+
     }
+
+
     .close-btn1 {
         margin-top: -40%;
 
@@ -1989,6 +1989,23 @@ li#res-set {
 
 
 @media (max-width: 1700px) {
+    .home-main-sec .container::after {
+        left: 0;
+        width: 30%;
+        bottom: 0 !important;
+        top: 0 !important;
+        height: 100%;
+        background-size: contain;
+        background-position: left bottom !important;
+    }
+
+    .home-main-sec .container::before {
+        height: 100% !important;
+        right: 0 !important;
+        width: 30% !important;
+        background-size: contain !important;
+        background-position: right bottom !important;
+    }
     .close-btn1 {
         position: absolute;
         top: 4%;
@@ -2072,14 +2089,7 @@ li#res-set {
         height: 100px !important;
     }
 
-    .home-main-sec .container::after {
-        height: 750px;
-    }
 
-    .home-main-sec .container::before {
-        height: 750px;
-        right: -9%;
-    }
 }
 
 
@@ -2814,14 +2824,7 @@ screen and (max-height: 768px) {
         height: 85px !important;
     }
 
-    .home-main-sec .container::after {
-        height: 730px;
-    }
 
-    .home-main-sec .container::before {
-        height: 720px;
-        right: -9%;
-    }
 
 }
 
@@ -2873,22 +2876,6 @@ screen and (max-height: 900px) {
 }
 
 @media (max-width: 1440px) {
-
-
-
-    .home-main-sec .container::after {
-        height: 750px;
-        left: -5%;
-    }
-
-    .home-main-sec .container::after {
-        height: 730px;
-    }
-
-    .home-main-sec .container::before {
-        height: 720px;
-        right: -12%;
-    }
 
     #footer-txt {
         height: 90px !important;
@@ -3098,15 +3085,6 @@ screen and (max-height: 900px) {
         font-size: 2.5rem;
     }
 
-    .home-main-sec .container::after {
-        height: 585px;
-        left: -6%;
-    }
-
-    .home-main-sec .container::before {
-        height: 570px;
-        right: -17%;
-    }
 
     #footer-txt {
         height: 45px !important;
@@ -3201,15 +3179,6 @@ screen and (max-height: 900px) {
     }
 
 
-    .home-main-sec .container::after {
-        height: 750px;
-        left: -8%;
-    }
-
-    .home-main-sec .container::before {
-        height: 750px;
-        right: -17%;
-    }
 
     .col-md-12.text-dragun p {
         width: 72%;
@@ -3994,10 +3963,6 @@ screen and (max-height: 1280px) {
         height: 47px !important;
     }
 
-    .home-main-sec .container::before {
-        height: 585px;
-        right: -21%;
-    }
 
     .home-main-sec .head-ul {
         margin-top: 0px !important;
@@ -4005,6 +3970,10 @@ screen and (max-height: 1280px) {
 }
 
 @media (max-width: 1024px) {
+    li#res-set {
+        margin-left: 0px;
+        width: 16%;
+    }
     .modal-header {
         height: 68%;
     }
@@ -4019,24 +3988,15 @@ screen and (max-height: 1280px) {
 
     .home-main-sec7 .cthulhu-left {
         margin-left: 35px;
-        width: 65%;
+        width: 62%;
     }
 
     .col-md-8.fantasy-right h2 {
-        font-size: 19px;
+        font-size: 16px;
         width: 100%;
     }
 
 
-    .dragun-main::before {
-        left: -31%;
-        /* height: 670px; */
-    }
-
-    .home-main-sec .container::before {
-        height: 585px;
-        right: -34%;
-    }
 
     #cls-btn {
         position: absolute !important;
@@ -4151,11 +4111,6 @@ screen and (max-height: 1280px) {
         padding-top: 20px;
     }
 
-    .home-main-sec .container::after {
-
-        left: -17%;
-    }
-
     .home-main-sec .head-ul .main-right::after {
         right: -41%;
     }
@@ -4190,10 +4145,26 @@ screen and (max-height: 1280px) {
         height: 300px;
         margin-right: -10px;
     }
+    
+
+    .dragun-main::before {
+        left:-17%   !important;
+        background-size: contain !important;
+        background-position: left bottom !important; 
+        right: unset !important;
+        height: 100% !important;
+        width: 41% !important;
+        /* height: 670px; */
+    }
 
     section.home-main-sec5:after {
-        left: 73%;
+            left: unset !important;
         z-index: -1;
+        background-size: contain !important;
+        background-position: right bottom !important; 
+        right: -6% !important;
+        height: 100% !important;
+        width: 30% !important;
 
     }
 
@@ -4274,7 +4245,7 @@ screen and (max-height: 1280px) {
 
     .coin-sec .coin-leftright .coim-para {
         width: 100%;
-        font-size: 21px;
+        font-size: 16px;
         padding-left: 0px;
     }
 
@@ -4562,7 +4533,7 @@ screen and (max-height: 1280px) {
     }
 
     .coin-sec .coin-leftright .coim-para {
-        font-size: 24px;
+        font-size: 16px;
 
     }
 
@@ -4836,6 +4807,7 @@ screen and (max-height: 1280px) {
 
 
 @media (max-width: 950px) {
+    
     ul#box-head3 {
         display: none;
     }
@@ -5538,21 +5510,23 @@ screen and (max-height: 1280px) {
 
     .col-md-4.cthulhu-right {
         display: flex;
-        width: 50%;
+        width: 30%;
         justify-content: center;
         align-items: center;
     }
 
     .cthulhu-right .left-shapes {
         top: 38%;
-        left: 7% !important;
-        width: 36%;
+        left: 0% !important;
+        width: 23%;
+        background-size: contain;
+        background-position: left center;
     }
 
 
 
     .home-main-sec7 .cthulhu-left {
-        width: 65%;
+        width: 64%;
         margin-left: 35px;
     }
 
@@ -6813,7 +6787,7 @@ screen and (max-height: 1280px) {
     }
 
     .cthulhu-left h1 {
-        font-size: 37px;
+        font-size: 30px;
         -webkit-text-stroke-width: 1px !important;
     }
 
@@ -6852,7 +6826,7 @@ screen and (max-height: 1280px) {
     }
 
     .col-md-8.fantasy-right h2 {
-        font-size: 13px;
+        font-size: 10px;
         width: 100%;
         line-height: 18px;
     }
@@ -7372,7 +7346,7 @@ screen and (max-height: 1280px) {
         float: left !important;
         width: 100% !important;
         padding: 0px !important;
-        padding-top: 0px !important;
+        padding-top: 35px !important;
         height: 15px !important;
         align-items: center !important;
     }
@@ -7465,6 +7439,7 @@ li#res-set {
     width: 22% !important;
     justify-content: flex-start !important;
 }
+
 }
 @media (max-width: 400px) {
     li#res-set {
@@ -7746,7 +7721,10 @@ li#res-set {
 }
 
 @media (max-width: 385px) {
-
+    .coin-sec {
+        height: 85%;
+        /* position: fixed; */
+    }
     #modal-content1 {
         margin-top: 28px !important;
         margin-left: -1% !important;
@@ -7853,13 +7831,22 @@ li#res-set {
         top: 6%;
         left: 77.5%;
     }
+    #coin-sec {
+        height: 95%;
+        /* position: fixed; */
+    }
 }
 
 @media (max-width: 375px) {
-
+    #coin-sec {
+        height:100%;
+        position: fixed;
+    }
     .home-main-sec7 {
         padding-top: 0px;
-        height: 85%;
+        height: 100%;
+        position: fixed;
+        margin-top: 15px;
     }
 
     .coming-image {
@@ -8067,7 +8054,7 @@ li#res-set {
     }
 
     .col-md-8.fantasy-right h2 {
-        font-size: 12px;
+        font-size: 10px;
         width: 98%;
         line-height: 18px;
     }
@@ -8114,6 +8101,7 @@ li#res-set {
         padding-top: 0px;
         height: 100%;
     }
+  
 
     #cls-btn {
         position: absolute !important;
@@ -8416,14 +8404,14 @@ li#res-set {
     justify-content: flex-end !important;
 }
 }
-@media screen and (orientation:landscape) and (max-width: 991px) and (min-width: 380px) {
+@media screen and (orientation:landscape) and (max-width: 991px) and (min-width: 480px) {
     section.home-main-sec .container {
         padding: 20px 15px;
     }
 
     .home-main-sec .container::after {
         left: 0;
-        width: 50%;
+        width: 30%;
         bottom: 0 !important;
         top: 0 !important;
         height: 100%;
@@ -8434,7 +8422,7 @@ li#res-set {
     .home-main-sec .container::before {
         height: 100% !important;
         right: 0 !important;
-        width: 50% !important;
+        width: 30% !important;
         background-size: contain !important;
         background-position: right bottom !important;
     }
@@ -8530,7 +8518,7 @@ li#res-set {
     }
 
     #business-close-btn {
-        margin-top: 0%;
+        margin-top: -2%;
     }
 
 
@@ -8817,14 +8805,14 @@ li#res-set {
 
 
     .home-main-sec7 .cthulhu-box img {
-        width: 50%;
+        width: 45%;
     }
 
     #coin-page-row {
         /* align-items: flex-start !important; */
         align-items: center !important;
 
-        height: 70vh;
+        height: 100%;
         /* overflow: auto; */
         float: left;
         padding-bottom: 0px !important;
