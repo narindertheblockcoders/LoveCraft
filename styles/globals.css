@@ -8339,7 +8339,7 @@ li#res-set {
     section.home-main-sec7 {
         width: 100%;
         margin-left: 0px;
-        height: 110%;
+        height: 100%;
     }
 
     .col-md-12.text-dragun p {
@@ -8371,10 +8371,6 @@ li#res-set {
         margin-top: -15px;
     }
 
-    /* .home-main-sec7 {
-        padding-top: 0px;
-        height: 47vh !important;
-    } */
 
     .body-type {
         height: 56vh !important;
@@ -8400,6 +8396,12 @@ li#res-set {
 }
 
 @media (max-width: 330px) {
+    section.home-main-sec7 {
+        width: 100%;
+        margin-left: 0px;
+        height: 110%;
+    }
+
 .home-main-sec5 .dragun-main img {
     width: 45% !important;
     margin-left: 0%;
