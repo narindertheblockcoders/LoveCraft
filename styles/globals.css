@@ -4018,7 +4018,8 @@ screen and (max-height: 1280px) {
     }
 
     .home-main-sec7 .cthulhu-left {
-        margin-left: 0px;
+        margin-left: 35px;
+        width: 65%;
     }
 
     .col-md-8.fantasy-right h2 {
@@ -4725,7 +4726,7 @@ screen and (max-height: 1280px) {
 
     .text-editor {
         text-align: right !important;
-        padding-right: 70px;
+        padding-right: 130px;
         font-size: 24px;
     }
 
@@ -4835,7 +4836,12 @@ screen and (max-height: 1280px) {
 
 
 @media (max-width: 950px) {
-    
+    ul#box-head3 {
+        display: none;
+    }
+    #center-txt1 {
+        display: none;
+    }
     #footer-txt {
         padding-top: 0 !important;
         height: 100% !important;
@@ -4845,7 +4851,7 @@ screen and (max-height: 1280px) {
         padding-bottom: 50px !important;
     }
     .home-main-sec5 .dragun-main img {
-        width: 50% !important;
+        width: 75% !important;
         margin-left: 0%;
         height: 100% !important;
     }
@@ -5527,7 +5533,7 @@ screen and (max-height: 1280px) {
     }
 
     .home-main-sec7 .cthulhu-box img {
-        width: 100%;
+        width: 50%;
     }
 
     .col-md-4.cthulhu-right {
@@ -5546,7 +5552,8 @@ screen and (max-height: 1280px) {
 
 
     .home-main-sec7 .cthulhu-left {
-        width: 47%;
+        width: 65%;
+        margin-left: 35px;
     }
 
     .cthulhu-right img {
@@ -5564,7 +5571,7 @@ screen and (max-height: 1280px) {
 
     .cthulhu-left h2 {
         color: white;
-        font-size: 16px;
+        font-size: 10px !important;
         line-height: 1.5;
     }
 
@@ -5610,12 +5617,8 @@ screen and (max-height: 1280px) {
         -webkit-text-stroke-width: 1px;
         font-weight: 500;
     }
-
-
-
-
     .cthulhu-left h1 {
-        font-size: 42px;
+        font-size: 35px;
     }
 }
 
@@ -5663,11 +5666,6 @@ screen and (max-height: 1280px) {
         margin-left: 0px;
     }
 
-    .modal-content {
-        width: 625px !important;
-        margin-left: -30% !important;
-        padding: 10px !important;
-    }
 
     #cls-btn {
         position: absolute !important;
@@ -5697,6 +5695,7 @@ screen and (max-height: 1280px) {
 
     .home-main-sec7 .cthulhu-left {
         width: 100%;
+        margin-left: 25px;
     }
 
     .col-md-4.cthulhu-right {
@@ -5793,11 +5792,10 @@ screen and (max-height: 1280px) {
     #center-txt1 {
         display: none;
     }
-
-    #cht-left {
-        margin-top: 160px;
+    .home-main-sec7 .cthulhu-left {
+        width: 100% !important;
+        margin-left: 50px;
     }
-
     /* #modal-header1 {
         padding: 66px 26px !important;
         padding-left: 70px !important;
@@ -5875,14 +5873,12 @@ screen and (max-height: 1280px) {
 
     .home-main-sec7 .cthulhu-left {
         width: 100%;
+        margin-left: 25px;
     }
 
 
 
-    img.close-btn1 {
-        width: 123% !important;
-    }
-
+  
     .cthulhu-left h2 {
         color: white;
         font-size: 16px;
@@ -8613,7 +8609,7 @@ screen and (max-height: 1280px) {
         background-position: top center;
     } */
     .col-md-6.poker-left::before {
-        left: -5%;
+        left: -12%;
         width: 50%;
         bottom: 0 !important;
         top: 0 !important;
@@ -8638,7 +8634,7 @@ screen and (max-height: 1280px) {
 
     .home-main-sec4 .poker-left {
         width: 50% !important;
-        margin-left: 0px;
+        margin-left: 50px;
         margin-top: 0px !important;
     }
 
@@ -8675,7 +8671,7 @@ screen and (max-height: 1280px) {
     li#res-set {
         margin-left: 0px;
         height: 50% !important;
-        width: 20% !important;
+        width: 19% !important;
         justify-content: flex-end;
     }
 
@@ -8719,7 +8715,7 @@ screen and (max-height: 1280px) {
     }
 
     .cthulhu-left h2 {
-        font-size: 10px;
+        font-size: 9px !important;
     }
 
 
@@ -8742,13 +8738,13 @@ screen and (max-height: 1280px) {
 
     .text-editor {
         font-size: 16px;
-        padding-left: 25%;
+        /* padding-left: 25%; */
     }
 
     .text-center1 {
         font-size: 16px;
         /* display: none; */
-        padding-left: 25%;
+        /* padding-left: 25%; */
     }
 
     ul#box-head3 {
@@ -8835,10 +8831,7 @@ screen and (max-height: 1280px) {
         justify-content: flex-end;
     }
 
-    .home-main-sec7 .cthulhu-left {
-        width: 57%;
-        margin-left: 50px;
-    }
+
 
     .home-main-sec7 .cthulhu-box img {
         width: 50%;
@@ -8925,9 +8918,10 @@ screen and (max-height: 1280px) {
         height: 100%;
         width: 100%;
         display: block;
+        right: -8%;
     }
     .dragun-main::before{
-        left: -5% !important;
+        left: -15% !important;
         height: 100%;
         width: 100%;
         background-size: contain;
