@@ -30,10 +30,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/arkhampoker.js"
     ],
-    "/dungeonrun": [
+    "/vault": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/dungeonrun.js"
+      "static/chunks/pages/vault.js"
     ]
   },
   "ampFirstPages": []

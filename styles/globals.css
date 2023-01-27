@@ -7012,7 +7012,14 @@ screen and (max-height: 1280px) {
     }
 
 
-
+    .text-head:before {
+        top: 22%;
+        left: 32% !important;
+        background-size: contain;
+        background-position: top center;
+        width: 35%;
+        position: fixed;
+    }
 }
 
 @media screen and (max-width: 991px) {
@@ -8410,6 +8417,14 @@ li#res-set {
         width: 40% !important;
         margin-top: 30px;
     }
+    .text-head:before {
+        top: 30% !important;
+        left: 32%;
+        background-size: contain;
+        background-position: top center;
+        width: 35%;
+        position: fixed;
+    }
 }
 
 @media (max-width: 330px) {
@@ -8432,6 +8447,7 @@ li#res-set {
     width: 27% !important;
     justify-content: flex-end !important;
 }
+
 }
 @media screen and (orientation:landscape) and (max-width: 991px) and (min-width: 480px) {
     section.home-main-sec .container {
