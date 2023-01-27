@@ -3874,7 +3874,10 @@ screen and (max-height: 1280px) {
 
     .col-md-6.poker-left::before {
         left: -20%;
-        height: 780px;
+        height: 85%;
+        right: unset;
+        background-size: contain;
+        background-position: left bottom;
     }
 
     /* .home-main-sec7 .cthulhu-left{margin-left: 0px;} */
@@ -3970,6 +3973,7 @@ screen and (max-height: 1280px) {
 }
 
 @media (max-width: 1024px) {
+    
     li#res-set {
         margin-left: 0px;
         width: 16%;
@@ -4162,7 +4166,7 @@ screen and (max-height: 1280px) {
         z-index: -1;
         background-size: contain !important;
         background-position: right bottom !important; 
-        right: -6% !important;
+        right: -8% !important;
         height: 100% !important;
         width: 30% !important;
 
@@ -8607,11 +8611,11 @@ li#res-set {
         background-position: top center;
     } */
     .col-md-6.poker-left::before {
-        left: -6%;
+        left: -8%;
         width: 100%;
         bottom: 0 !important;
-        top: 0 !important;
-        height: 100%;
+        top: unset !important;
+        height: 80%;
         background-size: contain;
         background-position: left bottom !important;
     }
@@ -8929,7 +8933,7 @@ li#res-set {
         right: -3% !important;
     }
     .dragun-main::before{
-        left: -5% !important;
+        left: -14% !important;
         height: 100%;
         width: 100%;
         background-size: contain;
@@ -8937,7 +8941,7 @@ li#res-set {
         display: block;
     }
     .col-md-12.text-dragun p {
-        width: 70%;
+        width: 69%;
         font-size: 10px;
     }
 
