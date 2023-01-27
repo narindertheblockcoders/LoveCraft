@@ -1995,7 +1995,12 @@ li#res-set {
     .home-main-sec5 .dragun-main img {
         min-height: 230px;
     }
- 
+    li.dragun-upper{
+        min-height: 230px;
+    }
+    #dungeon-imaage {
+        width: 70% !important;
+    }
     .home-main-sec .container::after {
         left: 0;
         width: 30%;
@@ -3808,13 +3813,7 @@ screen and (max-height: 1280px) {
 
 
 @media (max-width: 1199px) {
-    .home-main-sec5 .dragun-main img {
-        min-height: unset !important;
-    }
- 
-    li.dragun-upper{
-        min-height: unset !important;
-    }
+
     #arkham-img {
         width: 100% !important;
         margin-right: -150px;
@@ -3986,7 +3985,7 @@ screen and (max-height: 1280px) {
 }
 
 @media (max-width: 1024px) {
-    
+
     li#res-set {
         margin-left: 0px;
         width: 16%;
@@ -4384,7 +4383,14 @@ screen and (max-height: 1280px) {
 }
 
 @media (max-width: 992px) {
-
+    .home-main-sec5 .dragun-main img {
+        min-height: unset !important;
+    }
+  
+ 
+    li.dragun-upper{
+        min-height: unset !important;
+    }
 
     .home-main-sec5 .dragun-main img {
         width: 75%;
