@@ -4229,7 +4229,7 @@ screen and (max-height: 1280px) {
     }
 
     .home-main-sec5 .dragun-main img {
-        width: 100%;
+        width: 84%;
         margin-left: 0%;
     }
 
@@ -8372,7 +8372,7 @@ li#res-set {
         margin-top: 0px !important;
     }
     li#res-set {
-        width: 25% !important;
+        width: 22% !important;
         justify-content: flex-end !important;
     }
     .cthulhu-left h2 {
