@@ -25,15 +25,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/arkhampoker": [
+    "/dungeonrun": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/arkhampoker.js"
-    ],
-    "/vault": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/vault.js"
+      "static/chunks/pages/dungeonrun.js"
     ]
   },
   "ampFirstPages": []

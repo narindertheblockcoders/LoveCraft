@@ -567,6 +567,7 @@ header .top-nav .two-shape {
     margin-right: 57px;
     opacity: 80%;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    min-height: 310px;
 }
 
 .home-main-sec5 .dragun-main h1 {
@@ -583,6 +584,7 @@ li.dragun-upper {
     display: flex;
     justify-content: center;
     align-items: center;
+    min-height: 310px ;
 }
 
 .home-main-sec5 .dragun-main::after {
@@ -3801,7 +3803,12 @@ screen and (max-height: 1280px) {
 
 
 @media (max-width: 1199px) {
-
+    .home-main-sec5 .dragun-main img {
+        min-height: unset !important;
+    }
+    li.dragun-upper{
+        min-height: unset !important;
+    }
     #arkham-img {
         width: 100% !important;
         margin-right: -150px;
@@ -4834,7 +4841,7 @@ screen and (max-height: 1280px) {
     li#res-set {
         margin-left: 0px;
         height: 100% !important;
-        width: 30% !important;
+        width: 22% !important;
         justify-content: center;
         margin-top: 0px !important
     }
@@ -8352,7 +8359,7 @@ li#res-set {
         margin-top: 0px !important;
     }
     li#res-set {
-        width: 20% !important;
+        width: 25% !important;
         justify-content: flex-end !important;
     }
     .cthulhu-left h2 {
