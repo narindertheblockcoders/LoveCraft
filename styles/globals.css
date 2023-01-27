@@ -569,6 +569,7 @@ header .top-nav .two-shape {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
     min-height: 310px;
 }
+#dungeon-imaage{width: 100% !important;}
 
 .home-main-sec5 .dragun-main h1 {
     color: white;
@@ -1992,11 +1993,9 @@ li#res-set {
 
 @media (max-width: 1700px) {
     .home-main-sec5 .dragun-main img {
-        min-height: unset !important;
+        min-height: 230px;
     }
-    li.dragun-upper{
-        min-height: unset !important;
-    }
+ 
     .home-main-sec .container::after {
         left: 0;
         width: 30%;
@@ -3809,7 +3808,13 @@ screen and (max-height: 1280px) {
 
 
 @media (max-width: 1199px) {
-
+    .home-main-sec5 .dragun-main img {
+        min-height: unset !important;
+    }
+ 
+    li.dragun-upper{
+        min-height: unset !important;
+    }
     #arkham-img {
         width: 100% !important;
         margin-right: -150px;
