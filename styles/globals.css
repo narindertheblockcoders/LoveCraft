@@ -1991,6 +1991,12 @@ li#res-set {
 
 
 @media (max-width: 1700px) {
+    .home-main-sec5 .dragun-main img {
+        min-height: unset !important;
+    }
+    li.dragun-upper{
+        min-height: unset !important;
+    }
     .home-main-sec .container::after {
         left: 0;
         width: 30%;
@@ -3803,12 +3809,7 @@ screen and (max-height: 1280px) {
 
 
 @media (max-width: 1199px) {
-    .home-main-sec5 .dragun-main img {
-        min-height: unset !important;
-    }
-    li.dragun-upper{
-        min-height: unset !important;
-    }
+
     #arkham-img {
         width: 100% !important;
         margin-right: -150px;
