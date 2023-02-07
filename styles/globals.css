@@ -8647,7 +8647,7 @@ li#res-set {
         background-position: top center;
     } */
     .col-md-6.poker-left::before {
-        left: -8%;
+        left: -3%;
         width: 100%;
         bottom: 0 !important;
         top: unset !important;
@@ -8966,10 +8966,10 @@ li#res-set {
         height: 100%;
         width: 100%;
         display: block;
-        right: -3% !important;
+        right: -0% !important;
     }
     .dragun-main::before{
-        left: -14% !important;
+        left: -5% !important;
         height: 100%;
         width: 100%;
         background-size: contain;
